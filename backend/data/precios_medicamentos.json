@@ -1,0 +1,373 @@
+{
+  "data": [
+    {
+      "medicamento": "Lipitor",
+      "presentacion": "2 Cajas con 30 tabletas c/u de 20 mg",
+      "farmacia": "Soriana Express/ Mercado / Soriana Súper / Farmacia San Isidro",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750128764089L.jpg",
+      "precio_minimo": 1610,
+      "precio_maximo": 2486.5,
+      "diferencia": 876.5,
+      "porcentaje": 5496
+    },
+    {
+      "medicamento": "Plavix",
+      "presentacion": "Caja con 28 tabletas de 75 mg",
+      "farmacia": "Farmacia San Isidro",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750132898003L.jpg",
+      "precio_minimo": 941,
+      "precio_maximo": 1651,
+      "diferencia": 710,
+      "porcentaje": 759
+    },
+    {
+      "medicamento": "Lexapro",
+      "presentacion": "Caja con 28 tabletas de 10 mg",
+      "farmacia": "Farmacia San Isidro",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750300374612L.jpg",
+      "precio_minimo": 946,
+      "precio_maximo": 1866,
+      "diferencia": 920,
+      "porcentaje": 8296
+    },
+    {
+      "medicamento": "Lantus",
+      "presentacion": "Caja con 1 frasco ámpolla con 10 ml de solución inyectable 100 UI 3.64 mg",
+      "farmacia": "Farmacia San Isidro",
+      "imagen": "https://quefarmacia.com/wp-content/uploads/2019/04/lantus.jpg",
+      "precio_minimo": 846,
+      "precio_maximo": 1698.5,
+      "diferencia": 852.5,
+      "porcentaje": 5496
+    },
+    {
+      "medicamento": "Pristiq",
+      "presentacion": "Caja con 28 tabletas de 50 mg",
+      "farmacia": "Soriana Express / Soriana Mercado / Farmacia San Pablo",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110876789L.jpg",
+      "precio_minimo": 1209,
+      "precio_maximo": 2303,
+      "diferencia": 1094,
+      "porcentaje": 3696
+    },
+    {
+      "medicamento": "Cialis",
+      "presentacion": "Caja con 28 tabletas de 5 mg",
+      "farmacia": "Soriana Hiper",
+      "imagen": "https://th.bing.com/th/id/OIP.t0vBKRGU4LOSj0ZLFjf2qQHaHa?pid=ImgDet&rs=1",
+      "precio_minimo": 1710,
+      "precio_maximo": 2217,
+      "diferencia": 507,
+      "porcentaje": 30
+    },
+    {
+      "medicamento": "Zintrepid",
+      "presentacion": "Caja con 28 comprimidos de 10 mg/20 mg",
+      "farmacia": "Bodega Aurrera / Superama/ Walmart",
+      "imagen": "https://chedrauimx.vtexassets.com/arquivos/ids/19002506/7501050612395_00.jpg?v=638302217202970000",
+      "precio_minimo": 997,
+      "precio_maximo": 1478,
+      "diferencia": 481,
+      "porcentaje": 48
+    },
+    {
+      "medicamento": "Arava",
+      "presentacion": "Caja con frasco con 30 comprimidos de 20 mg",
+      "farmacia": "Farmacia San Pablo",
+      "imagen": "https://chedrauimx.vtexassets.com/arquivos/ids/18870851/7501165001862_00.jpg?v=638301589224100000",
+      "precio_minimo": 997,
+      "precio_maximo": 1478,
+      "diferencia": 481,
+      "porcentaje": 48
+    },
+    {
+      "medicamento": "Arcoxia",
+      "presentacion": "Caja con 28 comprimidos de 90 mg",
+      "farmacia": "Superama / Walmart", 
+      "imagen": "https://chedrauimx.vtexassets.com/arquivos/ids/18870551/7501326000864_00.jpg?v=638301587936130000",
+      "precio_minimo": 997,
+      "precio_maximo": 1478,
+      "diferencia": 481,
+      "porcentaje": 48
+    },
+    {
+      "medicamento": "Cytotec",
+      "presentacion": "Caja con 28 tabletas de 200 mcg.",
+      "farmacia": "Sumesa",
+      "imagen": "https://chedrauimx.vtexassets.com/arquivos/ids/18999096/7501049714604_00.jpg?v=638302199473670000",
+      "precio_minimo": 2580,
+      "precio_maximo": 2998,
+      "diferencia": 418,
+      "porcentaje": 169
+    },
+    {
+      "medicamento": "Clopidogrel",
+      "presentacion": "Caja con 28 tabletas de 75 mg",
+      "farmacia": "Farmacias del Ahorro",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750220985031L.jpg",
+      "precio_minimo": 98,
+      "precio_maximo":432,
+      "diferencia": 334,
+      "porcentaje": 340
+    },
+    {
+      "medicamento": "Metoprolol",
+      "presentacion": "20 tabletas de 100 mg",
+      "farmacia": "Farmacia Guadalajara",
+      "imagen": "https://prixz.com/salud/wp-content/uploads/2020/10/metoprolol.jpg",
+      "precio_minimo": 13,
+      "precio_maximo":30,
+      "diferencia": 17,
+      "porcentaje": 135
+    },
+    {
+      "medicamento": "Telmisartan",
+      "presentacion": "Caja con 28 tabletas de 80 mg",
+      "farmacia": "Superama / Walmart",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750103469062L.jpg",
+      "precio_minimo": 239,
+      "precio_maximo": 472,
+      "diferencia": 233,
+      "porcentaje": 97
+    },
+    {
+      "medicamento": "Captopril",
+      "presentacion": "30 tabletas de 25 mg",
+      "farmacia": "Soriana Hiper",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110976956L.jpg",
+      "precio_minimo": 19,
+      "precio_maximo": 32,
+      "diferencia": 12,
+      "porcentaje": 65
+    },
+    {
+      "medicamento": "Losartan Hidroclorotiazida",
+      "presentacion": "Caja con 15 compromidos de 100 mg/12.5 mg",
+      "farmacia": "Framacia Guadalajara",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750149386988L.jpg",
+      "precio_minimo": 59,
+      "precio_maximo": 88,
+      "diferencia": 29,
+      "porcentaje": 50
+    },
+    {
+      "medicamento": "Enalapril",
+      "presentacion": "30 tabletas de 10 mg",
+      "farmacia": "La Comer / Mega Comercial Mexicana / Superama / Walmart",
+      "imagen": "https://quefarmacia.com/wp-content/uploads/2017/07/7502223709768_1.jpg",
+      "precio_minimo": 40,
+      "precio_maximo": 52,
+      "diferencia": 12,
+      "porcentaje": 30
+    },
+    {
+      "medicamento": "Lisinopril",
+      "presentacion": "Frasco con 28 tabletas de 10 mg",
+      "farmacia": "Chedraui / Sumesa",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750149386986L.jpg",
+      "precio_minimo": 47,
+      "precio_maximo": 58,
+      "diferencia": 10,
+      "porcentaje": 22
+    },
+    {
+      "medicamento": "Amlodipino",
+      "presentacion": "Caja con tabletas de 5 mg",
+      "farmacia": "Farmacia San Pablo",
+      "imagen": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750649500315L.jpg",
+      "precio_minimo": 43,
+      "precio_maximo": 52,
+      "diferencia": 8,
+      "porcentaje": 20
+    },
+    {
+      "medicamento": "Metformina",
+      "presentacion": "30 tabletas de 850 mg",
+      "farmacia": "Súper Chedraui",
+      "precio_minimo": 14,
+      "precio_maximo": 61,
+      "diferencia": 46,
+      "porcentaje": 327
+    },
+    {
+      "medicamento": "Pravastina",
+      "presentacion": "Caja con 30 tabletas de 10 mg",
+      "farmacia": "Bodega Comercial Mexicana / Comercial Mexicana / Soriana Express",
+      "precio_minimo": 37,
+      "precio_maximo": 130,
+      "diferencia": 93,
+      "porcentaje": 251
+    },
+    {
+      "medicamento": "Glibenclamida",
+      "presentacion": "50 tabletas de 5 mg",
+      "farmacia": "Farmatodo",
+      "precio_minimo": 14,
+      "precio_maximo": 30,
+      "diferencia": 16,
+      "porcentaje": 114
+    },
+    {
+      "medicamento": "Atorvastatina",
+      "presentacion": "Caja con 10 tabletas de 20 mg",
+      "farmacia": "Farmacias del Ahorro",
+      "precio_minimo": 94,
+      "precio_maximo": 196,
+      "diferencia": 102,
+      "porcentaje": 109
+    },
+    {
+      "medicamento": "Calcitriol",
+      "presentacion": "Caja con 30 cápsulas de 0.25 ug",
+      "farmacia": "Farmacias del Ahorro",
+      "precio_minimo": 69,
+      "precio_maximo": 134,
+      "diferencia": 65,
+      "porcentaje": 96
+    },
+    {
+      "medicamento": "Acarbosa",
+      "presentacion": "Caja con 30 tabletas de 50 mg",
+      "farmacia": "Walmart",
+      "precio_minimo": 49,
+      "precio_maximo": 94,
+      "diferencia": 45,
+      "porcentaje": 92
+    },
+    {
+      "medicamento": "Simvastatina",
+      "presentacion": "Caja con 14 tabletas de 10 mg",
+      "farmacia": "Soriana Mercado",
+      "precio_minimo": 59,
+      "precio_maximo": 87,
+      "diferencia": 28,
+      "porcentaje": 47
+    },
+    {
+      "medicamento": "Bezafibrato",
+      "presentacion": "30 tabletas de 200 mg",
+      "farmacia": "Farmacias del Ahorro",
+      "precio_minimo": 55,
+      "precio_maximo": 63,
+      "diferencia": 8,
+      "porcentaje": 16
+    },
+    {
+      "medicamento": "Clindamicina",
+      "presentacion": "16 cápsulas de 300 mg",
+      "farmacia": "Farmacia San Pablo",
+      "precio_minimo": 47,
+      "precio_maximo": 120,
+      "diferencia": 73,
+      "porcentaje": 155
+    },
+    {
+      "medicamento": "Aciclovir",
+      "presentacion": "25 comprimidos de 200 mg",
+      "farmacia": "Farmacias del Ahorro",
+      "precio_minimo": 42,
+      "precio_maximo": 104,
+      "diferencia": 62,
+      "porcentaje": 150
+    },
+    {
+      "medicamento": "Gentamicina",
+      "presentacion": "Caja con 1 ampolleta de 2 ml, Solución inyectable 160 mg/ 2 ml",
+      "farmacia": "Sanborn's",
+      "precio_minimo": 21,
+      "precio_maximo": 52,
+      "diferencia": 31,
+      "porcentaje": 149
+    },
+    {
+      "medicamento": "Ketoconazol",
+      "presentacion": "Caja con tubo con 40 g. Crema 2%",
+      "farmacia": "Superama",
+      "precio_minimo": 21,
+      "precio_maximo": 50,
+      "diferencia": 29,
+      "porcentaje": 138
+    },
+    {
+      "medicamento": "Amikacina",
+      "presentacion": "Caja con una ampolleta de 2 ml. Solución inyectable de 500 mg/ 2 ml",
+      "farmacia": "Sumesa",
+      "precio_minimo": 27,
+      "precio_maximo": 51,
+      "diferencia": 24,
+      "porcentaje": 90
+    },
+    {
+      "medicamento": "Ampicilina",
+      "presentacion": "Caja con 20 cápsulas o tabletas de 500 mg",
+      "farmacia": "Sumesa",
+      "precio_minimo": 24,
+      "precio_maximo": 43,
+      "diferencia": 19,
+      "porcentaje": 79
+    },
+    {
+      "medicamento": "Azitromicina",
+      "presentacion": "Caja con 3 tabletas o cápsulas de 500 mg",
+      "farmacia": "Farmacia San Pablo",
+      "precio_minimo": 70,
+      "precio_maximo": 121,
+      "diferencia": 51,
+      "porcentaje": 73
+    },
+    {
+      "medicamento": "Levofloxacino",
+      "presentacion": "Caja con 7 tabletas de 500 mg",
+      "farmacia": "Soriana Mercado",
+      "precio_minimo": 149,
+      "precio_maximo": 254,
+      "diferencia": 105,
+      "porcentaje": 70
+    },
+    {
+      "medicamento": "Nitazoxanida",
+      "presentacion": "Caja con 6 tabletas o cápsulas de 500 mg",
+      "farmacia": "Súper Chedraui",
+      "precio_minimo": 43,
+      "precio_maximo": 65,
+      "diferencia": 21,
+      "porcentaje": 50
+    },
+    {
+      "medicamento": "Dicloxacilina",
+      "presentacion": "Caja con 12 cápsulas de 500 mg",
+      "farmacia": "Farmacia San Pablo",
+      "precio_minimo": 37,
+      "precio_maximo": 55,
+      "diferencia": 18,
+      "porcentaje": 49
+    },
+    {
+      "medicamento": "Itraconazol",
+      "presentacion": "15 cápsulas de 100 mg",
+      "farmacia": "Chedraui",
+      "precio_minimo": 82,
+      "precio_maximo": 116,
+      "diferencia": 34,
+      "porcentaje": 42
+    },
+    {
+      "medicamento": "Cefalexina",
+      "presentacion": "Caja con frasco con 20 cápsulas de 500 mg",
+      "farmacia": "La Comer",
+      "precio_minimo": 59,
+      "precio_maximo": 83,
+      "diferencia": 24,
+      "porcentaje": 42
+    },
+    {
+      "medicamento": "Amoxicilina",
+      "presentacion": "Caja con 12 cápsulas de 500 mg",
+      "farmacia": "Comercial Mexicana",
+      "precio_minimo": 29,
+      "precio_maximo": 38,
+      "diferencia": 9,
+      "porcentaje": 32
+    }
+  ]
+}
