@@ -16,8 +16,16 @@
     {% if data %}
     <h2>Resultados:</h2>
     <ul>
-        {% for key, value in data.items() %}
-        <li>{{ key }}: {{ value }}</li>
+        {% for patologia, patologia_data in data.items() %}
+        <h3>{{ patologia }}</h3>
+        <ul>
+            {% for medicamento_data in patologia_data.medicamentos %}
+            <li>
+                {{ medicamento_data.medicamento }}
+                <img src="{{ medicamento_data.imagen }}" alt="{{ medicamento_data.medicamento }}">
+            </li>
+            {% endfor %}
+        </ul>
         {% endfor %}
     </ul>
     {% endif %}
