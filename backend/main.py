@@ -11,7 +11,7 @@ templates = Jinja2Templates(directory="templates")
 # Configuración de CORS para permitir solicitudes desde el dominio de tu aplicación React
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:8000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -19,7 +19,7 @@ app.add_middleware(
 
 async def get_medicamentos(patologia: str):
     async with aiohttp.ClientSession() as session:
-        url = f'http://localhost:3000/medicamentos/{patologia}'
+        url = f'http://localhost:8000/medicamentos/{patologia}'
         async with session.get(url) as resp:
             data = await resp.json()
             return data
