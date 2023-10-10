@@ -5,6 +5,8 @@ from fastapi.templating import Jinja2Templates
 from fastapi import Request
 import aiohttp
 
+#
+
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 

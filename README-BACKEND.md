@@ -24,3 +24,8 @@ Para ejecutar el servidor:
 -$ uvicorn main:app --reload
 
 la flag de --reload permite que el server se actualice automaticamente cada vez que guardamos los archivos .py
+
+
+
+PARA INSTALAR LIBRERIAS DEL REQUIREMTS.TXT
+-$ pip install -r requirements.txt
