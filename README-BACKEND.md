@@ -15,7 +15,7 @@ una vez creada la variable de entorno, procedemos a ejecutarla desde la terminal
 nos paramos en la carpeta raiz del proyecto y ejecutamos
 -$ venv/Scripts/activate
 
-ahora de esta manera deberias salirnos el nombre de la variable entre parentesis, eso significa que ya se activo correctamente la variable de entorno de cada quien, el gitignoe, protege nuestro repositorio de no subirnos estas carpetas que son para la ejecucion local de cada persona.
+ahora de esta manera deberia salirnos el nombre de la variable entre parentesis, eso significa que ya se activó correctamente la variable de entorno de cada quien, el gitignore, protege nuestro repositorio de no subirnos estas carpetas que son para la ejecucion local de cada persona.
 
 Ejemplo de mi terminal local (terminal powershell, cada terminal lo muestra de manera similares):
 -$ (venv) PS C:\Users\pauloriveiro\Desktop\nocountry\c14-42-ft-python-react_InfoFarma\backend>
