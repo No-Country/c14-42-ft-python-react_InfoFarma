@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buscador de Medicamentos</title>
+</head>
+<body>
+    <h1>Buscador de Medicamentos</h1>
+    <form action="/" method="get">
+        <label for="patologia">Enfermedad:</label>
+        <input type="text" id="patologia" name="patologia" value="{{ request.query_params.patologia }}">
+        <button type="submit">Buscar</button>
+    </form>
+
+    {% if data %}
+    <h2>Resultados:</h2>
+    <ul>
+        {% for patologia, patologia_data in data.items() %}
+        <h3>{{ patologia }}</h3>
+        <ul>
+            {% for medicamento_data in patologia_data.medicamentos %}
+            <li>
+                {{ medicamento_data.medicamento }}
+                <img src="{{ medicamento_data.imagen }}" alt="{{ medicamento_data.medicamento }}">
+            </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
