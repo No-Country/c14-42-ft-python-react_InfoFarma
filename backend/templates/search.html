@@ -1,33 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Buscador de Medicamentos</title>
 </head>
+
 <body>
     <h1>Buscador de Medicamentos</h1>
     <form action="/" method="get">
-        <label for="patologia">Enfermedad:</label>
-        <input type="text" id="patologia" name="patologia" value="{{ request.query_params.patologia }}">
+        <label for="medicamento">Nombre del Medicamento:</label>
+        <input type="text" id="medicamento" name="medicamento" value="{{ request.query_params.medicamento }}">
         <button type="submit">Buscar</button>
     </form>
 
-    {% if data %}
-    <h2>Resultados:</h2>
-    <ul>
-        {% for patologia, patologia_data in data.items() %}
-        <h3>{{ patologia }}</h3>
-        <ul>
-            {% for medicamento_data in patologia_data.medicamentos %}
-            <li>
-                {{ medicamento_data.medicamento }}
-                <img src="{{ medicamento_data.imagen }}" alt="{{ medicamento_data.medicamento }}">
-            </li>
-            {% endfor %}
-        </ul>
-        {% endfor %}
-    </ul>
+    {% if medicamento %}
+    <h2>Resultado para {{ medicamento.medicamento }}</h2>
+    <p>Nombre del Medicamento: {{ medicamento.medicamento }}</p>
+    <p>Presentación: {{ medicamento.presentacion }}</p>
+    <p>Farmacia: {{ medicamento.farmacia }}</p>
+    <img src="{{ medicamento.imagen }}" alt="{{ medicamento.medicamento }}">
+    <p>Precio Mínimo: ${{ medicamento.precio_minimo }}</p>
+    <p>Precio Máximo: ${{ medicamento.precio_maximo }}</p>
+    <p>Diferencia: ${{ medicamento.diferencia }}</p>
+    <p>Porcentaje: {{ medicamento.porcentaje }}%</p>
     {% endif %}
+
+    {% if medicamento_not_found %}
+    <h2>Medicamento "{{ medicamento_not_found }}" no encontrado.</h2>
+    {% endif %}
+    <script>
+        document.querySelector("button").addEventListener("click", function () {
+            var consulta = document.querySelector("input").value;
+            var medicamentos = document.querySelectorAll(".medicamento");
+            for (var i = 0; i < medicamentos.length; i++) {
+                if (!medicamentos[i].innerHTML.toLowerCase().includes(consulta.toLowerCase())) {
+                    medicamentos[i].style.display = "none";
+                }
+            }
+        });
+    </script>
+
 </body>
+
 </html>

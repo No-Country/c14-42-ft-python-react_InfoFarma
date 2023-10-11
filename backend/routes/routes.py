@@ -1,37 +1,68 @@
-#routes
-
-from fastapi import FastAPI
+from fastapi import FastAPI, APIRouter, Depends, HTTPException, Request, Response
+from fastapi.templating import Jinja2Templates
+from pydantic import BaseModel
+from starlette.responses import HTMLResponse
 from typing import List
-
-# Carga los datos desde el archivo JSON
+import aiohttp
+import requests
 import json
+import os
 
-with open("precios_medicamentos.json", "r") as file:
+router = APIRouter()
+
+# Configura la carpeta de plantillas Jinja2
+templates = Jinja2Templates(directory="templates")
+
+# Modelo para los medicamentos
+class Medicamento(BaseModel):
+    medicamento: str
+    presentacion: str
+    farmacia: str
+    imagen: str
+    precio_minimo: float
+    precio_maximo: float
+    diferencia: float
+    porcentaje: float
+
+# Ruta al archivo JSON dentro del directorio "data"
+data_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "precios_medicamentos.json")
+
+
+# Carga los datos desde el archivo JSON en el nivel superior
+with open(data_file, "r") as file:
     data = json.load(file)
 
-# Crea una instancia de FastAPI
+# Ruta de API REST para obtener los datos de los medicamentos
+@router.get("/api/medicamentos/", response_model=List[Medicamento])
+def get_medicamentos():
+    return data  # Usamos los datos cargados desde el archivo JSON
+
+# Ruta para mostrar los datos de medicamentos en una página HTML
+@router.get("/", response_class=HTMLResponse)
+async def show_medicamentos(request: Request):
+    return templates.TemplateResponse("search.html", {"request": request, "data": data})
+
+# Ruta para realizar búsquedas de medicamentos
+@router.get("/search", response_class=HTMLResponse)
+async def search_medicamentos(request: Request, patologia: str = None):
+    data_to_display = data
+    if patologia:
+        # Filtramos los datos por patología si se proporciona
+        if patologia in data["data"]:
+            data_to_display = data["data"][patologia]
+    return templates.TemplateResponse("search.html", {"request": request, "data": data_to_display})
+
+# Ruta para mostrar nombres de medicamentos por patología
+@router.get("/patologias/{patologia}/medicamentos", response_class=HTMLResponse)
+async def get_medicamentos_por_patologia(request: Request, patologia: str):
+    if patologia in data["data"]:
+        medicamentos = [med["medicamento"] for med in data["data"][patologia]["medicamentos"]]
+        return templates.TemplateResponse("medicamentos.html", {"request": request, "medicamentos": medicamentos})
+    else:
+        raise HTTPException(status_code=404, detail="Patología no encontrada")
+
+# Crea una instancia de la aplicación FastAPI
 app = FastAPI()
 
-# Ruta para obtener todas las patologías
-@app.get("/patologias", response_model=List[str])
-async def get_patologias():
-    patologias = list(data["data"].keys())
-    return patologias
-
-# Ruta para obtener medicamentos por patología
-@app.get("/patologias/{patologia}", response_model=List[dict])
-async def get_medicamentos_por_patologia(patologia: str):
-    if patologia in data["data"]:
-        medicamentos = data["data"][patologia]["medicamentos"]
-        return medicamentos
-    else:
-        return {"error": "Patología no encontrada"}
-
-# Ruta para obtener detalles de un medicamento por patología y nombre de medicamento
-@app.get("/patologias/{patologia}/{medicamento}", response_model=dict)
-async def get_detalle_medicamento(patologia: str, medicamento: str):
-    if patologia in data["data"] and "medicamentos" in data["data"][patologia]:
-        for med in data["data"][patologia]["medicamentos"]:
-            if med["medicamento"] == medicamento:
-                return med
-    return {"error": "Medicamento no encontrado"}
+# Agrega el router a la aplicación
+app.include_router(router)
