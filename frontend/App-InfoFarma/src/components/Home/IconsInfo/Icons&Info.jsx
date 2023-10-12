@@ -36,7 +36,7 @@ const Title = styled('div')`
 const Text = styled('div')`
   font-size: 1em;
   text-align: center;
-  width: auto;
+  width: 10em;
   
   @media (min-width: 600px) {
       font-size: 1.1em;
@@ -62,19 +62,15 @@ export default function IconsInfo() {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 5em;
+                padding: 3em;
                 box-shadow: none;
                 background-color: #E2FCD4;
-                width: 10rem;
-                height: 10rem;
               `}
             >
               <img
                 src={item.img}
                 alt={item.description}
-                css={css`
-                  max-width: 100%;
-                `}
+                width={130}
               />
               <Text>
                 <h4>{item.description}</h4>
@@ -89,27 +85,27 @@ export default function IconsInfo() {
 
 const itemData = [
   {
-    img: '../../../public/img/farmacia.png',
+    img: '../public/img/farmacia.png',
     description: 'Farmacias disponibles',
   },
   {
-    img: 'img/medicamentos.png',
+    img: '/img/medicamentos.png',
     description: 'Todo sobre medicamentos',
   },
   {
-    img: 'img/buscar.png',
+    img: '/img/buscar.png',
     description: 'Encuentra información',
   },
   {
-    img: 'img/ubicacion.png',
+    img: '/img/ubicacion.png',
     description: 'Tu farmacia más cercana',
   },
   {
-    img: 'img/precio-bajo.png',
+    img: '/img/precio-bajo.png',
     description: 'Mejor precio, mismo producto',
   },
   {
-    img: 'img/descuento.png',
+    img: '/img/descuento.png',
     description: 'Ofertas/descuentos',
   },
 ];

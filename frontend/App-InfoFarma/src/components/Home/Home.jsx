@@ -1,8 +1,8 @@
 import { Home4 } from "../Home4/Home4"
 import { HeroSection } from "./HeroSection/HeroSection"
 import './Home.css'
-import IconsInfo from "./Icons&Info"
-import { Info } from "./Info"
+import IconsInfo from "./IconsInfo/Icons&Info"
+import { Info } from "./Info/Info"
 export const Home = () => {
   return (
     <>

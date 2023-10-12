@@ -3,8 +3,6 @@ import './App.css'
 import { Home } from './components/Home/Home'
 import { NavBar } from './components/NavBar/NavBar'
 import { PageNosotros } from './components/PageNosotros/PageNosotros'
-import { Home4 } from './components/Home4/Home4'
-import IconsInfo from './components/Home/Icons&Info'
 
 
 function App() {
@@ -16,9 +14,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/nosotros' element={<PageNosotros/>}/>
-          <Route path='/a' element={<IconsInfo/>}/>
         </Routes>
-        <Home4 />
       </BrowserRouter>
     </>
   )
