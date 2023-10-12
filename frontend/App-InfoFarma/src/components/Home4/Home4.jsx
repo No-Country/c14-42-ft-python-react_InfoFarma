@@ -7,37 +7,30 @@ const Home4 = () => {
   const [products, setProducts] = useState([])
 
   const productsData = async () => {
-    try {
-      const response = await fetch(/*URL de api proporcionada*/)
-      const productsData = await response.json()
-      setProducts(productsData.slice(0, 6))
-    } catch (error) {
-      console.error(error)
-    }
+    const data = await fetch('/data/precios_medicamentos.json')
+    const products = await data.json()
+    console.log(products)
   }
+  productsData()
 
   //Otra opcion que tengo que probar para obtener la info de forma random:
   /*
   const productsData = async () => {
-    try {
-      const response = await fetch(URL de la API proporcionada );
-      const productsData = await response.json();
+      const data = await fetch(URL de la API proporcionada );
+      const products = await data.json();
       // Obtener 6 productos aleatorios
-      const randomProducts = getRandomProducts(productsData, 6);
+      const randomProducts = getRandomProducts(products, 6);
       setProducts(randomProducts);
-    } catch (error) {
-      console.error(error);
-    }
   };
 
   const getRandomProducts = (productsArray, count) => {
     const shuffledProducts = productsArray.sort(() => Math.random() - 0.5);
     return shuffledProducts.slice(0, count);
-  };*/
+  };
 
   useEffect(() => {
     productsData()
-  }, [])
+  }, [])*/
 
   return (
     <>
@@ -47,7 +40,6 @@ const Home4 = () => {
           {products.map((product, index) => (
             <CardMed key={index} product={product} />
           ))}
-          <CardMed />
         </div>
       </div>
     </>
