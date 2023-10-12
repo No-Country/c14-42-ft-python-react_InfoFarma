@@ -14,7 +14,7 @@ async def get_product(db: AsyncSession, product_id: int):
 async def get_all_products(db: AsyncSession, skip: int = 0, limit: int = 100):
     query = select(Product).offset(skip).limit(limit)
     result = await db.execute(query)
-    return result.scalars().all()
+    return result.scalars()._allrows()
 
 
 # TODO Crear los métodos para la creacion de productos
