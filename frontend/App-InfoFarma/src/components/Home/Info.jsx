@@ -24,30 +24,28 @@ const Title = styled('div')`
     }
 
     @media (min-width: 600px) {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
   
     @media (min-width: 960px) {
-        font-size: 2.3rem;
+        font-size: 1.5rem;
     }
 `;
 
 const Text = styled('div')`
-  font-size: 1.1em;
+  font-size: 1em;
   text-align: center;
   margin: 1em 1em;
   padding: 0;
   
   @media (min-width: 600px) {
-      font-size: 1.3em;
-      text-align: center;
+      font-size: 1.1em;
       margin: 1em 4em;
-      padding: 0;
     }
 
   @media (min-width: 900px) {
-    font-size: 1.5em;
-    margin: 1em 6em;
+    font-size: 1.2em;
+    margin: 1em 5em;
   }
 `;
 

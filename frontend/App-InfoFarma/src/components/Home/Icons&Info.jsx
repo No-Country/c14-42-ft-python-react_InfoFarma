@@ -1,14 +1,59 @@
 import React from 'react';
 import { Grid, Paper, Typography } from '@mui/material';
+import { CssBaseline, Container } from '@mui/material';
+import styled from '@emotion/styled';
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 
-export function IconsInfo() {
+const PageContainer = styled(Container)`
+  padding-top: 5.5em;
+  padding-bottom: 5em;
+  background-color: #E2FCD4;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0 !important;
+  font-family: 'Roboto Condensed';
+  color: #2F3D2D;
+  display: flex;
+  flex-direction: column;
+`;
+
+const Title = styled('div')`
+    font-size: 1em;
+    text-align: center;
+    margin: 1rem 0;
+    margin-bottom: 1rem;
+
+    @media (min-width: 600px) {
+        font-size: 1.2rem;
+    }
+  
+    @media (min-width: 960px) {
+        font-size: 1.4rem;
+    }
+`;
+
+const Text = styled('div')`
+  font-size: 1em;
+  text-align: center;
+  width: auto;
+  
+  @media (min-width: 600px) {
+      font-size: 1.1em;
+    }
+
+  @media (min-width: 900px) {
+    font-size: 1.4em;
+  }
+`;
+
+export default function IconsInfo() {
   return (
-    <div css={css`
-    background-color:#E2FCD4;
-    margin: 0 !important;
-  `}>
+    <PageContainer>
+      <Title>
+        <h1>En InfoFarma vas a encontrar:</h1>
+      </Title>
+    {/* <h1></h1> */}
       <Grid container spacing={2}>
         {itemData.map((item) => (
           <Grid item key={item.img} xs={6} md={4}>
@@ -17,10 +62,11 @@ export function IconsInfo() {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 16px;
+                padding: 5em;
                 box-shadow: none;
-                background-color:#E2FCD4;
-
+                background-color: #E2FCD4;
+                width: 10rem;
+                height: 10rem;
               `}
             >
               <img
@@ -30,20 +76,20 @@ export function IconsInfo() {
                   max-width: 100%;
                 `}
               />
-              <Typography variant="h5" align="center">
-                {item.description}
-              </Typography>
+              <Text>
+                <h4>{item.description}</h4>
+              </Text>
             </Paper>
           </Grid>
         ))}
       </Grid>
-    </div>
+    </PageContainer>
   );
 }
 
 const itemData = [
   {
-    img: 'img/farmacia.png',
+    img: '../../../public/img/farmacia.png',
     description: 'Farmacias disponibles',
   },
   {
