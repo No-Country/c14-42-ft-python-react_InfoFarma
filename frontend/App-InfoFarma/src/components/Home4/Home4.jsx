@@ -2,39 +2,36 @@ import React, { useEffect, useState } from 'react';
 import './Home4.css';
 import { CardMed } from './components/CardMed';
 
-const Home4 = () => {
+export const Home4 = () => {
   const [products, setProducts] = useState([]);
 
   const productsData = async () => {
-    try {
-      const response = await fetch('/backend/data/precios_medicamentos.json');
-      const jsonData = await response.json();
-      
-      // Accede a la matriz 'data' en el JSON y toma los primeros 6 elementos.
-      const productsData = jsonData.data.slice(0, 6);
-      setProducts(productsData);
-    } catch (error) {
-      console.error(error);
-    }
-  }
-  
-  //Otra opcion que tengo que probar para obtener la info de forma random:
-  /*
-  const productsData = async () => {
-      const data = await fetch(URL de la API proporcionada );
-      const products = await data.json();
-      // Obtener 6 productos aleatorios
-      const randomProducts = getRandomProducts(products, 6);
-      setProducts(randomProducts);
+    const response = await fetch('/data/precios_medicamentos.json')
+    const jsonData = await response.json()
+
+    const productsArray = Object.values(jsonData)
+    const randomProducts = getRandomProducts(productsArray, 6)
+    setProducts(randomProducts)
+    console.log(randomProducts)
   };
-  
-  const getRandomProducts = (productsArray, count) => {
-    const shuffledProducts = productsArray.sort(() => Math.random() - 0.5);
+
+  const getRandomProducts = (productsArray, count = 6) => {
+    const flattenedProductsArray = productsArray.length > 0 ? productsArray[0] : [];
+
+    const shuffledProducts = [...flattenedProductsArray];
+
+    for (let i = shuffledProducts.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledProducts[i], shuffledProducts[j]] = [shuffledProducts[j], shuffledProducts[i]];
+    }
+
     return shuffledProducts.slice(0, count);
   };
 
+
+  console.log(getRandomProducts)
   useEffect(() => {
-    productsData();
+    productsData()
   }, []);
 
   return (
@@ -44,14 +41,10 @@ const Home4 = () => {
         <div className='cards-container'>
           {products.map((product, index) => (
             <CardMed key={index} product={product} />
-          ))}  
+          ))}
           <CardMed />
-        </div>  
-      </div>  
-    </>    
+        </div>
+      </div>
+    </>
   )
 }
-
-export { Home4 };
-
-
