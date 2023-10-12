@@ -1,6 +1,7 @@
 {
   "data": [
     {
+      "id": 1,
       "medicamento": "Lipitor",
       "presentacion": "2 Cajas con 30 tabletas c/u de 20 mg",
       "farmacia": "Soriana Express/ Mercado / Soriana Súper / Farmacia San Isidro",
@@ -11,6 +12,7 @@
       "porcentaje": 5496
     },
     {
+      "id": 2,
       "medicamento": "Plavix",
       "presentacion": "Caja con 28 tabletas de 75 mg",
       "farmacia": "Farmacia San Isidro",
@@ -21,6 +23,7 @@
       "porcentaje": 759
     },
     {
+      "id": 3,
       "medicamento": "Lexapro",
       "presentacion": "Caja con 28 tabletas de 10 mg",
       "farmacia": "Farmacia San Isidro",
@@ -31,6 +34,7 @@
       "porcentaje": 8296
     },
     {
+      "id": 4,
       "medicamento": "Lantus",
       "presentacion": "Caja con 1 frasco ámpolla con 10 ml de solución inyectable 100 UI 3.64 mg",
       "farmacia": "Farmacia San Isidro",
@@ -41,6 +45,7 @@
       "porcentaje": 5496
     },
     {
+      "id": 5,
       "medicamento": "Pristiq",
       "presentacion": "Caja con 28 tabletas de 50 mg",
       "farmacia": "Soriana Express / Soriana Mercado / Farmacia San Pablo",
@@ -51,6 +56,7 @@
       "porcentaje": 3696
     },
     {
+      "id": 6,
       "medicamento": "Cialis",
       "presentacion": "Caja con 28 tabletas de 5 mg",
       "farmacia": "Soriana Hiper",
@@ -61,6 +67,7 @@
       "porcentaje": 30
     },
     {
+      "id": 7,
       "medicamento": "Zintrepid",
       "presentacion": "Caja con 28 comprimidos de 10 mg/20 mg",
       "farmacia": "Bodega Aurrera / Superama/ Walmart",
@@ -71,6 +78,7 @@
       "porcentaje": 48
     },
     {
+      "id": 8,
       "medicamento": "Arava",
       "presentacion": "Caja con frasco con 30 comprimidos de 20 mg",
       "farmacia": "Farmacia San Pablo",
@@ -81,6 +89,7 @@
       "porcentaje": 48
     },
     {
+      "id": 9,
       "medicamento": "Arcoxia",
       "presentacion": "Caja con 28 comprimidos de 90 mg",
       "farmacia": "Superama / Walmart", 
@@ -91,6 +100,7 @@
       "porcentaje": 48
     },
     {
+      "id": 10,
       "medicamento": "Cytotec",
       "presentacion": "Caja con 28 tabletas de 200 mcg.",
       "farmacia": "Sumesa",
@@ -101,6 +111,7 @@
       "porcentaje": 169
     },
     {
+      "id": 11,
       "medicamento": "Clopidogrel",
       "presentacion": "Caja con 28 tabletas de 75 mg",
       "farmacia": "Farmacias del Ahorro",
@@ -111,6 +122,7 @@
       "porcentaje": 340
     },
     {
+      "id": 12,
       "medicamento": "Metoprolol",
       "presentacion": "20 tabletas de 100 mg",
       "farmacia": "Farmacia Guadalajara",
@@ -121,6 +133,7 @@
       "porcentaje": 135
     },
     {
+      "id": 13,
       "medicamento": "Telmisartan",
       "presentacion": "Caja con 28 tabletas de 80 mg",
       "farmacia": "Superama / Walmart",
@@ -131,6 +144,7 @@
       "porcentaje": 97
     },
     {
+      "id": 14,
       "medicamento": "Captopril",
       "presentacion": "30 tabletas de 25 mg",
       "farmacia": "Soriana Hiper",
@@ -141,6 +155,7 @@
       "porcentaje": 65
     },
     {
+      "id": 15,
       "medicamento": "Losartan Hidroclorotiazida",
       "presentacion": "Caja con 15 compromidos de 100 mg/12.5 mg",
       "farmacia": "Framacia Guadalajara",
@@ -151,6 +166,7 @@
       "porcentaje": 50
     },
     {
+      "id": 16,
       "medicamento": "Enalapril",
       "presentacion": "30 tabletas de 10 mg",
       "farmacia": "La Comer / Mega Comercial Mexicana / Superama / Walmart",
@@ -161,6 +177,7 @@
       "porcentaje": 30
     },
     {
+      "id": 17,
       "medicamento": "Lisinopril",
       "presentacion": "Frasco con 28 tabletas de 10 mg",
       "farmacia": "Chedraui / Sumesa",
@@ -171,6 +188,7 @@
       "porcentaje": 22
     },
     {
+      "id": 18,
       "medicamento": "Amlodipino",
       "presentacion": "Caja con tabletas de 5 mg",
       "farmacia": "Farmacia San Pablo",
@@ -181,6 +199,7 @@
       "porcentaje": 20
     },
     {
+      "id": 19,
       "medicamento": "Metformina",
       "presentacion": "30 tabletas de 850 mg",
       "farmacia": "Súper Chedraui",
@@ -190,6 +209,7 @@
       "porcentaje": 327
     },
     {
+      "id": 20,
       "medicamento": "Pravastina",
       "presentacion": "Caja con 30 tabletas de 10 mg",
       "farmacia": "Bodega Comercial Mexicana / Comercial Mexicana / Soriana Express",
@@ -199,6 +219,7 @@
       "porcentaje": 251
     },
     {
+      "id": 21,
       "medicamento": "Glibenclamida",
       "presentacion": "50 tabletas de 5 mg",
       "farmacia": "Farmatodo",
@@ -208,6 +229,7 @@
       "porcentaje": 114
     },
     {
+      "id": 22,
       "medicamento": "Atorvastatina",
       "presentacion": "Caja con 10 tabletas de 20 mg",
       "farmacia": "Farmacias del Ahorro",
@@ -217,6 +239,7 @@
       "porcentaje": 109
     },
     {
+      "id": 23,
       "medicamento": "Calcitriol",
       "presentacion": "Caja con 30 cápsulas de 0.25 ug",
       "farmacia": "Farmacias del Ahorro",
@@ -226,6 +249,7 @@
       "porcentaje": 96
     },
     {
+      "id": 24,
       "medicamento": "Acarbosa",
       "presentacion": "Caja con 30 tabletas de 50 mg",
       "farmacia": "Walmart",
@@ -235,6 +259,7 @@
       "porcentaje": 92
     },
     {
+      "id": 25,
       "medicamento": "Simvastatina",
       "presentacion": "Caja con 14 tabletas de 10 mg",
       "farmacia": "Soriana Mercado",
@@ -244,6 +269,7 @@
       "porcentaje": 47
     },
     {
+      "id": 26,
       "medicamento": "Bezafibrato",
       "presentacion": "30 tabletas de 200 mg",
       "farmacia": "Farmacias del Ahorro",
@@ -253,6 +279,7 @@
       "porcentaje": 16
     },
     {
+      "id": 27,
       "medicamento": "Clindamicina",
       "presentacion": "16 cápsulas de 300 mg",
       "farmacia": "Farmacia San Pablo",
@@ -262,6 +289,7 @@
       "porcentaje": 155
     },
     {
+      "id": 28,
       "medicamento": "Aciclovir",
       "presentacion": "25 comprimidos de 200 mg",
       "farmacia": "Farmacias del Ahorro",
@@ -271,6 +299,7 @@
       "porcentaje": 150
     },
     {
+      "id": 29,
       "medicamento": "Gentamicina",
       "presentacion": "Caja con 1 ampolleta de 2 ml, Solución inyectable 160 mg/ 2 ml",
       "farmacia": "Sanborn's",
@@ -280,6 +309,7 @@
       "porcentaje": 149
     },
     {
+      "id": 30,
       "medicamento": "Ketoconazol",
       "presentacion": "Caja con tubo con 40 g. Crema 2%",
       "farmacia": "Superama",
@@ -289,6 +319,7 @@
       "porcentaje": 138
     },
     {
+      "id": 31,
       "medicamento": "Amikacina",
       "presentacion": "Caja con una ampolleta de 2 ml. Solución inyectable de 500 mg/ 2 ml",
       "farmacia": "Sumesa",
@@ -298,6 +329,7 @@
       "porcentaje": 90
     },
     {
+      "id": 32,
       "medicamento": "Ampicilina",
       "presentacion": "Caja con 20 cápsulas o tabletas de 500 mg",
       "farmacia": "Sumesa",
@@ -307,6 +339,7 @@
       "porcentaje": 79
     },
     {
+      "id": 33,
       "medicamento": "Azitromicina",
       "presentacion": "Caja con 3 tabletas o cápsulas de 500 mg",
       "farmacia": "Farmacia San Pablo",
@@ -316,6 +349,7 @@
       "porcentaje": 73
     },
     {
+      "id": 34,
       "medicamento": "Levofloxacino",
       "presentacion": "Caja con 7 tabletas de 500 mg",
       "farmacia": "Soriana Mercado",
@@ -325,6 +359,7 @@
       "porcentaje": 70
     },
     {
+      "id": 35,
       "medicamento": "Nitazoxanida",
       "presentacion": "Caja con 6 tabletas o cápsulas de 500 mg",
       "farmacia": "Súper Chedraui",
@@ -334,6 +369,7 @@
       "porcentaje": 50
     },
     {
+      "id": 36,
       "medicamento": "Dicloxacilina",
       "presentacion": "Caja con 12 cápsulas de 500 mg",
       "farmacia": "Farmacia San Pablo",
@@ -343,6 +379,7 @@
       "porcentaje": 49
     },
     {
+      "id": 37,
       "medicamento": "Itraconazol",
       "presentacion": "15 cápsulas de 100 mg",
       "farmacia": "Chedraui",
@@ -352,6 +389,7 @@
       "porcentaje": 42
     },
     {
+      "id": 38,
       "medicamento": "Cefalexina",
       "presentacion": "Caja con frasco con 20 cápsulas de 500 mg",
       "farmacia": "La Comer",
@@ -361,6 +399,7 @@
       "porcentaje": 42
     },
     {
+      "id": 39,
       "medicamento": "Amoxicilina",
       "presentacion": "Caja con 12 cápsulas de 500 mg",
       "farmacia": "Comercial Mexicana",

@@ -1,32 +1,22 @@
-import requests
+import os
 import json
+from fastapi import FastAPI
+from typing import Dict
+from fastapi.responses import JSONResponse
 
-# Obtener el token de acceso
-url = "https://api.walmart.com.mx/oauth/token"
-headers = {
-    "Authorization": "Basic YOUR_CLIENT_ID:YOUR_CLIENT_SECRET"
-}
-data = {
-    "grant_type": "client_credentials"
-}
+app = FastAPI()
 
-response = requests.post(url, headers=headers, data=data)
+# Obtén la ruta completa al archivo JSON
+json_file_path = os.path.join(os.path.dirname(__file__), "data", "precios_medicamentos.json")
 
-token = response.json()["access_token"]
+# Carga el contenido del archivo JSON
+with open(json_file_path, 'r') as file:
+    medicamentos_data = json.load(file)
 
-# Obtener una lista de medicamentos
-url = "https://api.walmart.com.mx/items"
-headers = {
-    "Authorization": f"Bearer {token}"
-}
-params = {
-    "query": "paracetamol"
-}
-
-response = requests.get(url, headers=headers, params=params)
-
-medicamentos = response.json()["results"]
-
-# Imprimir los datos de los medicamentos
-for medicamento in medicamentos:
-    print(medicamento["nombre"], medicamento["precio"])
+# Ruta para obtener los datos de medicamentos
+@app.get("/medicamentos/{patologia}")
+async def get_medicamentos(patologia: str):
+    if patologia in medicamentos_data:
+        return JSONResponse(content=medicamentos_data[patologia])
+    else:
+        return JSONResponse(content={"error": "Patología no encontrada"}, status_code=404)

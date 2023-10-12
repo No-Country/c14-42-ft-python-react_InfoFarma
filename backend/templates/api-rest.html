@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medicamentos</title>
+</head>
+
+<body>
+  <h1>Lista de Medicamentos</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Medicamento</th>
+        <th>Presentación</th>
+        <th>Farmacia</th>
+        <th>Imagen</th>
+        <th>Precio Mínimo</th>
+        <th>Precio Máximo</th>
+        <th>Diferencia</th>
+        <th>Porcentaje</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for group, meds in data.items() %}
+      {% for medication in meds.medicamentos %}
+      <tr>
+        <td>{{ medication.medicamento }}</td>
+        <td>{{ medication.presentacion }}</td>
+        <td>{{ medication.farmacia }}</td>
+        <td><img src="{{ medication.imagen }}" alt="Imagen del medicamento" width="100"></td>
+        <td>${{ medication.precio_minimo }}</td>
+        <td>${{ medication.precio_maximo }}</td>
+        <td>${{ medication.diferencia }}</td>
+        <td>{{ medication.porcentaje }}%</td>
+      </tr>
+      {% endfor %}
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+
+</html>
