@@ -10,9 +10,8 @@ export const Home4 = () => {
     const jsonData = await response.json()
 
     const productsArray = Object.values(jsonData)
-    const randomProducts = getRandomProducts(productsArray, 6)
+    const randomProducts = getRandomProducts(productsArray, 9)
     setProducts(randomProducts)
-    console.log(randomProducts)
   };
 
   const getRandomProducts = (productsArray, count = 6) => {
@@ -28,8 +27,6 @@ export const Home4 = () => {
     return shuffledProducts.slice(0, count);
   };
 
-
-  console.log(getRandomProducts)
   useEffect(() => {
     productsData()
   }, []);

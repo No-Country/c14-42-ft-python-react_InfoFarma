@@ -4,6 +4,7 @@ import { Home } from './components/Home/Home'
 import { NavBar } from './components/NavBar/NavBar'
 import { PageNosotros } from './components/PageNosotros/PageNosotros'
 import { Home4 } from './components/Home4/Home4'
+import { Footer } from './components/Footer/Footer'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/nosotros' element={<PageNosotros />} />
         </Routes>
         <Home4 />
+        <Footer />
       </BrowserRouter>
     </>
   )
