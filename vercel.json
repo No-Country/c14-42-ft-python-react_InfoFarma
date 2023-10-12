@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/App-InfoFarma",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist",
+        "rootDir": "frontend/App-InfoFarma"
+      }
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/frontend/App-InfoFarma/index.html" }
+  ]
+}
