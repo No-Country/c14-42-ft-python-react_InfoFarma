@@ -1,9 +1,18 @@
 const express = require('express');
+const path = require('path');
 const cheerio = require('cheerio');
 const axios = require('axios');
 
 const app = express();
 const port = 3000;
+
+// Configurar la carpeta de archivos estáticos
+app.use(express.static(path.join(__dirname, 'backend/data')));
+
+// Ruta para cargar la página principal
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 app.get('/scrape', async (req, res) => {
   try {

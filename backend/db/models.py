@@ -45,6 +45,7 @@ class Brand(Base):
     name = Column(String(100), unique=True, index=True, nullable=False)
 
     product = relationship("Product", back_populates="brand")
+    branch = relationship(Branch, back_populates="brand")
 
 
 class Disease(Base):
@@ -73,7 +74,7 @@ class Product(Base):
     id = Column(Integer, primary_key=True, index=True)
     price = Column(Numeric(12,2), nullable=False)
     details = Column(Text, nullable=True)
-    img = Column(String(100), nullable=True)
+    img = Column(Text, nullable=True)
     updated_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     medicine_id = Column(Integer, ForeignKey("medicines.id"), nullable=False)
     brand_id = Column(Integer, ForeignKey("brands.id"), nullable=False)
