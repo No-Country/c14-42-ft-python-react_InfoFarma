@@ -6,16 +6,16 @@ import { PageNosotros } from './components/PageNosotros/PageNosotros'
 import { Home4 } from './components/Home4/Home4'
 import IconsInfo from './components/Home/Icons&Info'
 
+
 function App() {
   return (
     <>
       <BrowserRouter>
-        <NavBar/>
+        <NavBar />
         <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/home' element={<Home/>}/>
-          <Route path='/nosotros' element={<PageNosotros/>}/>
-          <Route path='/a' element={<IconsInfo/>}/>
+          <Route path='/' element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/nosotros' element={<PageNosotros />} />
         </Routes>
       </BrowserRouter>
     </>
