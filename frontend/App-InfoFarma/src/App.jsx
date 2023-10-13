@@ -3,7 +3,6 @@ import './App.css'
 import { Home } from './components/Home/Home'
 import { NavBar } from './components/NavBar/NavBar'
 import { PageNosotros } from './components/PageNosotros/PageNosotros'
-import { Home4 } from './components/Home4/Home4'
 
 
 function App() {
@@ -12,11 +11,10 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/home' element={<Home />} />
-          <Route path='/nosotros' element={<PageNosotros />} />
+          <Route path='/' element={<Home/>}/>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/nosotros' element={<PageNosotros/>}/>
         </Routes>
-        <Home4 />
       </BrowserRouter>
     </>
   )
