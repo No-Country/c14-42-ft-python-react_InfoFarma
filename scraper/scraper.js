@@ -1,36 +1,51 @@
-const express = require("express");
 const cheerio = require("cheerio");
 const axios = require("axios");
 
-const app = express();
-const port = 3000;
-
-app.get("/scrape", async (req, res) => {
+async function extractMedicationData() {
   try {
-    // Realiza una solicitud HTTP para obtener el HTML de quefarmacia.com
-    const response = await axios.get("https://quefarmacia.com/");
+    const response = await axios.get("https://quefarmacia.com/precios/Clotrimazol/");
+    const $ = cheerio.load(response.data);
 
-    if (response.status === 200) {
-      const html = response.data;
-      const $ = cheerio.load(html);
+    const medications = [];
 
-      // Aquí, puedes utilizar Cheerio para seleccionar y extraer los datos que necesitas
-      // Ejemplo: Extraer los nombres de los medicamentos
-      const medicamentos = [];
-      $(".nombreMedicamento").each((index, element) => {
-        medicamentos.push($(element).text());
-      });
+    // Agregar el medicamento consultado al principio del JSON
+    medications.push({
+      medicamento: "Clotrimazol"
+    })
 
-      // Devuelve los datos extraídos en formato JSON
-      res.json({ medicamentos });
-    } else {
-      res.status(500).json({ error: "Error al obtener la página web" });
-    }
+    $(".col-12").each((index, element) => {
+      const medication = {
+        nombre: $(element).find(".Pname p").text().trim(),
+        precio: $(element).find(".Pprecio").text().trim(),
+        farmacia: $(element).find(".PfarmaBig img").attr("data-src"),
+        imagen: $(element).find(".Pimage img").attr("data-src"),
+        detalle: $(element).find(".detalle").text().trim(),
+      };
+
+      // Validar que los atributos obligatorios estén presentes
+      if (medication.nombre && medication.precio && medication.farmacia && medication.imagen) {
+      // Formatear el precio al nuevo formato "$XX.XX"
+      if (medication.precio) {
+        const precioMatches = medication.precio.match(/\d+\.\d{2}/);
+        if (precioMatches) {
+          medication.precio = `$${precioMatches[0]}`;
+        }
+      }
+
+      // Filtrar los atributos vacíos (atributos con valor nulo o cadena vacía)
+      const cleanedMedication = Object.fromEntries(
+        Object.entries(medication).filter(([key, value]) => value !== null && value !== "")
+      );
+
+      medications.push(cleanedMedication);
+      }
+    });
+
+    console.log("Información de los medicamentos (formateada y sin atributos vacíos):");
+    console.log(medications);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    console.error("Error:", error);
   }
-});
+}
 
-app.listen(port, () => {
-  console.log(`El servicio Node.js con Cheerio está escuchando en el puerto ${port}`);
-});
+extractMedicationData();
