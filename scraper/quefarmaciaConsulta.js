@@ -1,6 +1,6 @@
 const axios = require('axios');
+const cheerio = require('cheerio');
 
-// Diccionario de medicamentos y sus URLs
 const medicamentos = [
   "acetaminofen","ibuprofeno","naproxeno","acido-acetilsalicilico","loratadina","cetirizina",
   "fexofenadina","desloratadina","bromhexina","guaifenesina","dextrometorfano","loperamida",
@@ -19,50 +19,70 @@ const medicamentos = [
   "fenilefrina-con-clorfeniramina","dextrometorfano-con-fenilefrina","dexclorfeniramina",
   "ambroxol","acido-mefenamico","paracetamol-con-fenilefrina","naproxeno-con-esomeprazol",
   "ibuprofeno-con-clorfeniramina","vitamina-d3","calcio-con-vitamina-d3","valproato-de-magnesio",
-  "piracetam","carnitina"
+  "piracetam","carnitina", "paracetamol", "simvastatina", "amoxicilina", "atorvastatina", "losartan",
+  "metformina", "acetaminofen", "loratadina"
 ];
-
 
 const urlBase = "https://quefarmacia.com/precios/";
 
-// Función para validar la existencia de la URL
-async function validarURL(url) {
+// Función para extraer los datos de los medicamentos
+async function extractMedicationData() {
   try {
-    const response = await axios.get(url);
-    if (response.status === 200) {
-      return true; // URL existe
-    }
-    return false; // URL no existe
-  } catch (error) {
-    if (error.response && error.response.status === 404) {
-      return false; // URL no existe
-    }
-    throw error; // Ocurrió un error diferente, lo relanzamos
-  }
-}
+    const medicationsData = [];
 
-// Realizar solicitudes a las URL de los medicamentos
-async function buscarMedicamentos() {
-  for (const nombreMedicamento in medicamentos) {
-    (nombreMedicamento);
+    for (const medicamento of medicamentos) {
+      const urlMedicamento = urlBase + medicamento;
+      const response = await axios.get(urlMedicamento);
 
-    // Verificar si el nombre formateado existe en el diccionario de medicamentos
-    if (medicamentos[nombreMedicamento]) {
-      const urlMedicamento = urlBase + medicamentos[nombreMedicamento];
-      const existeURL = await validarURL(urlMedicamento);
+      if (response.status === 200) {
+        const $ = cheerio.load(response.data);
 
-      if (existeURL) {
-        console.log(`${nombreMedicamento}: URL existe - ${urlMedicamento}`);
+        // Dividir la URL si contiene varios medicamentos
+        const nombres = medicamento.split(',');
+
+        for (const nombre of nombres) {
+          const nombreMedicamento = nombre.trim();
+          const nombreFarmacia = $(`.Pname p`).text().trim();
+          let price = $(`.Pprecio`).text().trim();
+          const farmacia = $(`.PfarmaBig img`).attr("data-src");
+          const imagen = $(`.Pimage img`).attr("data-src");
+
+          if (nombreFarmacia && price && farmacia && imagen) {
+            // Formatear el precio al nuevo formato "$XX.XX"
+            const precioMatches = price.match(/\d+\.\d{2}/);
+            if (precioMatches) {
+              price = `$${precioMatches[0]}`;
+            }
+
+            // Extraer "medimart" del atributo "nombre" y asignarlo al atributo "brand"
+            const brand = nombre.includes("medimart") ? "medimart" : null;
+
+            // Filtrar los atributos vacíos (atributos con valor nulo o cadena vacía)
+            const cleanedMedication = {
+              medicamento: nombreMedicamento,
+              nombre: nombreFarmacia,
+              brand,
+              price,
+              farmacia,
+              imagen,
+            };
+            medicationsData.push(cleanedMedication);
+            console.log(`${nombreMedicamento}: Datos extraídos`);
+          } else {
+            console.log(`${nombreMedicamento}: Datos faltantes en la página`);
+          }
+        }
       } else {
-        console.log(`${nombreMedicamento}: URL no existe - ${urlMedicamento}`);
+        console.log(`${medicamento}: URL no existe`);
       }
-    } else {
-      console.log(`${nombreMedicamento}: Nombre formateado no encontrado en el diccionario`);
     }
+
+    console.log("Información de los medicamentos:");
+    console.log(medicationsData);
+  } catch (error) {
+    console.error("Error:", error);
   }
 }
 
-// Ejecutar la búsqueda de medicamentos
-buscarMedicamentos();
-
-module.exports = medicamentos;
+// Ejecutar la función para extraer los datos de los medicamentos
+extractMedicationData();
