@@ -1,9 +1,11 @@
 const express = require('express');
+const fastify = require("fastify");
 const path = require('path');
 const cheerio = require('cheerio');
 const axios = require('axios');
 
 const app = express();
+const api = fastify();
 const port = 3000;
 
 // Configurar la carpeta de archivos estáticos
@@ -40,4 +42,26 @@ app.get('/scrape', async (req, res) => {
 
 app.listen(port, () => {
   console.log(`Servidor Node.js en el puerto ${port}`);
+});
+
+// Conexión con el servidor de Node
+
+app.get("/", async (req, res) => {
+  const data = await api.get("/medicamentos");
+  res.send(data);
+});
+
+// Conexión con el servidor de FastAPI
+
+api.get("/medicamentos", async (req, res) => {
+  const data = await fs.readFile("medicamentos.json", "utf-8");
+  res.send(JSON.parse(data));
+});
+
+app.listen(3000, () => {
+  console.log("El servidor está escuchando en el puerto 3000");
+});
+
+api.listen(5000, () => {
+  console.log("El servidor está escuchando en el puerto 5000");
 });
