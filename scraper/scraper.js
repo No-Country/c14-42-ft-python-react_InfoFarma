@@ -1,20 +1,22 @@
 const cheerio = require("cheerio");
 const axios = require("axios");
+const quefarmaciaConsulta = require('./quefarmaciaConsulta');
+const medicamentos = require("./quefarmaciaConsulta");
 
 async function extractMedicationData() {
   try {
-    const response = await axios.get("https://quefarmacia.com/precios/Clotrimazol/");
+    const response = await axios.get(`https://quefarmacia.com/precios/${quefarmaciaConsulta.medicamentos}`);
     const $ = cheerio.load(response.data);
 
     const medications = [];
 
     // Agregar el medicamento consultado al principio del JSON
     medications.push({
-      medicamento: "Clotrimazol"
-    })
+      medicamento: medicamentos[0]
+    });
 
     $(".col-12").each((index, element) => {
-      const medication = {
+      const medicamentos = {
         nombre: $(element).find(".Pname p").text().trim(),
         precio: $(element).find(".Pprecio").text().trim(),
         farmacia: $(element).find(".PfarmaBig img").attr("data-src"),
@@ -23,26 +25,26 @@ async function extractMedicationData() {
       };
 
       // Validar que los atributos obligatorios estén presentes
-      if (medication.nombre && medication.precio && medication.farmacia && medication.imagen) {
+      if (medicamentos.nombre && medicamentos.precio && medicamentos.farmacia && medicamentos.imagen) {
       // Formatear el precio al nuevo formato "$XX.XX"
-      if (medication.precio) {
-        const precioMatches = medication.precio.match(/\d+\.\d{2}/);
+      if (medicamentos.precio) {
+        const precioMatches = medicamentos.precio.match(/\d+\.\d{2}/);
         if (precioMatches) {
-          medication.precio = `$${precioMatches[0]}`;
+          medicamentos.precio = `$${precioMatches[0]}`;
         }
       }
 
       // Filtrar los atributos vacíos (atributos con valor nulo o cadena vacía)
       const cleanedMedication = Object.fromEntries(
-        Object.entries(medication).filter(([key, value]) => value !== null && value !== "")
+        Object.entries(medicamentos).filter(([key, value]) => value !== null && value !== "")
       );
 
-      medications.push(cleanedMedication);
+      medicamentos.push(cleanedMedication);
       }
     });
 
     console.log("Información de los medicamentos (formateada y sin atributos vacíos):");
-    console.log(medications);
+    console.log(medicamentos);
   } catch (error) {
     console.error("Error:", error);
   }
