@@ -85,7 +85,7 @@ export default function IconsInfo() {
 
 const itemData = [
   {
-    img: '../public/img/farmacia.png',
+    img: '../img/farmacia.png',
     description: 'Farmacias disponibles',
   },
   {
