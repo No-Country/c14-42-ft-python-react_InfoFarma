@@ -1,0 +1,346 @@
+[
+  {
+    "medicamento": "acetaminofen",
+    "name": "Aceta diazol 250 mg 30 tabletasAciclovir medimart 200 mg, 25 tabletasAcanol loperamida 2 mg 12 tabletasÁcido acetilsalicilico, paracetamol, cafeína excedrin 24 tabletas 250 mg, 250 mg, 65 mgAceite de aguacate jaloma 120 mlAceite de argán jaloma 120 mlAceite seco oliskin almendra + vitamina e 100 mlAceite de ducha eucerin ph5 piel seca y sensible 200 mlÁcido Ascórbico Biobullet Caja con 10 Comprimidos de 1g c/uAceite Corporal Takinka Puro de Almendras 60ml",
+    "brand": "medimart",
+    "price": "540.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00000840000002L.jpg"
+  },
+  {
+    "medicamento": "ibuprofeno",
+    "name": "Ibuprofeno medimart 800 mg 10 tabletasIbuprofeno medimart 400 mg 20 tabletasIbuprofeno medimart 600 mg, 10 cápsulasIbuprofeno cafeína gel pharma 10 cápsulas 400 mg/100 mgTabletas Buscapina Fem Hioscina 20mg/Ibuprofeno 400mg Caja con 10 Tabletas",
+    "brand": "medimart",
+    "price": "45.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750147831542L.jpg"
+  },
+  {
+    "medicamento": "naproxeno",
+    "name": "Naproxeno medimart 250 mg, 30 tabletasGel Analgen Naproxeno Lidocaína Caja con Tubo de 30gFlanax gel naproxeno 5.5% 40 gParacetamol, naproxeno syncol dual 275 mg, 300 mg, 12 tabletasAlliviax 20 Tabletas Alivia Dolor e Inflamación Naproxeno 550 Mg",
+    "brand": "medimart",
+    "price": "48.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222629366L.jpg"
+  },
+  {
+    "medicamento": "loratadina",
+    "name": "Tabletas Medley Loratadina 10mg Caja con 10 TabletasLoratadina medimart 100 mg/100 ml jarabe 60 mlLoratadina medimart 10 mg, 20 tabletasLoratadina/Betametasona medimart 100 mg / 5 mg / 100 mlDesloratadina medimart 5 mg 30 tabletasTabletas Clarityne Loratadina 10mg Antialérgico Caja con 10 TabletasLoratadina / fenilefrina dimegan d 10 mg / 40 mg / 10 ml jarabe 60 mlLoratadina sensibit 10 mg 20 tabletasLoratadina / fenilefrina dimegan d 5 mg / 20 mg 10 cápsulasLoratadina / fenilefrina dimegan d 5 mg / 20 mg 20 cápsulas",
+    "brand": "medimart",
+    "price": "11.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/18993872/7501361680328_00.jpg?v=638302178823600000"
+  },
+  {
+    "medicamento": "cetirizina",
+    "name": "Tabletas Genéricas Cetirizina 10mg Caja con 10 TabletasLevocetirizina medimart 5 mg 10 tabletasLevocetirizina medimart 5 mg 30 tabletas",
+    "brand": "medimart",
+    "price": "60.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/20250130/7502227872123_00.jpg?v=638325879876030000"
+  },
+  {
+    "medicamento": "desloratadina",
+    "name": "Desloratadina medimart 5 mg 30 tabletas",
+    "brand": "medimart",
+    "price": "185.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750224737486L.jpg"
+  },
+  {
+    "medicamento": "bromhexina",
+    "name": "Dropropizina / bromhexina dalvear 300 mg / 160 mg / 100 ml jarabe adulto 200 ml",
+    "brand": null,
+    "price": "230.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750108631041L.jpg"
+  },
+  {
+    "medicamento": "dextrometorfano",
+    "name": "Dextrometorfano, fenilefrina, clorfenamina, paracetamol medimart 15 mg/5 mg/2 mg/250 mg 12 cápsulasAmbroxol, dextrometorfano medimart 22.5 mg/22.5 mg 10 cápsulasJarabe con Dextrometorfano 225mg y Ambroxol 225 mg Reddy Adulto 150mlJarabe con Dextrometorfano 225mg y Ambroxol 225 mg Reddy Infantil 150ml",
+    "brand": "medimart",
+    "price": "40.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222742564L.jpg"
+  },
+  {
+    "medicamento": "loperamida",
+    "name": "Loperamida medimart 2 mg 12 tabletasAcanol loperamida 2 mg 12 tabletas",
+    "brand": "medimart",
+    "price": "19.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222629489L.jpg"
+  },
+  {
+    "medicamento": "omeprazol",
+    "name": "Cápsulas Ozoken Omeprazol 20mg Caja con 7 CápsulasCápsulas SupraMed Omeprazol 20mg Caja con 14 CápsulasOmeprazol medimart 20 mg 14 cápsulasOmeprazol medimart 20 mg 30 cápsulasEsomeprazol medimart 40 mg, 14 tabletasEsomeprazol amably 40 mg, 14 cápsulas de liberación retardadaEsomeprazol amably 40 mg, 7 cápsulas de liberación retardada",
+    "brand": "medimart",
+    "price": "20.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/19004245/7501493888548_00.jpg?v=638302226579400000"
+  },
+  {
+    "medicamento": "eucalipto",
+    "name": "Caramelos broncolin bronco fresh miel y eucalipto 66 gPastillas Broncolin Bicoestol Sabor Eucalipto 16 PastillasPastillas broncolin bicoestol sabor eucalipto caja con 16 pzasPastillas Broncolin Liniston Sugar Free Eucalipto 16 PastillasZuum alidol gel alcanforado mentolado y eucalipto 125 mlVicks - Vick VapoShower - Vapores Relajantes para la Regadera, Pastillas Solubles, con Aroma a Mentol, Eucalipto y Alcanfor, 3 UnidadesAromatizante ambiental medimart en spray mentolado de eucalipto 125 mlPastillas Broncolin Bicoestol Sabor Eucalipto 72 PastillasGraneodín B, para dolor de garganta, sabor menta eucaliptoPastillas Graneodín B para Dolor de Garganta Sabor Menta Eucalipto 24 PastillasJarabe vick 44 expectorante sabor a miel de abeja, mentol y eucalipto 120 mlBroncolin Bronco Fresh Miel Eucalipto Charola, 12 PiezasBroncolin Broncolin Gotas de miel de eucalipto, paquete de 2 cajas de 1.5 oz caja de gotas, 2 unidades",
+    "brand": "medimart",
+    "price": "17.50",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00071470690870L.jpg"
+  },
+  {
+    "medicamento": "clorhexidina",
+    "name": "NNUVER - Jabón en espuma para manos con clorhexidina y antibacterial - Desinfección de manos y muñecas - Para uso en casa, industrias y Oficinas (1 Galón)",
+    "brand": null,
+    "price": "2020",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img": "https://m.media-amazon.com/images/I/31w9ZeMWtbL._SL500_.jpg"
+  },
+  {
+    "medicamento": "difenhidramina",
+    "name": "NyQuil Z - Difenhidramina 25 g, Ayuda a Conciliar el Sueño, Cápsulas para el Insomnio Ocasional, Ayuda a Dormir, para Dormir Bien, Caja con 30 UnidadesDifenhidramina nyquil z auxiliar en el insomnio ocasional 30 cápsulas",
+    "brand": null,
+    "price": "163.06",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img": "https://m.media-amazon.com/images/I/41Zk7dSm6tS._SL500_.jpg"
+  },
+  {
+    "medicamento": "piroxicam",
+    "name": "Piroxicam medimart 20 mg 20 tabletas",
+    "brand": "medimart",
+    "price": "30.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750649500318L.jpg"
+  },
+  {
+    "medicamento": "clotrimazol",
+    "name": "Betametasona/ clotrimazol/ gentamicina medimart 50 mg/ 1 g/ 0.1 g crema 25 gClotrimazol medimart crema 2 % 20 gCrema canesten 1% clotrimazol 30 gCrema canesten v clotrimazol 2% 20 g",
+    "brand": "medimart",
+    "price": "35.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125821426L.jpg"
+  },
+  {
+    "medicamento": "terbinafina",
+    "name": "Tabletas Lamisil Terbinafina 250mg 20 Tabletas",
+    "brand": null,
+    "price": "1335.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/15883713/7501124813468_00.jpg?v=638236248212730000"
+  },
+  {
+    "medicamento": "neomicina",
+    "name": "Ungüento vitacilina neomicina y retinol 28 gUngüento maxitrol dexametasona, neomicina, polimixina b 3500 ui/6000 ui/1 mg 3.5 g",
+    "brand": null,
+    "price": "43.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00035431222513L.jpg"
+  },
+  {
+    "medicamento": "glicerina",
+    "name": "Glicerina Químicos Cali 60mlGlicerina la corona natural 500 mlGlicerina La Corona Natural 500mlAgua de aloe vera jaloma más glicerina 250 mlPads faciales protec con glicerina 100 pzasGlicerina Ávia Plus Compuesta Loción Humectante 150mlDescongestivo nasal afrin lub 0.025% solución infantil en spray extrahumectante con glicerina 20 mlDescongestionante Nasal Afrin Lub Ifantil Humectante con Glicerina 20mlGlicerina Ávia Plus Pura Humectante 160mlDescongestionante Nasal Afrin Lub Adulto Humectante con Glicerina 20ml",
+    "brand": null,
+    "price": "18.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/18875793/7506246000116_00.jpg?v=638301614091870000"
+  },
+  {
+    "medicamento": "lactulosa",
+    "name": "Polvo Regulact Lactulosa 5g Caja con 15 Sobres",
+    "brand": null,
+    "price": "273.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/18865762/7501122966623_00.jpg?v=638301566535070000"
+  },
+  {
+    "medicamento": "betametasona",
+    "name": "Betametasona/ clotrimazol/ gentamicina medimart 50 mg/ 1 g/ 0.1 g crema 25 gLoratadina/Betametasona medimart 100 mg / 5 mg / 100 mlMetocarbamol indometacina betametasona medimart 20 tabletas de 215 mg 25 mg 0.75 mg c/UIndometacina/Betametasona/Metocarbamol ardosons son s 25 mg /0.75 mg /215 mg 20 pzas",
+    "brand": "medimart",
+    "price": "35.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125821426L.jpg"
+  },
+  {
+    "medicamento": "calcio",
+    "name": "Tabletas Efervescentes Seltz Calcio Sabor Limonada Rosa Tubo con 20 TabletasSuplemento alimenticio seltz 500 mg calcio 90 gTabletas Caltrate Suplemento de Calcio 600 +D 600mg / 400 UI Frasco con 30 TabletasDuo Pack Complex Cartílago y Calcio 60 TabletasTabletas Caltrate Suplemento de Calcio 600 +M 600mg / 400 UI Frasco con 30 TabletasTabletas Caltrate Suplemento de Calcio 600 +D 600mg / 400 UI Frasco con 60 TabletasSuplemento Alimenticio Calcio De Coral Best Health 30 CápsulasTabletas Caltrate Suplemento de Calcio 600 +M 600mg / 400 UI Frasco con 60 TabletasSúluu Prenacim | Gomitas Vitaminadas, Multivitamínico Apoya Salud de Mujer y Bebé Durante Embarazo | 60 Gomitas | Sabor Durazno | Ácido Fólico, Vitamina A, Vitamina B1, B2, B3, B5, B6, B12, Vitamina C, Vitamina D3, Vitamina E, Vitamina K, Biotina, Colina, Hierro, Zinc, Magnesio, Calcio, Yodo y Cromo | Sin GlutenFORZAGEN Essentials | Hecho en EUA | Men's Multivitamin - 60 Tabletas | Vitaminas y Minerales Importados para Hombre | Vitamina C | Ácido Fólico | Zinc | Magnesio | Calcio | Poderosos Antioxidantes | Con Complejo de Rendimiento | BCAA | Creatina | L-Arginina | Refuerza Sistema Inmune | Protege la Salud | Incrementa Energía y Vitalidad | Esencial para Hombres | Suplemento NaturalMICHELSON PHARMA - CALTRUM 600+D 60 TABLETAS PACK 3 PZ - Tabletas Recubiertas adicionadas con Omega 3, Calcio y Vitamina D. Paquete con 3 frascos de 60 tabletas c/uHealth Hack Nutrimom Embarazo y Lactancia | Suplemento Prenatal con Ácido Fólico, colageno hidrolizado, potasio, magnesio, calcio, hierro, zinc y vitaminas para Salud Materna y Desarrollo FetalPastillas para Articulaciones de Glucosamina y Condroitina con Colageno Hidrolizado, Calcio y Vitamina D Lifeed5 - 120 Días de Suplementos Alimenticios con Vitamina para Articulaciones, Multivitaminico Hombre y Mujer Joint SupportMultivitamínico Prenatal, Vitaminas de 180 Cápsulas. Ingredientes naturales: Calcio, Magnesio, Colágeno Hidrolizado, Vitaminas, Ácido Fólico. Prenatal Complex B LifeOlnatura Just - Colágeno Hidrolizado Premium JustCollagen 180 Tabletas con Biotina, Calcio, Vitamina C, Vitamina E y Vitamina K.Health Hack Meno Support DIM Blend | Apoyo Natural para la Menopausia para Balance y Bienestar | Con DIM, Isoflavonas de Soja, Raiz de Black Cohosh, Extracto de Ñame, Extracto de Brocoli, Citrato de Calcio, Extracto de Raíz de Maca y MásVasculflow dobesiltato de calcio, diosmina, hesperidina 250 mg /225 mg /25 mg 30 tabletas",
+    "brand": null,
+    "price": "99.75",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/20438265/7500326150975_00.jpg?v=638327667122770000"
+  },
+  {
+    "medicamento": "hierro",
+    "name": "Suplemento alimenticio vitherbal hierro 60 cápsulas de 500 mg c/USuplemento alimenticio gelcaps complejo b hierro y zinc 90 cápsulas de 0.45 g c/UTabletas Efervescentes Seltz Vitamina C + Hierro Sabor Toronja 20 TabletasTabletas Ironfol Hierro y Ácido Fólico Antianémico, Ironfol, 30 tabletas de Hierro(100mg) y ácido fólico (350 mcg)Stresstabs Multivitamínico con Hierro Frasco con 30 TabletasFisiofer hierro solución 10 frascos de 15 ml c/USúluu Prenacim | Gomitas Vitaminadas, Multivitamínico Apoya Salud de Mujer y Bebé Durante Embarazo | 60 Gomitas | Sabor Durazno | Ácido Fólico, Vitamina A, Vitamina B1, B2, B3, B5, B6, B12, Vitamina C, Vitamina D3, Vitamina E, Vitamina K, Biotina, Colina, Hierro, Zinc, Magnesio, Calcio, Yodo y Cromo | Sin GlutenElevit Multivitamínico Prenatal Embarazo y Lactancia Ácido Fólico y Hierro 30 TabletasComprimidos Elevit Multivitamínico con Ácido Fólico y Hierro 28 TabletasElevit Multivitamínico Prenatal Embarazo y Lactancia Ácido Fólico y Hierro 30 Tabletas + Bepanthen Pomada Regeneradora de Piel 30 gOBY Inositol con Myo Inositol, D-Chiro Inositol, Acido Folico, Hierro, Extracto de Arándano | Suplemento de 60 cápsulas de 701 mgWU Nutrition® QUERIDA | Multivitaminico para Mujer | Suplemento con Colágeno Hidrolizado, Biotina, Ácido Fólico, Magnesio, Hierro y Vitaminas | Womens Multi | 120 Cápsulas | 2 meses de consumoHealth Hack Nutrimom Embarazo y Lactancia | Suplemento Prenatal con Ácido Fólico, colageno hidrolizado, potasio, magnesio, calcio, hierro, zinc y vitaminas para Salud Materna y Desarrollo FetalSuplemento alimenticio ferrexel con hierro y ácido fólico 60 cápsulasEnfamil Poly-Vi-Sol Suplemento Multivitamínico Gotas con Hierro 50 ml",
+    "brand": null,
+    "price": "85.50",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750300384153L.jpg"
+  },
+  {
+    "medicamento": "magnesio",
+    "name": "Cloruro de magnesio vitherbal 60 cápsulas de 500 mg c/USuplemento alimenticio altus natura magnesio + espirulina 60 cápsulas 500 mgTabletas Efervescentes Seltz Magnesio + Zinc Sabor Limón Jengibre 20 TabletasSuplemento alimenticio seltz magnesio zinc + jengibre 20 tabletas efervescentes de 4.2 g c/UCloruro de Magnesio + Tiamina 60 tabs de 500 mg Keep NaturalSuplemento alimenticio solanum hb magnesio + semilla de alcaravea 60 cápsulas de 450 mgCitrato de Magnesio 2100mg | Citrato de Magnesio Puro sin rellenos| Suplementos formulados por científicos | Suplemento alimenticio de Magnesium Citrate con mayor contenido por porción | 60 capsDiasporal 300 mg de magnesio por sobreSúluu Prenacim | Gomitas Vitaminadas, Multivitamínico Apoya Salud de Mujer y Bebé Durante Embarazo | 60 Gomitas | Sabor Durazno | Ácido Fólico, Vitamina A, Vitamina B1, B2, B3, B5, B6, B12, Vitamina C, Vitamina D3, Vitamina E, Vitamina K, Biotina, Colina, Hierro, Zinc, Magnesio, Calcio, Yodo y Cromo | Sin GlutenSúluu Relaha | Gomitas Vitaminadas, Alivio del Estrés Acumulado, Sensación de Tranquilidad, Reductor de la Ansiedad | 60 Gomitas | Sabor Mora | Manzanilla, L-Teanina, Magnesio y Zinc | Sin GlutenFORZAGEN Essentials | Hecho en EUA | Men's Multivitamin - 60 Tabletas | Vitaminas y Minerales Importados para Hombre | Vitamina C | Ácido Fólico | Zinc | Magnesio | Calcio | Poderosos Antioxidantes | Con Complejo de Rendimiento | BCAA | Creatina | L-Arginina | Refuerza Sistema Inmune | Protege la Salud | Incrementa Energía y Vitalidad | Esencial para Hombres | Suplemento NaturalCitrato de Magnesio 2100mg | Citrato de Magnesio Puro sin rellenos| Suplementos formulados por científicos | Suplemento alimenticio de Magnesium Citrate | 180 capsMagnesio Complex | CON 4 MAGNESIOS: Citrato de Magnesio -Glicinato de Magnesio -Gluconato de Magnesio- Óxido de Magnesio -700 mg Puro por Cápsula - Suplemento Vitamínico Formulado por Científicos - Suplemento Alimenticio en Cápsulas - Sin Azúcar Sin ingedientes artificiales-Ingredientes NON GMO- 180 cápsulasWU Nutrition® QUERIDA | Multivitaminico para Mujer | Suplemento con Colágeno Hidrolizado, Biotina, Ácido Fólico, Magnesio, Hierro y Vitaminas | Womens Multi | 120 Cápsulas | 2 meses de consumoHealth Hack Nutrimom Embarazo y Lactancia | Suplemento Prenatal con Ácido Fólico, colageno hidrolizado, potasio, magnesio, calcio, hierro, zinc y vitaminas para Salud Materna y Desarrollo FetalLife360+ Magnesio Complex para 400 Días. Suplemento con 4 tipos de Magnesio reforzados con Aloe Vera (Sabila). 400 capsulas para hombres y mujeres.HealthAddiction - Inositol Suplemento Alimenticio con Myo Inositol, L Teanina, Arándano, Vitamina B6, Folato (ácido fólico), Magnesio y Selenio - 60 Cápsulas de 780mg c/uBirdman Minerales Traza Esenciales Liquidos, Electrolitos, Hidratacion Efectiva, Energia, Regula tu pH, Formulado con Magnesio, Sodio, Cloruro y Sulfato| 125 servicios | 300mlZENZEI | DEEP SLEEP | 60 Gomitas 100% Veganas — Suplemento para Dormir Ideal para Niños y Adultos — Dile Adiós al Insomnio, Regula tu Ciclo de Sueño — Formuladas con: L-Teanina, Gluconato de Magnesio, GABA, 5-HTP, Manzanilla, Toronjil y Pasiflora | MARCA PREMIUMCitrato de Magnesio de 240 Cápsulas. Ingredientes naturales. Citrate Mag. B Life.Multivitamínico Prenatal, Vitaminas de 180 Cápsulas. Ingredientes naturales: Calcio, Magnesio, Colágeno Hidrolizado, Vitaminas, Ácido Fólico. Prenatal Complex B LifeHealth Hack Peak Performance AKG Blend | Rendimiento Físico | AAKG, Beta Alanina, L-Carnitina, Glicinato de Magnesio, Ginseng Coreano, L-Citrulina, Leucina, Isoleucina, Valina | Energía y ResistenciaVeraLife | Suplemento Alimenticio con Citrato de Magnesio y Citrato de Potasio – 60 Capsulas | Suplemento Nutricional con Magnesio y Potasio | Multivitaminico para Hombres, Multivitaminico para MujerHealth Hack Metfor Natural Alternativa Natural de Metformina | Con Ácido Alfa Lipoico, Berberina, Canela, Gymnema Sylvestre y Glicinato de Magnesio | Apoyo al Control del Tamaño del Cuerpo | NO es MetforminaHealth Hack Blood Flow con PQQ y Coq10 | Suplemento Circulación Sanguínea | Con L-Arginina, Glicinato de Magnesio, Resveratrol, Coenzima Q10, Vitamina B3, PQQ y Vitamina D3 | Salud CardiovascularGlutaShot | Suplemento Alimenticio Líquido | Caja con 30 unidades de 10ml c/u | Glutatión, Acerola (Vitamina C), Zinc y Magnesio",
+    "brand": null,
+    "price": "85.50",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750300384150L.jpg"
+  },
+  {
+    "medicamento": "glucosamina",
+    "name": "Suplemento alimenticio rosovall altus glucosamina 60 cápsulas 500 mgSuplemento Alimenticio Modern Research Colágeno y Glucosamina Frasco con 60 TabletasSuplemento alimenticio solanum mv gtc glucosamina 40 cápsulas 600 mg c/UPURELY ORGANICS. Glucosamina Fem Complex. Bote con 90 cápsulas. Salud articular. Tu suplemento natural y complemento esencial para una vida activa y saludable.Pastillas para Articulaciones de Glucosamina y Condroitina con Colageno Hidrolizado, Calcio y Vitamina D Lifeed5 - 120 Días de Suplementos Alimenticios con Vitamina para Articulaciones, Multivitaminico Hombre y Mujer Joint Support",
+    "brand": null,
+    "price": "99.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750304054607L.jpg"
+  },
+  {
+    "medicamento": "omega-3",
+    "name": "Multivitamínico para Mujer, Gomitas, Para Mayor Energía, Sabor Fresa y Granada, Con Ácido Hialurónico y Omega-3, Vitaminas A, B, C y E, 100% Natural, Sin Azúcar y Gluten, Heally",
+    "brand": null,
+    "price": "2020",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img": "https://m.media-amazon.com/images/I/41e8zweph8S._SL500_.jpg"
+  },
+  {
+    "medicamento": "probioticos",
+    "name": "Nature´s Bounty, Suplemento Dietético de Probióticos, Apoya la Salud Digestiva e Intestinal, Lactobacilos Acidofilus Probioticos, 120 TabletasMEGABIOTIC 11 cepas 20 Billones Probioticos Avanzados | Prebioticos para 60 días con Fibra natural, Inulina de Agave, Aloe Vera (Sabila) | 60 Días Lactobacilos y Probioticos Mujer y Hombre de Liberación Inmediata Sin Azucar y de Máxima AbsorciónOBY Probióticos 60 Billones, Prebióticos, Inulina de Agave, Enzimas digestivas Bromelina y Papaina, Fibra Linaza y Carbón Activado Vegetal de Coco. Probioticos Mujer y Hombre - Para 60 díasProbioticos Prebioticos Enzimas Digestivas Inulina Mct Oil Bromelina Papaya Vinagre de Manzana Achicoria BPN PROProbioticos 60 Billones, 160 Cápsulas - con Prebioticos (Inulina de Agave) y Lactobacilos. Para Mujeres y Hombres || LIFE 360+ PROBIOTICSProbioticos 60 Billion UFC + Prebióticos | 13 cepas | Con Tecnología de microencapsulación de 4 capas para liberación efectiva en intestino | Para Hombres y Mujeres | 60 cápsulasWELLMADE Pro-Move Proteina Whey – 5 Billones de Probioticos con 2 Cepas en Polvo – 24.4 g Proteina por porción – 702.5 g por Bolsa – 21 Porciones – Sabor Chocolate y Cocoa.NW Greentox con Vinagre de Manzana Jengibre Nopal Apio Probioticos 180 Capsulas | Aporta Fibra Antioxidante Digestion | Gluten Free Soya Free Lacteos Free | Natural WisdomProbióticos 60 Billones y 11 Cepas para 120 Días (120 cápsulas) | con Prebióticos, Inulina de Agave, Lactobacilos y Aloe Vera (Sábila) | Probioticos para Mujeres y Hombres en cápsulas || Probióticos MEGABIOTIC",
+    "brand": null,
+    "price": "249.01",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img": "https://m.media-amazon.com/images/I/417nIjuQeVL._SL500_.jpg"
+  },
+  {
+    "medicamento": "fenilefrina",
+    "name": "Tabletas Paracetamol 500mg Cafeína 25mg Clorhidrato de Fenilefrina 5mg Agrifen 10 TabletasDextrometorfano, fenilefrina, clorfenamina, paracetamol medimart 15 mg/5 mg/2 mg/250 mg 12 cápsulasLoratadina / fenilefrina dimegan d 10 mg / 40 mg / 10 ml jarabe 60 mlLoratadina / fenilefrina dimegan d 5 mg / 20 mg 10 cápsulasLoratadina / fenilefrina dimegan d 5 mg / 20 mg 20 cápsulas",
+    "brand": "medimart",
+    "price": "27.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/20229062/7501125116810_00.jpg?v=638325728805500000"
+  },
+  {
+    "medicamento": "clorfenamina",
+    "name": "Dextrometorfano, fenilefrina, clorfenamina, paracetamol medimart 15 mg/5 mg/2 mg/250 mg 12 cápsulasAmantadina, clorfenamina, paracetamol medimart 50 mg/ 3 mg/ 300 mg 24 cápsulasAmantadina, clorfenamina, paracetamol deples 50 mg/3 mg/300 mg, 24 cápsulas",
+    "brand": "medimart",
+    "price": "40.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222742564L.jpg"
+  },
+  {
+    "medicamento": "ketotifeno",
+    "name": "Ketotifeno medimart 1 mg 30 tabletas",
+    "brand": "medimart",
+    "price": "70.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125821509L.jpg"
+  },
+  {
+    "medicamento": "enemas",
+    "name": "Enemas Microlax Laxante 450mg con 4 piezas",
+    "brand": null,
+    "price": "171.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/20235070/7501007532387_00.jpg?v=638325765950770000"
+  },
+  {
+    "medicamento": "lomotil",
+    "name": "Lomotil 2 mg 8 tabletasTabletas Lomotil Antidiarréico 2mg con 8 tabletas",
+    "brand": null,
+    "price": "125.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750105700266L.jpg"
+  },
+  {
+    "medicamento": "yodo",
+    "name": "Tintura de Yodo Jaloma Solución 40mlYodopovidona Dayondin Bucofaringea 120mlSolucion Anticeptica Yodopovidona 120mlSúluu Prenacim | Gomitas Vitaminadas, Multivitamínico Apoya Salud de Mujer y Bebé Durante Embarazo | 60 Gomitas | Sabor Durazno | Ácido Fólico, Vitamina A, Vitamina B1, B2, B3, B5, B6, B12, Vitamina C, Vitamina D3, Vitamina E, Vitamina K, Biotina, Colina, Hierro, Zinc, Magnesio, Calcio, Yodo y Cromo | Sin Gluten",
+    "brand": null,
+    "price": "13.86",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/19821170/759684317170_00.jpg?v=638318051254800000"
+  },
+  {
+    "medicamento": "ambroxol",
+    "name": "Comprimidos SupraMed Ambroxol 30mg Caja con 20 ComprimidosAmbroxol medimart 30 mg 20 comprimidosAmbroxol, dextrometorfano medimart 22.5 mg/22.5 mg 10 cápsulasJarabe con Dextrometorfano 225mg y Ambroxol 225 mg Reddy Adulto 150mlJarabe con Dextrometorfano 225mg y Ambroxol 225 mg Reddy Infantil 150mlPastillas Mucoangin Ambroxol 20mg Sabor Limón Caja con 18 PastillasPastillas Mucoangin Ambroxol 20mg Sabor Menta Caja con 18 PastillasGotas Mucovibrol Ambroxol Expectorante 30mlTabletas Broxol Ambroxol Caja con 20 Tabletas",
+    "brand": "medimart",
+    "price": "30.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/17865784/7501253659203_00.jpg?v=638280132398570000"
+  },
+  {
+    "medicamento": "piracetam",
+    "name": "Piracetam medimart 800 mg 30 tabletas",
+    "brand": "medimart",
+    "price": "270.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750138454730L.jpg"
+  },
+  {
+    "medicamento": "carnitina",
+    "name": "Suplemento alimenticio forzagen premiun l-Carnitina 60 cápsulasPURELY ORGANICS. Lipo Green 7 EN 1 750mgVinagre de Manzana, 500mgCarnitina, 300mg extracto de piña, 150mgCetonas de frambuesa, 100mgTé verde, 80mgChía, 50mgextracto de pepino, 20mg Toronja 90 CápsulasMoods | Burn Baby, Burn | Keto & Ayuno - MCT Oil, L-Carnitina, Cetonas de Frambuesa, Vinagre de Sidra de Manzana y Omega 3 - Suplemento Alimenticio Premium para Acompañar Dietas Bajas en Carbs como la Dieta Keto y el Ayuno Intermitente - 100% Natural y Vegano - Cápsulas para 30 DíasHealth Hack Peak Performance AKG Blend | Rendimiento Físico | AAKG, Beta Alanina, L-Carnitina, Glicinato de Magnesio, Ginseng Coreano, L-Citrulina, Leucina, Isoleucina, Valina | Energía y ResistenciaDEKÓS +FB Burner | Termogénico Natural con efecto SLIM | L-Carnitina, Gymnema Sylvestre, Té Verde y Jengibre | 30 cápsulasLIPODRENE. Carnitina Essential. Protector muscular, además de su increíble labor en conversión de grasas a energía al natural. Bote con 60 cápsulas. Combo 2 unidades.Health Hack Keto Fuel | Suplemento Esencial para Keto | Con MCT Oil, B-Hidroxibutirato, Omega 3, Cetonas de Frambuesa, L-Carnitina, Raíz de Jengibre, Vitaminas y Minerales | Maximiza Tus Resultados en Cetosis",
+    "brand": null,
+    "price": "326.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750301359553L.jpg"
+  },
+  {
+    "medicamento": "paracetamol",
+    "name": "Paracetamol medimart 500 mg, 10 tabletasParacetamol medimart 500 mg 20 tabletasTabletas Desenfriol-D Antigripal Paracetamol 500mg Caja con 6 TabletasParacetamol medimart 750 mg 10 tabletasTabletas Paracetamol 500mg Salpifar 10 TabletasTabletas Paracetamol 500mg Cafeína 25mg Clorhidrato de Fenilefrina 5mg Agrifen 10 TabletasTabletas Desenfriol-D Antigripal Paracetamol 500mg Caja con 12 TabletasDextrometorfano, fenilefrina, clorfenamina, paracetamol medimart 15 mg/5 mg/2 mg/250 mg 12 cápsulasTabletas Tempra 500mg Paracetamol Adultos 10 TabletasAmantadina, clorfenamina, paracetamol medimart 50 mg/ 3 mg/ 300 mg 24 cápsulasMejoral 500 Paracetamol 12 TabletasTabletas Tempra Boost Paracetamol Adultos 12 TabletasTabletas Masticables Desenfriol-ito Plus Antigripal Paracetamol 80mg 24 TabletasTabletas Tabcin Noche Paracetamol 250mg Alivio de Gripe 12 CápsulasTabletas Tabcin Active Paracetamol 250mg Alivio de Gripe y Tos 12 CápsulasMejoralito Paracetamol 30 TabletasTabletas Desenfriol-D Antigripal Paracetamol 500mg Caja con 24 TabletasTramadol-Paracetamol medimart 37.5 mg-325 mg 10 tabletasTabletas Tempra 500mg Paracetamol Adultos 20 TabletasTabletas Tempra Forte 650mg Paracetamol Adultos 24 TabletasAmantadina, clorfenamina, paracetamol deples 50 mg/3 mg/300 mg, 24 cápsulasParacetamol, naproxeno syncol dual 275 mg, 300 mg, 12 tabletasTabletas Buscapina Duo Hioscina 10mg/Paracetamol 500mg Caja de 10 TabletasTramadol, paracetamol medimart 37.5 mg/325 mg, 20 tabletasÁcido acetilsalicilico, paracetamol, cafeína excedrin 24 tabletas 250 mg, 250 mg, 65 mgJarabe Tempra Infantil con Paracetamol Sabor Fresa 120mlSolución Pediátrica Tempra con Paracetamol Sabor Uva 30mlTabletas Tempra Forte 650mg Paracetamol Adultos 36 TabletasTabletas Paracetamol Tylenol 40 Tabletas 500mgTabletas Buscapina Duo Hioscina 10mg/Paracetamol 500mg Caja de 20 TabletasTabletas Tempra 500mg Paracetamol Adultos 100 TabletasParacetamol / tramadol zaldiar 325 mg / 37.5 mg 50 tabletas",
+    "brand": "medimart",
+    "price": "10.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750649500819L.jpg"
+  },
+  {
+    "medicamento": "simvastatina",
+    "name": "Simvastatina medimart 20 mg 14 tabletas",
+    "brand": "medimart",
+    "price": "55.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750649500841L.jpg"
+  },
+  {
+    "medicamento": "amoxicilina",
+    "name": "Cápsulas Genéricas Amoxicilina 500mg Caja con 12 CápsulasAmoxicilina medimart 500 mg 12 cápsulasAmoxicilina ampliron 750 mg 12 comprimidos",
+    "brand": "medimart",
+    "price": "30.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/18600953/7501385490521_00.jpg?v=638296223432570000"
+  },
+  {
+    "medicamento": "atorvastatina",
+    "name": "Atorvastatina medimart 10 mg 30 tabletas",
+    "brand": "medimart",
+    "price": "95.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750649500034L.jpg"
+  },
+  {
+    "medicamento": "losartan",
+    "name": "Losartan medimart 50 mg 15 comprimidosLosartan+Hidroclorotiazida lodestar zid 100 mg / 25 mg 30 tabletas",
+    "brand": "medimart",
+    "price": "45.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750149386988L.jpg"
+  },
+  {
+    "medicamento": "metformina",
+    "name": "Metformina dabex 850 mg 30 tabletasMetformina predial 500 mg 60 tabletasMetformina predial plus 1000 mg caja con 30 tabletasGlibenclamida / metformina sil norboral 5 mg / 500 mg 40 tabletasMetformina / glibenclamida dimefor g 500 mg /5 mg 60 tabletasMetformina predial 850 mg 60 tabletasMetformina predial plus 500 mg liberación prolongada 60 tabletasAlternativa NATURAL de METFORMINA - NI UNA DIETA MÁSHealth Hack Metfor Natural Alternativa Natural de Metformina | Con Ácido Alfa Lipoico, Berberina, Canela, Gymnema Sylvestre y Glicinato de Magnesio | Apoyo al Control del Tamaño del Cuerpo | NO es MetforminaMetformina predial plus liberación prolongada 850 mg 60 tabletas",
+    "brand": null,
+    "price": "310.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750129821960L.jpg"
+  },
+  {
+    "medicamento": "acetaminofen",
+    "name": "Aceta diazol 250 mg 30 tabletasAciclovir medimart 200 mg, 25 tabletasAcanol loperamida 2 mg 12 tabletasÁcido acetilsalicilico, paracetamol, cafeína excedrin 24 tabletas 250 mg, 250 mg, 65 mgAceite de aguacate jaloma 120 mlAceite de argán jaloma 120 mlAceite seco oliskin almendra + vitamina e 100 mlAceite de ducha eucerin ph5 piel seca y sensible 200 mlÁcido Ascórbico Biobullet Caja con 10 Comprimidos de 1g c/uAceite Corporal Takinka Puro de Almendras 60ml",
+    "brand": "medimart",
+    "price": "540.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00000840000002L.jpg"
+  },
+  {
+    "medicamento": "loratadina",
+    "name": "Tabletas Medley Loratadina 10mg Caja con 10 TabletasLoratadina medimart 100 mg/100 ml jarabe 60 mlLoratadina medimart 10 mg, 20 tabletasLoratadina/Betametasona medimart 100 mg / 5 mg / 100 mlDesloratadina medimart 5 mg 30 tabletasTabletas Clarityne Loratadina 10mg Antialérgico Caja con 10 TabletasLoratadina / fenilefrina dimegan d 10 mg / 40 mg / 10 ml jarabe 60 mlLoratadina sensibit 10 mg 20 tabletasLoratadina / fenilefrina dimegan d 5 mg / 20 mg 10 cápsulasLoratadina / fenilefrina dimegan d 5 mg / 20 mg 20 cápsulas",
+    "brand": "medimart",
+    "price": "11.00",
+    "farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img": "https://chedrauimx.vtexassets.com/arquivos/ids/18993872/7501361680328_00.jpg?v=638302178823600000"
+  }
+]

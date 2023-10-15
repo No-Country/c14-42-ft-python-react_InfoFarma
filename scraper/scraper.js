@@ -18,10 +18,10 @@ async function extractMedicationData() {
 
         $(".col-12").each((index, element) => {
           const medicamento = {
-            nombre: $(element).find(".Pname p").text().trim(),
+            name: $(element).find(".Pname p").text().trim(),
             price: $(element).find(".Pprecio").text().trim(),
             farmacia: $(element).find(".PfarmaBig img").attr("data-src"),
-            imagen: $(element).find(".Pimage img").attr("data-src"),
+            img: $(element).find(".Pimage img").attr("data-src"),
           };
 
           // Formatear el precio al nuevo formato "$XX.XX"
