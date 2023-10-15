@@ -15,7 +15,7 @@ class ProductCreate(ProductBase):
     brand_id: int
 
 
-class Product(ProductBase):
+class ProductSchema(ProductBase):
     id: int
     updated_at: datetime
 
