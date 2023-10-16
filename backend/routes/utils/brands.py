@@ -19,9 +19,10 @@ class BrandUtils:
     @staticmethod
     async def get_or_create(db: AsyncSession, brand: BrandCreate):
         result = await db.execute(select(Brand).where(Brand.name == brand.name))
+        result = result.scalar_one_or_none()
 
-        if result.scalar_one_or_none():
-            return result.scalar_one()
+        if result:
+            return result
 
         new_brand = Brand(
             name = brand.name

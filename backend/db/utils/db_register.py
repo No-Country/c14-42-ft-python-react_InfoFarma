@@ -1,3 +1,7 @@
+import sys
+sys.path.append("backend/")
+
+import asyncio
 from mapper import DBMapper
 
 
@@ -15,5 +19,5 @@ products = [
 ]
 
 if __name__ == "__main__":
-    print("Hello world!")
-    #DBMapper.map_products(products)
+    result = asyncio.run(DBMapper.map_products(products))
+    print(result)

@@ -20,9 +20,10 @@ class MedicineUtils:
     @staticmethod
     async def get_or_create(db: AsyncSession, medicine: MedicineCreate):
         result = await db.execute(select(Medicine).where(Medicine.name == medicine.name))
+        result = result.scalar_one_or_none()
 
-        if result.scalar_one_or_none():
-            return result.scalar_one()
+        if result:
+            return result
 
         new_medicine = Medicine(
             name = medicine.name
