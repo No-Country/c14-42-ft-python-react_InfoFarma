@@ -12,7 +12,8 @@ class ProductBase(BaseModel):
 
 class ProductCreate(ProductBase):
     medicine_id: int
-    brand_id: int
+    pharmacy_id: int
+    brand_id: int | None = None
 
 
 class ProductSchema(ProductBase):

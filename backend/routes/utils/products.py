@@ -27,6 +27,7 @@ class ProductUtils:
             details = product.details,
             img = product.img,
             medicine_id = product.medicine_id, 
+            pharmacy_id = product.pharmacy_id,
             brand_id = product.brand_id 
         )
         db.add(new_product)

@@ -16,6 +16,7 @@ class BrandUtils:
         await db.refresh(new_brand)
         return new_brand
     
+
     @staticmethod
     async def get_or_create(db: AsyncSession, brand: BrandCreate):
         result = await db.execute(select(Brand).where(Brand.name == brand.name))
