@@ -1,20 +1,51 @@
-import React, { useState } from 'react';
-import TextField from '@mui/material/TextField';
+import React, { useEffect, useState } from 'react';
 import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
-import { Box } from '@mui/material';
+import ClearIcon from '@mui/icons-material/Clear';
+import { TextField, Box } from '@mui/material';
+import { CardMed } from '../../Home4/components/CardMed';
 
-function SearchBar({ onSearch }) {
+function SearchBar() {
+  const [products, setProducts] = useState([])
   const [searchTerm, setSearchTerm] = useState('');
+  const [filteredData, setFilteredData] = useState(products);
 
-  const handleSearch = () => {
-    onSearch(searchTerm);
+  useEffect(() => {
+    const asyncFunction = async () => {
+      const response = await fetch('/data/precios_medicamentos.json')
+      const jsonData = await response.json()
+      setProducts(jsonData.data)
+    }
+      asyncFunction();
+  }, [])
+
+  const clearInput = () => {
+    setSearchTerm('');
+  }
+  
+  const handleInputChange = (event) => {
+    setSearchTerm(event.target.value);
+    filterData(event.target.value);
   };
- 
+
+  const filterData = (searchTerm) => {
+    const filteredData = products.filter((item) =>
+      item.medicamento.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredData(filteredData);
+    console.log(filteredData);
+  };
+
+
   const inputProps = {
     style: {
       borderRadius: '20px',
-    }
+    },
+    endAdornment: (
+      <IconButton onClick={clearInput}>
+        <ClearIcon/> 
+      </IconButton>
+    )
   }
 
   return (
@@ -24,7 +55,7 @@ function SearchBar({ onSearch }) {
         variant="outlined"
         fullWidth
         value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
+        onChange={handleInputChange}
         InputProps={inputProps}
         InputLabelProps={{
           style: { color: '#000' },
@@ -40,11 +71,15 @@ function SearchBar({ onSearch }) {
               borderColor: "#3f7b1d"
             }
           },
-        }} 
+        }}
+        
       />
-      <IconButton onClick={handleSearch}>
-        <SearchIcon />
-      </IconButton>
+      <ul>
+        {searchTerm && filteredData.map((product) => (
+          <CardMed key={product.id} product={product} />
+          // <li key={product.id}>{item.medicamento}</li>
+        ))}
+      </ul>
     </Box>
   );
 }
