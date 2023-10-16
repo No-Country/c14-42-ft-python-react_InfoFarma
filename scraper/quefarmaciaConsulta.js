@@ -22,7 +22,24 @@ const medicamentos = [
   "ambroxol", "acido-mefenamico", "paracetamol-con-fenilefrina", "naproxeno-con-esomeprazol",
   "ibuprofeno-con-clorfeniramina", "vitamina-d3", "calcio-con-vitamina-d3", "valproato-de-magnesio",
   "piracetam", "carnitina", "paracetamol", "simvastatina", "amoxicilina", "atorvastatina", "losartan",
-  "metformina", "acetaminofen", "loratadina"
+  "metformina", "acetaminofen", "loratadina", "acido-ascorbico", "colecalciferol", "retinol", "tiamina", 
+  "piridoxina", "cianocobalamina", "carbonato-de-calcio", "agave-tequilana", "orlistat", "estradiol",
+  "didrogesterona", "talazoparib", "oseltamivir", "neratinib", "celecoxib", "budesonida", "quetiapina",
+  "erlotinib", "temozolomida", "olmesartan", "medoxomilo", "bezafibrato", "bevacizumab", "insulina lispro",
+  "trastuzumab", "fenilefrina", "glucosa", "hidroclorotiazida", "bortezomib", "doxorubicina", "levetiracetam",
+  "paclitaxel", "beclometasona", "ceftriaxona", "trifaroteno", "piracetam", "carboplatino", "damoctocog-alfa-pegol",
+  "naproxeno", "filgrastim", "piperacilina", "tazobactam", "cefepima", "mifepristona", "gardasil-9",
+  "acido-zoledronico", "colistimetato-de-sodio", "tamsulosina", "budesonida", "glicopirronio",
+  "fumarato-de-formoterol", "norepinefrina", "enoxaparina-sodica", "omeprazol", "bicarbonato-de-sodio",
+  "clorfenamina", "articaina", "epinefrina", "mepivacaina", "epirubicina", "citarabina", "pregabalina",
+  "tramadol", "ofatumumab", "shingrix", "zenalb-20", "cisplatino", "lidocaina", "ertapenem", 
+  "cloruro-de-suxametonio", "Bromuro pinaverio", "capsaicina", "misoprostol", "indometacina", "dacarbazina",
+  "polimixina-b", "etoricoxib", "nitrofurantoina", "entecavir", "tobramicina", "dexametasona", "celecoxib",
+  "ivermectina", "paracetamol", "amlodipino", "losartan", "rosuvastatina", "darolutamida", "bleomicina",
+  "tacrolimus", "calcifediol", "etoricoxib", "doxilamina-succinato", "clorhidrato-de-piridoxina", "diroximel fumarato",
+  "acotiamida", "cabergolina", "loeramida", "docetaxel", "sunitinib", "erdafitinib", "delafloxacino", "roxadustat",
+  "sugammadex", "propofol", "micofenolato-de-mofetilo", "tamsulosina", "isotretinoina", "bosentan", "anastrozol",
+  "sucralfato", "dimetilfumarato", "teriflunomida", "acetazolamida", "mesiprostol", "quetiapina"
 ];
 
 const urlBase = "https://quefarmacia.com/precios/";
