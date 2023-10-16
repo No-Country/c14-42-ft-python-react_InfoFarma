@@ -9,7 +9,7 @@ class MedicineCreate(MedicineBase):
     ...
 
 
-class Medicine(MedicineBase):
+class MedicineSchema(MedicineBase):
     id: int
 
     class Config:
