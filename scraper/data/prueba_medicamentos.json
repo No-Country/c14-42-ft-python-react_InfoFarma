@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Tabletas SupraMed Ibuprofeno 200mg Caja con 10 Tabletas",
+            "brand": "SupraMed",
+            "price": "18",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/17368011/7501253659814_00.jpg?v=638270382543200000"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Ibuprofeno medimart 800mg Caja con 10 tabletas",
+            "brand": "Medimart",
+            "price": "45",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750147831542L.jpg"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Ibuprofeno medimart 400mg 20 tabletas",
+            "brand": "Medimart",
+            "price": "48",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110976965L.jpg"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Ibuprofeno medimart 600 mg, 10 cápsulas",
+            "brand": "Medimart",
+            "price": "50",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222742610L.jpg"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Ibuprofeno cafeína gel pharma 10 cápsulas 400 mg/100 mg",
+            "brand": "Gel pharma",
+            "price": "55",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750147831681L.jpg"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Tabletas Buscapina Fem Hioscina 20mg/Ibuprofeno 400mg Caja con 10 Tabletas",
+            "brand": null,
+            "price": "140",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20231703/7501165011656_00.jpg?v=638325745637300000"
+        }
+    ]
+}

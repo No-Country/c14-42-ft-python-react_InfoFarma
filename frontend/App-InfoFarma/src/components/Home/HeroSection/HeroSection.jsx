@@ -16,7 +16,7 @@ export const HeroSection = () => {
         mt: 5,
     }}>
       <Typography variant='h4' component='h1'>InfoFarma</Typography>
-      <Typography variant='h6' component='h2'>Aqui encontrarás información y comparación de precios de fármacos</Typography>
+      <Typography variant='h6' component='h2'>Aquí encontrarás información y comparación de precios de fármacos</Typography>
       <SearchBar/>
       <Stack sx={{
         display: 'flex',
