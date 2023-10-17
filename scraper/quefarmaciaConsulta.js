@@ -22,7 +22,7 @@ const medicamentos = [
   "ambroxol", "acido-mefenamico", "paracetamol-con-fenilefrina", "naproxeno-con-esomeprazol",
   "ibuprofeno-con-clorfeniramina", "vitamina-d3", "calcio-con-vitamina-d3", "valproato-de-magnesio",
   "piracetam", "carnitina", "paracetamol", "simvastatina", "amoxicilina", "atorvastatina", "losartan",
-  "metformina", "acetaminofen", "loratadina", "acido-ascorbico", "colecalciferol", "retinol", "tiamina", 
+  "metformina", "acetaminofen", "loratadina", "acido-ascorbico", "colecalciferol", "retinol", "tiamina",
   "piridoxina", "cianocobalamina", "carbonato-de-calcio", "agave-tequilana", "orlistat", "estradiol",
   "didrogesterona", "talazoparib", "oseltamivir", "neratinib", "celecoxib", "budesonida", "quetiapina",
   "erlotinib", "temozolomida", "olmesartan", "medoxomilo", "bezafibrato", "bevacizumab", "insulina lispro",
@@ -32,7 +32,7 @@ const medicamentos = [
   "acido-zoledronico", "colistimetato-de-sodio", "tamsulosina", "budesonida", "glicopirronio",
   "fumarato-de-formoterol", "norepinefrina", "enoxaparina-sodica", "omeprazol", "bicarbonato-de-sodio",
   "clorfenamina", "articaina", "epinefrina", "mepivacaina", "epirubicina", "citarabina", "pregabalina",
-  "tramadol", "ofatumumab", "shingrix", "zenalb-20", "cisplatino", "lidocaina", "ertapenem", 
+  "tramadol", "ofatumumab", "shingrix", "zenalb-20", "cisplatino", "lidocaina", "ertapenem",
   "cloruro-de-suxametonio", "Bromuro pinaverio", "capsaicina", "misoprostol", "indometacina", "dacarbazina",
   "polimixina-b", "etoricoxib", "nitrofurantoina", "entecavir", "tobramicina", "dexametasona", "celecoxib",
   "ivermectina", "paracetamol", "amlodipino", "losartan", "rosuvastatina", "darolutamida", "bleomicina",
@@ -44,10 +44,30 @@ const medicamentos = [
 
 const urlBase = "https://quefarmacia.com/precios/";
 
-// Ruta del archivo de salida
 const outputFilePath = path.join(__dirname, 'data', 'medicamentos.json');
+const dataDirectory = path.join(__dirname, 'data');
+const dataFilePath = path.join(dataDirectory, 'medicamentos.json');
+const backupDirectory = path.join(dataDirectory, 'backup');
 
-// Función para extraer los datos de los medicamentos
+function asignarFarmacias(datosMedicamentos) {
+  return datosMedicamentos.map((medicamento) => {
+    const imgFarmacia = medicamento.img_farmacia;
+
+    // Asignar "farmacia" según el valor de "img_farmacia"
+    if (imgFarmacia.includes('walmart')) {
+      medicamento.farmacia = 'walmart';
+    } else if (imgFarmacia.includes('Chedraui')) {
+      medicamento.farmacia = 'chedraui';
+    } else if (imgFarmacia.includes('Amazon')) {
+      medicamento.farmacia = 'amazon';
+    } else {
+      medicamento.farmacia = 'desconocida'; // Opcional: si no coincide con ninguna de las anteriores
+    }
+
+    return medicamento;
+  });
+}
+
 async function extractMedicationData() {
   try {
     const medicationsData = [];
@@ -59,56 +79,95 @@ async function extractMedicationData() {
       if (response.status === 200) {
         const $ = cheerio.load(response.data);
 
-        // Dividir la URL si contiene varios medicamentos
-        const nombres = medicamento.split(',');
+        // Encuentra todos los productos dentro de '.col-12'
+        $('.col-12').each((index, element) => {
+          const details = $(element).find('.Pname p').text().trim();
+          const price = $(element).find('.Pprecio').text().trim();
+          const img_farmacia = $(element).find('.PfarmaBig img').attr("data-src");
+          const img_medicamento = $(element).find('.Pimage img').attr("data-src");
 
-        for (const nombre of nombres) {
-          const nombreMedicamento = nombre.trim();
-          const nombreFarmacia = $(`.Pname p`).text().trim();
-          const price = $(`.Pprecio`).text().trim();
-          const farmacia = $(`.PfarmaBig img`).attr("data-src");
-          const img = $(`.Pimage img`).attr("data-src");
-
-          if (nombreFarmacia && price && farmacia && img) {
-            // Formatear el precio al nuevo formato "$XX.XX" o "XX"
+          if (details && price && img_farmacia && img_medicamento) {
             const formattedPrice = price.match(/\d+\.\d{2}/) || price.match(/\d+/);
-
-            // Si el precio cumple con el formato, se agrega al resultado
             if (formattedPrice) {
-              // Extraer "medimart" del atributo "name" y asignarlo al atributo "brand"
-              const brand = nombreFarmacia.includes("medimart") ? "medimart" : null;
-
-              // Filtrar los atributos vacíos (atributos con valor nulo o cadena vacía)
+              const brand = details.includes("medimart") ? "medimart" : null;
               const cleanedMedication = {
-                medicamento: nombreMedicamento,
-                name: nombreFarmacia,
+                medicamento,
+                details: details,
                 brand,
                 price: formattedPrice[0],
-                farmacia,
-                img,
+                img_farmacia,
+                img_medicamento,
               };
               medicationsData.push(cleanedMedication);
-              console.log(`${nombreMedicamento}: Datos extraídos`);
+              console.log(`${details}: Datos extraídos`);
             } else {
-              console.log(`${nombreMedicamento}: Precio no cumple con el formato`);
+              console.log(`${details}: Precio no cumple con el formato`);
             }
           } else {
-            console.log(`${nombreMedicamento}: Datos faltantes en la página`);
+            console.log(`${details}: Datos faltantes en la página`);
           }
-        }
+        });
       } else {
         console.log(`${medicamento}: URL no existe`);
       }
     }
 
-    // Guardar los datos en un archivo JSON
-    const jsonData = JSON.stringify(medicationsData, null, 2);
+    // Asignar el atributo "farmacia" utilizando la función
+    const datosConFarmacias = asignarFarmacias(medicationsData);
+
+    console.log(medicationsData);
+
+    const jsonData = JSON.stringify(datosConFarmacias, null, 2);
     fs.writeFileSync(outputFilePath, jsonData);
-    console.log("Datos guardados en ", outputFilePath);
+    console.log("Datos guardados en", outputFilePath);
   } catch (error) {
     console.error("Error:", error);
   }
 }
 
-// Ejecutar la función para extraer los datos de los medicamentos
+function backupMedicamentosFile() {
+  try {
+    // Verificar si el archivo existe
+    if (fs.existsSync(dataFilePath)) {
+      const timestamp = new Date().toISOString();
+      const backupFileName = `medicamentos_${timestamp}.json`;
+      const backupFilePath = path.join(backupDirectory, backupFileName); // Ruta de la copia de seguridad
+
+      // Crear el directorio de copias de seguridad si no existe
+      if (!fs.existsSync(backupDirectory)) {
+        fs.mkdirSync(backupDirectory);
+      }
+
+      // Copiar el archivo original a la copia de seguridad
+      fs.copyFileSync(dataFilePath, backupFilePath);
+
+      console.log(`Copia de seguridad creada: ${backupFileName}`);
+    } else {
+      console.log('No se puede realizar copia de seguridad, el archivo original no existe.');
+    }
+  } catch (error) {
+    console.error('Error al crear copia de seguridad:', error);
+  }
+}
+
+function updateMedicamentosFile(data) {
+  try {
+    // Realizar una copia de seguridad antes de actualizar el archivo
+    backupMedicamentosFile();
+
+    // Actualizar el archivo con los nuevos datos
+    const jsonData = JSON.stringify(data, null, 2);
+    fs.writeFileSync(dataFilePath, jsonData);
+
+    console.log('Datos actualizados en', dataFilePath);
+  } catch (error) {
+    console.error('Error al actualizar el archivo:', error);
+  }
+}
+
+// Ejemplo de uso:
+const newData = { /* Nuevos datos */ };
+updateMedicamentosFile(newData);
+
 extractMedicationData();
+
