@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Paper, Button, TextField, Grid, Typography, Link, } from '@mui/material';
 import { IoLogoGithub, IoLogoSlack, IoLogoLinkedin } from 'react-icons/io5';
 import { IconContext } from 'react-icons';
-import  useEmail  from '../../customHooks/useEmail'
+import useEmail from '../../customHooks/useEmail'
 import './Footer.css';
 
 
@@ -15,8 +15,8 @@ export const Footer = () => {
     handleSubscribe
   } = useEmail()
 
-  const handleIconClick = (link) => {
-    window.location.href = link
+  const handleIconClick = (url) => {
+    window.open = (url, '_blank')
   }
 
   return (
@@ -82,14 +82,12 @@ export const Footer = () => {
           </Grid>
         </Grid>
 
-        {/* Text Section */}
         <Typography variant="body1" paragraph>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
           Rem dolores quia, expedita quibusdam necessitatibus quaerat distinctio neque voluptates quasi,
           officiis facere id tenetur beatae error sapiente itaque consequuntur dolor facilis?
         </Typography>
 
-        {/* Links Section */}
         <div className="links-container">
           {[...Array(2)].map((_, index) => (
             <div key={index}>
@@ -110,7 +108,6 @@ export const Footer = () => {
         </div>
       </Paper>
 
-      {/* Copyright Section */}
       <Typography
         variant="body2"
         color="textSecondary"
@@ -118,7 +115,7 @@ export const Footer = () => {
         className="copyright"
       >
         © 2023 Copyright:
-        <Link href="https://www.nocountry.tech/" color="inherit">
+        <Link href="https://www.nocountry.tech/" target='_blank' rel="noopener noreferrer" color="inherit">
           nocountry.tech
         </Link>
       </Typography>

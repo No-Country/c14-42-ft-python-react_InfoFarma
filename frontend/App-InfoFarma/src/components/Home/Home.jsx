@@ -1,4 +1,3 @@
-import { Home4 } from "../Home4/Home4"
 import { Footer } from "../Footer/Footer"
 import { HeroSection } from "./HeroSection/HeroSection"
 import './Home.css'
@@ -10,7 +9,6 @@ export const Home = () => {
       <HeroSection />
       <IconsInfo />
       <Info />
-      {/*<Home />*/}
       <Footer />
     </>
   )
