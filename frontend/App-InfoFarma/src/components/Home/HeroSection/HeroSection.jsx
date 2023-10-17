@@ -3,9 +3,7 @@ import { SearchBar } from './SearchBar'
 import { CustomButton } from './CustomButton'
 
 export const HeroSection = () => {
-  const handleSearch = (searchTerm) => {
-    console.log({searchTerm});
-  }
+
   return (
     <Box  
       sx={{
@@ -18,8 +16,8 @@ export const HeroSection = () => {
         mt: 5,
     }}>
       <Typography variant='h4' component='h1'>InfoFarma</Typography>
-      <Typography variant='h6' component='h2'>Aqui encontrarás información y comparación de precios de fármacos</Typography>
-      <SearchBar onSearch={handleSearch} />
+      <Typography variant='h6' component='h2'>Aquí encontrarás información y comparación de precios de fármacos</Typography>
+      <SearchBar/>
       <Stack sx={{
         display: 'flex',
         flexDirection: {xs: 'column', md: 'row'},
