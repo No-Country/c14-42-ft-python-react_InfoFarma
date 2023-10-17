@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import IconButton from '@mui/material/IconButton';
-import SearchIcon from '@mui/icons-material/Search';
 import ClearIcon from '@mui/icons-material/Clear';
 import { TextField, Box } from '@mui/material';
-import { CardMed } from '../../Home4/components/CardMed';
+import { ItemList } from './ItemList';
 
 function SearchBar() {
   const [products, setProducts] = useState([])
@@ -33,9 +32,7 @@ function SearchBar() {
       item.medicamento.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredData(filteredData);
-    console.log(filteredData);
   };
-
 
   const inputProps = {
     style: {
@@ -49,7 +46,13 @@ function SearchBar() {
   }
 
   return (
-    <Box sx={{display: 'flex', flexDirection: 'row'}}>
+    <Box
+      className='search-container'
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center'}}>
       <TextField
         label="Ingresa tu búsqueda"
         variant="outlined"
@@ -71,18 +74,14 @@ function SearchBar() {
               borderColor: "#3f7b1d"
             }
           },
+          minWidth: '300px',
+          maxWidth: '600px',
         }}
         
       />
-      <ul>
-        {searchTerm && filteredData.map((product) => (
-          <CardMed key={product.id} product={product} />
-          // <li key={product.id}>{item.medicamento}</li>
-        ))}
-      </ul>
+      { searchTerm && <ItemList filteredData={filteredData}/>}
     </Box>
   );
 }
-
 
 export {SearchBar};
