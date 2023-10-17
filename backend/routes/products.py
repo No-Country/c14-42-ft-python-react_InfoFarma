@@ -13,7 +13,7 @@ router = fastapi.APIRouter()
 @router.get("/productos/{id}", response_model=ProductSchema)
 async def get_product(id: int, db: AsyncSession = Depends(get_db)):
     product = await ProductUtils.get_one(db, id)
-    print(type(product))
+    print(product)
     if not product:
         raise HTTPException(status_code=404, detail="Product not found")
     return product
