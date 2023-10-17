@@ -34,3 +34,40 @@ class ProductUtils:
         await db.commit()
         await db.refresh(new_product)
         return new_product
+    
+
+    @staticmethod
+    async def update_or_create(db: AsyncSession, product: ProductCreate):
+        result = await db.execute(
+            select(Product)
+            .where(
+                (Product.medicine_id == product.medicine_id) 
+                & (Product.pharmacy_id == product.pharmacy_id) 
+                & (Product.details == product.details)
+            )
+        )
+        result = result.scalar_one_or_none()
+
+        if result:
+            if result.price != product.price \
+                or result.img != product.img \
+                or result.brand_id != product.brand_id:
+                result.price = product.price
+                result.img = product.img
+                result.brand_id = product.brand_id
+                await db.commit()
+                await db.refresh(result)
+            return result
+
+        new_product = Product(
+            price = product.price,
+            details = product.details,
+            img = product.img,
+            medicine_id = product.medicine_id, 
+            pharmacy_id = product.pharmacy_id,
+            brand_id = product.brand_id 
+        )
+        db.add(new_product)
+        await db.commit()
+        await db.refresh(new_product)
+        return new_product

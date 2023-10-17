@@ -9,7 +9,7 @@ class PharmacyUtils:
     @staticmethod
     async def create(db: AsyncSession, pharmacy: PharmacyCreate):
         new_pharmacy = Pharmacy(
-            name = pharmacy.name
+            name = pharmacy.name.lower()
         )
         db.add(new_pharmacy)
         await db.commit()
@@ -18,14 +18,14 @@ class PharmacyUtils:
     
     @staticmethod
     async def get_or_create(db: AsyncSession, pharmacy: PharmacyCreate):
-        result = await db.execute(select(Pharmacy).where(Pharmacy.name == pharmacy.name))
+        result = await db.execute(select(Pharmacy).where(Pharmacy.name == pharmacy.name.lower()))
         result = result.scalar_one_or_none()
 
         if result:
             return result
 
         new_pharmacy = Pharmacy(
-            name = pharmacy.name,
+            name = pharmacy.name.lower(),
             img = pharmacy.img
         )
         db.add(new_pharmacy)

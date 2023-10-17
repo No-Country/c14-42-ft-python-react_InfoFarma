@@ -9,7 +9,7 @@ class MedicineUtils:
     @staticmethod
     async def create(db: AsyncSession, medicine: MedicineCreate):
         new_medicine = Medicine(
-            name = medicine.name
+            name = medicine.name.lower()
         )
         db.add(new_medicine)
         await db.commit()
@@ -19,14 +19,14 @@ class MedicineUtils:
 
     @staticmethod
     async def get_or_create(db: AsyncSession, medicine: MedicineCreate):
-        result = await db.execute(select(Medicine).where(Medicine.name == medicine.name))
+        result = await db.execute(select(Medicine).where(Medicine.name == medicine.name.lower()))
         result = result.scalar_one_or_none()
 
         if result:
             return result
 
         new_medicine = Medicine(
-            name = medicine.name
+            name = medicine.name.lower()
         )
         db.add(new_medicine)
         await db.commit()

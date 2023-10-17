@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import Column, Integer, String, ForeignKey, Numeric, Text, DateTime
+from sqlalchemy import Column, Integer, String, ForeignKey, Numeric, Text, DateTime, UnicodeText
 from sqlalchemy.orm import relationship
 
 from .db_setup import Base
@@ -74,7 +74,7 @@ class Product(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     price = Column(Numeric(12,2), nullable=False)
-    details = Column(Text, nullable=True)
+    details = Column(UnicodeText, nullable=True)
     img = Column(Text, nullable=True)
     updated_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     medicine_id = Column(Integer, ForeignKey("medicines.id"), nullable=False)
@@ -102,7 +102,7 @@ class Brand(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(50), unique=True, index=True, nullable=False)
 
-    product = relationship(Product, back_populates="medicine")
+    product = relationship(Product, back_populates="brand")
 
 
 class User(Base):

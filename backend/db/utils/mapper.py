@@ -21,17 +21,17 @@ class DBMapper:
                 medicine = await MedicineUtils.get_or_create(db, MedicineCreate(name=product["medicamento"]))
                 pharmacy = await PharmacyUtils.get_or_create(db, PharmacyCreate(
                     name=product["farmacia"],
-                    img=product.get("img")
+                    img=product.get("img-farmacia")
                 ))
 
                 brand = await BrandUtils.get_or_create(db, BrandCreate(name=product.get("brand"))) \
                     if product.get("brand") \
                     else None
 
-                await ProductUtils.create(db, ProductCreate(
+                await ProductUtils.update_or_create(db, ProductCreate(
                     price=product["price"],
                     details=product.get("details"),
-                    img=product.get("img"),
+                    img=product.get("img-medicamento"),
                     medicine_id=medicine.id,
                     pharmacy_id=pharmacy.id,
                     brand_id=brand.id if product.get("brand") else brand
