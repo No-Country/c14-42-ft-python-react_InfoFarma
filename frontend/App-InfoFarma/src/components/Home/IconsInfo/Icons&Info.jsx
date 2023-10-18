@@ -24,6 +24,7 @@ export default function IconsInfo() {
         <Typography 
         variant='h4' 
         component='h2'
+        color='primary'
         p={5}
         pt={7}
         >
@@ -32,7 +33,7 @@ export default function IconsInfo() {
         {itemData.map((item) => (
           <Grid 
             item 
-            key={item.img} 
+            key={item.img}
             xs={12} 
             sm={6}
             md={4} 
@@ -44,8 +45,7 @@ export default function IconsInfo() {
                 src={item.img}
                 alt={item.description}
               />
-              <Typography 
-              justifyContent='center' variant='h5' component='h4'>{item.description}</Typography>
+              <Typography color='primary' justifyContent='center' variant='h5' component='h4'>{item.description}</Typography>
           </Grid>
         ))}
       </Grid>
