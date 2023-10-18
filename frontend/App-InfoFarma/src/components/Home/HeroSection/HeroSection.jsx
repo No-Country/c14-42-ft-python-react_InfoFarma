@@ -16,8 +16,8 @@ export const HeroSection = () => {
         gap: '1rem',
         p: 5
     }}>
-      <Typography variant='h2' component='h1' color='primary' m={3}>InfoFarma</Typography>
-      <Typography variant='h5' component='h2' color='primary'>Aquí encontrarás información y comparación de precios de fármacos</Typography>
+      <Typography variant='h3' component='h1' color='primary' m={1}>InfoFarma</Typography>
+      <Typography variant='h5' component='h2' color='primary' fontSize='1.4rem'>Aquí encontrarás información y comparación de precios de fármacos</Typography>
       <SearchBar />
       <Stack sx={{
         display: 'flex',
@@ -27,8 +27,8 @@ export const HeroSection = () => {
         <CustomButton text={'Información sobre medicamentos'}/>
         <CustomButton text={'Consulta precios de medicamentos'}/>
       </Stack>
-      <Typography  variant='h5' component='p' color='primary' m={1}>Hemos reunido información sobre medicamentos, patologías, productos de farmacia, para brindarte todos esos conocimientos y más, en una sola página.</Typography>
-      <Typography  variant='h5' component='p' color='primary' m={1}>Encuentra: ¿Para qué sirve? ¿Cuánto cuesta? ¿Qué farmacia es más barata?</Typography>
+      <Typography fontSize='1.4rem' variant='h5' component='p' color='primary' m={1}>Hemos reunido información sobre medicamentos, patologías, productos de farmacia, para brindarte todos esos conocimientos y más, en una sola página.</Typography>
+      <Typography fontSize='1.4rem' variant='h5' component='p' color='primary' m={1}>Encuentra: ¿Para qué sirve? ¿Cuánto cuesta? ¿Qué farmacia es más barata?</Typography>
     </Container>
   )
 }
