@@ -16,15 +16,21 @@ class ProductCreate(ProductBase):
     brand_id: int | None = None
 
 
-class ProductSchema(BaseModel):
+class ProductSchema(ProductBase):
     id: int
-    price: Decimal
     updated_at: datetime
-    details: str | None = None
-    img: str | None = None
     name: str
     pharmacy_name: str
     pharmacy_img: str | None = None
 
     class Config:
         from_attributes = True
+
+
+class ProductGeneral(BaseModel):
+    id: int
+    name: str
+    img: str | None = None
+    max_price: Decimal
+    min_price: Decimal
+    details: str | None = None
