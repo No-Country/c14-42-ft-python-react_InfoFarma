@@ -1,11 +1,12 @@
-import { Box, Stack, Typography } from '@mui/material'
+import { Container, Stack, Typography } from '@mui/material'
 import { SearchBar } from './SearchBar'
 import { CustomButton } from './CustomButton'
 
 export const HeroSection = () => {
 
   return (
-    <Box  
+    <Container      
+      maxWidth="100vw"
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -13,11 +14,11 @@ export const HeroSection = () => {
         alignItems: 'center',
         textAlign: 'center',
         gap: '1rem',
-        mt: 5,
+        p: 5
     }}>
-      <Typography variant='h4' component='h1'>InfoFarma</Typography>
-      <Typography variant='h6' component='h2'>Aquí encontrarás información y comparación de precios de fármacos</Typography>
-      <SearchBar/>
+      <Typography variant='h2' component='h1' color='primary' m={3}>InfoFarma</Typography>
+      <Typography variant='h5' component='h2' color='primary'>Aquí encontrarás información y comparación de precios de fármacos</Typography>
+      <SearchBar />
       <Stack sx={{
         display: 'flex',
         flexDirection: {xs: 'column', md: 'row'},
@@ -26,8 +27,8 @@ export const HeroSection = () => {
         <CustomButton text={'Información sobre medicamentos'}/>
         <CustomButton text={'Consulta precios de medicamentos'}/>
       </Stack>
-      <Typography>Hemos reunido información sobre medicamentos, patologías, productos de farmacia, para brindarte todos esos conocimientos y más, en una sola página.</Typography>
-      <Typography>Encuentra: ¿Para qué sirve? ¿Cuánto cuesta? ¿Qué farmacia es más barata?</Typography>
-    </Box>
+      <Typography  variant='h5' component='p' color='primary' m={1}>Hemos reunido información sobre medicamentos, patologías, productos de farmacia, para brindarte todos esos conocimientos y más, en una sola página.</Typography>
+      <Typography  variant='h5' component='p' color='primary' m={1}>Encuentra: ¿Para qué sirve? ¿Cuánto cuesta? ¿Qué farmacia es más barata?</Typography>
+    </Container>
   )
 }
