@@ -9,7 +9,7 @@ class BrandCreate(BrandBase):
     ...
 
 
-class Brand(BrandBase):
+class BrandSchema(BrandBase):
     id: int
 
     class Config:

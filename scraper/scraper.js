@@ -1,36 +1,56 @@
-const express = require("express");
 const cheerio = require("cheerio");
 const axios = require("axios");
+const quefarmaciaConsulta = require('./quefarmaciaConsulta');
 
-const app = express();
-const port = 3000;
-
-app.get("/scrape", async (req, res) => {
+async function extractMedicationData() {
   try {
-    // Realiza una solicitud HTTP para obtener el HTML de quefarmacia.com
-    const response = await axios.get("https://quefarmacia.com/");
+    if (quefarmaciaConsulta.medicamentos) {
+      const medicationsData = [];
 
-    if (response.status === 200) {
-      const html = response.data;
-      const $ = cheerio.load(html);
+      for (const medicamento of quefarmaciaConsulta.medicamentos) {
+        const response = await axios.get(`https://quefarmacia.com/precios/${medicamento}`);
+        const $ = cheerio.load(response.data);
 
-      // Aquí, puedes utilizar Cheerio para seleccionar y extraer los datos que necesitas
-      // Ejemplo: Extraer los nombres de los medicamentos
-      const medicamentos = [];
-      $(".nombreMedicamento").each((index, element) => {
-        medicamentos.push($(element).text());
-      });
+        const medicationData = {
+          medicamento,
+          medicamentos: []
+        };
 
-      // Devuelve los datos extraídos en formato JSON
-      res.json({ medicamentos });
+        $(".col-12").each((index, element) => {
+          const medicamento = {
+            name: $(element).find(".Pname p").text().trim(),
+            price: $(element).find(".Pprecio").text().trim(),
+            farmacia: $(element).find(".PfarmaBig img").attr("data-src"),
+            img: $(element).find(".Pimage img").attr("data-src"),
+          };
+
+          // Formatear el precio al nuevo formato "$XX.XX"
+          if (medicamento.price) {
+            const precioMatches = medicamento.price.match(/\d+\.\d{2}/);
+            if (precioMatches) {
+              medicamento.price = `$${precioMatches[0]}`;
+            }
+          }
+
+          // Filtrar los atributos vacíos (atributos con valor nulo o cadena vacía)
+          const cleanedMedication = Object.fromEntries(
+            Object.entries(medicamento).filter(([key, value]) => value !== null && value !== "")
+          );
+
+          medicationData.medicamentos.push(cleanedMedication);
+
+        });
+        medicationsData.push(medicationData);
+      }
+
+      console.log("Información de los medicamentos (formateada y sin atributos vacíos):");
+      console.log(medicationsData);
     } else {
-      res.status(500).json({ error: "Error al obtener la página web" });
+      console.log("No se proporcionó la lista de medicamentos para consultar.");
     }
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    console.error("Error:", error);
   }
-});
+}
 
-app.listen(port, () => {
-  console.log(`El servicio Node.js con Cheerio está escuchando en el puerto ${port}`);
-});
+extractMedicationData();

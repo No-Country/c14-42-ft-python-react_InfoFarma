@@ -1,0 +1,211 @@
+{
+    "data": [
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Tabletas SupraMed Ibuprofeno 200mg Caja con 10 Tabletas",
+            "brand": "SupraMed",
+            "price": "18",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/17368011/7501253659814_00.jpg?v=638270382543200000"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Ibuprofeno medimart 800mg Caja con 10 tabletas",
+            "brand": "Medimart",
+            "price": "45",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750147831542L.jpg"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Ibuprofeno medimart 400mg 20 tabletas",
+            "brand": "Medimart",
+            "price": "48",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110976965L.jpg"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Ibuprofeno medimart 600 mg, 10 cápsulas",
+            "brand": "Medimart",
+            "price": "50",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222742610L.jpg"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Ibuprofeno cafeína gel pharma 10 cápsulas 400 mg/100 mg",
+            "brand": "Gel pharma",
+            "price": "55",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750147831681L.jpg"
+        },
+        {
+            "medicamento": "ibuprofeno",
+            "details": "Tabletas Buscapina Fem Hioscina 20mg/Ibuprofeno 400mg Caja con 10 Tabletas",
+            "brand": null,
+            "price": "140",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20231703/7501165011656_00.jpg?v=638325745637300000"
+        },
+        {
+            "medicamento": "naproxeno",
+            "details": "Naproxeno medimart 250 mg, 30 tabletas",
+            "brand": "Medimart",
+            "price": "48",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222629366L.jpg"
+        },
+        {
+            "medicamento": "naproxeno",
+            "details": "Gel Analgen Naproxeno Lidocaína Caja con Tubo de 30g",
+            "brand": null,
+            "price": "99",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20260162/7501299309469_00.jpg?v=638325972413000000"
+        },
+        {
+            "medicamento": "naproxeno",
+            "details": "Flanax gel naproxeno 5.5% 40g",
+            "brand": null,
+            "price": "104",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750100842694L.jpg"
+        },
+        {
+            "medicamento": "naproxeno",
+            "details": "Paracetamol, naproxeno syncol dual 275 mg, 300 mg, 12 tabletas",
+            "brand": null,
+            "price": "130",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750107060056L.jpg"
+        },
+        {
+            "medicamento": "naproxeno",
+            "details": "Paracetamol, naproxeno syncol dual 275 mg, 300 mg, 12 tabletas",
+            "brand": null,
+            "price": "184",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20263421/650240050398_00.jpg?v=638326003084700000"
+        },
+        {
+            "medicamento": "acido-acetilsalicilico",
+            "details": "Ácido acetilsalicílico medimart 300 mg 20 tabletas efervescentes",
+            "brand": null,
+            "price": "23",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750138454173L.jpg"
+        },
+        {
+            "medicamento": "acido-acetilsalicilico",
+            "details": "Tabletas Efervescentes de Ácido Acetilsalicílico 300mg Dolutican 20 Tabletas",
+            "brand": null,
+            "price": "25",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/19895266/7502268542702_00.jpg?v=638319073665670000"
+        },
+        {
+            "medicamento": "acido-acetilsalicilico",
+            "details": "Tabletas Tabcin Efervescente Ácido Acetilsalicílico 324mg 12 Tabletas",
+            "brand": null,
+            "price": "40.90",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20234975/7501008485316_00.jpg?v=638325765574930000"
+        },
+        {
+            "medicamento": "acido-acetilsalicilico",
+            "details": "Tabletas Tabcin 500 Ácido Acetilsalicílico 500mg Alivio de la Gripe 12 Tabletas",
+            "brand": null,
+            "price": "45",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20236253/7501008485408_00.jpg?v=638325772418300000"
+        },
+        {
+            "medicamento": "acido-acetilsalicilico",
+            "details": "Tabletas Ácido Acetilsalicílico Cúo Protect 100mg 30 Tabletas",
+            "brand": null,
+            "price": "80",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/19893623/7502274772827_00.jpg?v=638319066072700000"
+        },
+        {
+            "medicamento": "loratadina",
+            "details": "Tabletas Medley Loratadina 10mg Caja con 10 Tabletas",
+            "brand": null,
+            "price": "11",
+            "farmacia": "Chedraui",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+            "img-medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/18993872/7501361680328_00.jpg?v=638302178823600000"
+        },
+        {
+            "medicamento": "loratadina",
+            "details": "Loratadina medimart 100 mg/100 ml jarabe 60 ml",
+            "brand": null,
+            "price": "50",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750138549524L.jpg"
+        },
+        {
+            "medicamento": "loratadina",
+            "details": "Loratadina medimart 10 mg, 20 tabletas",
+            "brand": null,
+            "price": "55",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750164475108L.jpg"
+        },
+        {
+            "medicamento": "loratadina",
+            "details": "Loratadina medimart 10 mg, 20 tabletas",
+            "brand": null,
+            "price": "70",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125820657L.jpg"
+        },
+        {
+            "medicamento": "loratadina",
+            "details": "Loratadina medimart 10 mg, 20 tabletas",
+            "brand": null,
+            "price": "185",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750224737486L.jpg"
+        },
+        {
+            "medicamento": "cetirizina",
+            "details": "Levocetirizina medimart 5 mg 10 tabletas",
+            "brand": null,
+            "price": "130",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125821484L.jpg"
+        },
+        {
+            "medicamento": "cetirizina",
+            "details": "Levocetirizina medimart 5 mg 30 tabletas",
+            "brand": null,
+            "price": "360",
+            "farmacia": "Walmart",
+            "img-farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+            "img-medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125821508L.jpg"
+        }
+    ]
+}
