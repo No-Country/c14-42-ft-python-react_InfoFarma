@@ -45,7 +45,7 @@ export default function IconsInfo() {
                 src={item.img}
                 alt={item.description}
               />
-              <Typography color='primary' justifyContent='center' variant='h5' component='h4'>{item.description}</Typography>
+              <Typography color='primary' justifyContent='center' variant='h5' component='h4' fontSize='1.4rem'>{item.description}</Typography>
           </Grid>
         ))}
       </Grid>

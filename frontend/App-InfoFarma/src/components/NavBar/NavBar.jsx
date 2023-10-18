@@ -11,7 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/logo.webp';
+// import logo from '../../assets/logo.webp';
 import './NavBar.css'
 
 const pages = ['Home', 'Productos', 'Padecimientos', 'Nosotros'];
@@ -31,7 +31,7 @@ function NavBar() {
     <AppBar position="static" sx={{ backgroundColor: '#FFF'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-          <img className='logo' alt="logo de la empresa." src={logo}/>
+          <img className='logo' alt="logo de la empresa." src='/favicon.png' />
           {/* Titulo Desktop */}
           {/* <Link to='/' style={{textDecoration: 'none', color: '#232D21', flexGrow: 1}}>
             <Typography
