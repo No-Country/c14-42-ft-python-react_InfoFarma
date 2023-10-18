@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import Column, Integer, String, ForeignKey, Numeric, Text, DateTime
+from sqlalchemy import Column, Integer, String, ForeignKey, Numeric, Text, DateTime, UnicodeText
 from sqlalchemy.orm import relationship
 
 from .db_setup import Base
@@ -32,20 +32,21 @@ class Branch(Base):
     id = Column(Integer, primary_key=True, index=True)
     address = Column(String(100), unique=True, index=True, nullable=False)
     municipality_id = Column(Integer, ForeignKey("municipalities.id"), nullable=False)
-    brand_id = Column(Integer, ForeignKey("brands.id"), nullable=False)
+    pharmacy_id = Column(Integer, ForeignKey("pharmacies.id"), nullable=False)
 
     municipality = relationship(Municipality, back_populates="branch")
-    brand = relationship("Brand", back_populates="branch")
+    pharmacy = relationship("Pharmacy", back_populates="branch")
 
 
-class Brand(Base):
-    __tablename__ = "brands"
+class Pharmacy(Base):
+    __tablename__ = "pharmacies"
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String(100), unique=True, index=True, nullable=False)
+    img = Column(Text, nullable=True)
 
-    product = relationship("Product", back_populates="brand")
-    branch = relationship(Branch, back_populates="brand")
+    product = relationship("Product", back_populates="pharmacy")
+    branch = relationship(Branch, back_populates="pharmacy")
 
 
 class Disease(Base):
@@ -73,15 +74,17 @@ class Product(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     price = Column(Numeric(12,2), nullable=False)
-    details = Column(Text, nullable=True)
+    details = Column(UnicodeText, nullable=True)
     img = Column(Text, nullable=True)
     updated_at = Column(DateTime, default=datetime.utcnow, nullable=False)
     medicine_id = Column(Integer, ForeignKey("medicines.id"), nullable=False)
-    brand_id = Column(Integer, ForeignKey("brands.id"), nullable=False)
+    pharmacy_id = Column(Integer, ForeignKey("pharmacies.id"), nullable=False)
+    brand_id = Column(Integer, ForeignKey("brands.id"), nullable=True)
 
     disease_product = relationship(DiseaseProduct, back_populates="product")
-    brand = relationship(Brand, back_populates="product")
+    pharmacy = relationship(Pharmacy, back_populates="product")
     medicine = relationship("Medicine", back_populates="product")
+    brand = relationship("Brand", back_populates="product")
 
 
 class Medicine(Base):
@@ -91,6 +94,15 @@ class Medicine(Base):
     name = Column(String(50), unique=True, index=True, nullable=False)
 
     product = relationship(Product, back_populates="medicine")
+
+
+class Brand(Base):
+    __tablename__ = "brands"
+
+    id = Column(Integer, primary_key=True, index=True)
+    name = Column(String(50), unique=True, index=True, nullable=False)
+
+    product = relationship(Product, back_populates="brand")
 
 
 class User(Base):
