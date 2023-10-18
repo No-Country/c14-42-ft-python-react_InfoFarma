@@ -2,20 +2,12 @@ from sqlalchemy import Table
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.future import select
 
-from db.models import Product
-from db.models import Medicine
-from db.models import Pharmacy
+from db.models import Product, Medicine, Pharmacy
+from db.views import ProductView
 from db.schemas.product import ProductCreate
 
 
 class ProductUtils:
-    @staticmethod
-    async def get_one_v1(db: AsyncSession, product_id: int):
-        query = select(Product).where(Product.id == product_id)
-        result = await db.execute(query)
-        return result.scalar_one_or_none()
-    
-
     @staticmethod
     async def get_one(db: AsyncSession, product_id: int):
         Table
@@ -37,13 +29,6 @@ class ProductUtils:
         result = await db.execute(query)
         print(result)
         return result._allrows()[0]
-
-
-    @staticmethod
-    async def get_all_v1(db: AsyncSession, skip: int = 0, limit: int = 100):
-        query = select(Product).offset(skip).limit(limit)
-        result = await db.execute(query)
-        return result.scalars()
     
 
     @staticmethod
@@ -60,8 +45,27 @@ class ProductUtils:
         ) \
         .join(Medicine, Medicine.id == Product.medicine_id) \
         .join(Pharmacy, Pharmacy.id == Product.pharmacy_id) \
+        .order_by(Product.id) \
         .offset(skip) \
         .limit(limit)
+
+        result = await db.execute(query)
+        return result._allrows()
+    
+
+    @staticmethod
+    async def get_general_products(db: AsyncSession):
+        query = select(
+            ProductView.id, 
+            ProductView.name, 
+            ProductView.max_price, 
+            ProductView.min_price, 
+            Product.img, Product.details
+        ) \
+        .distinct(ProductView.name) \
+        .join(Product, Product.medicine_id == ProductView.id) \
+        .order_by(ProductView.name) \
+        .where(Product.price == ProductView.min_price)
 
         result = await db.execute(query)
         return result._allrows()
