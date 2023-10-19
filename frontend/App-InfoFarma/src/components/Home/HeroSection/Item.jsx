@@ -24,19 +24,19 @@ export const Item = ({product}) => {
       }}
     >
       <img
-        src={product.imagen}
-        alt={product.medicamento}
+        src={product.img}
+        alt={product.name}
         className="item--img"
       />
       <Stack sx={{ margin: 1, flexGrow: 1 }}>
         <Typography variant="h6" gutterBottom>
-          {product.medicamento}
+          {product.name}
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-          Precio Mínimo: ${product.precio_minimo}
+          Precio Mínimo: ${product.min_price}
         </Typography>
         <Typography variant="subtitle1">
-          Precio Máximo: ${product.precio_maximo}
+          Precio Máximo: ${product.max_price}
         </Typography>
         <CustomButton text={'Ver Detalles'} />
       </Stack>
