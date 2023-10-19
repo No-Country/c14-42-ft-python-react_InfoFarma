@@ -4,19 +4,19 @@ import ClearIcon from '@mui/icons-material/Clear';
 import { TextField, Box } from '@mui/material';
 import { ItemList } from './ItemList';
 
+import { useDispatch, useSelector } from 'react-redux';
+import { getAllProducts } from '../../../redux/actions';
+
 function SearchBar() {
-  const [products, setProducts] = useState([])
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredData, setFilteredData] = useState(products);
+  const [filteredData, setFilteredData] = useState([]);
+
+  const dispatch = useDispatch()
+  const allProducts = useSelector(state => state.allProducts);
 
   useEffect(() => {
-    const asyncFunction = async () => {
-      const response = await fetch('/data/precios_medicamentos.json')
-      const jsonData = await response.json()
-      setProducts(jsonData.data)
-    }
-      asyncFunction();
-  }, [])
+    dispatch(getAllProducts());
+  }, [dispatch])
 
   const clearInput = () => {
     setSearchTerm('');
@@ -28,8 +28,8 @@ function SearchBar() {
   };
 
   const filterData = (searchTerm) => {
-    const filteredData = products.filter((item) =>
-      item.medicamento.toLowerCase().includes(searchTerm.toLowerCase())
+    const filteredData = allProducts.filter((item) =>
+      item.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setFilteredData(filteredData);
   };
@@ -61,7 +61,8 @@ function SearchBar() {
         onChange={handleInputChange}
         InputProps={inputProps}
         InputLabelProps={{
-          style: { color: '#000' },
+          style: { color: '#000',
+            fontSize: '1.1rem', },
         }}
         sx={{
           "& .MuiOutlinedInput-root.Mui-focused": {
