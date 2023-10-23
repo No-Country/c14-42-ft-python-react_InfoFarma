@@ -1,0 +1,850 @@
+{
+  "Farmacias Similares": {
+    "Aguascalientes": [
+      {
+        "municipality_name": "Aguascalientes",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/aguascalientes/"
+      }
+    ],
+    "Baja-california": [
+      {
+        "municipality_name": "Ensenada",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/ensenada/"
+      },
+      {
+        "municipality_name": "Mexicali",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/mexicali/"
+      },
+      {
+        "municipality_name": "Tijuana",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/farmacias-similares-tijuana/"
+      }
+    ],
+    "Campeche": [
+      {
+        "municipality_name": "Ciudad Del Carmen",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/ciudad-del-carmen/"
+      }
+    ],
+    "Chiapas": [
+      {
+        "municipality_name": "Tapachula",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/tapachula/"
+      }
+    ],
+    "Chihuahua": [
+      {
+        "municipality_name": "Chihuahua",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/farmacias-similares-chihuahua/"
+      },
+      {
+        "municipality_name": "Ciudad Juárez",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/ciudad-juarez/"
+      }
+    ],
+    "Coahuila": [
+      {
+        "municipality_name": "Monclova",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/monclova/"
+      },
+      {
+        "municipality_name": "Saltillo",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/saltillo/"
+      },
+      {
+        "municipality_name": "Torreón",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/torreon/"
+      }
+    ],
+    "Colima": [
+      {
+        "municipality_name": "Colima",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/colima/"
+      }
+    ],
+    "Guanajuato": [
+      {
+        "municipality_name": "Celaya",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/celaya/"
+      },
+      {
+        "municipality_name": "Irapuato",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/irapuato/"
+      },
+      {
+        "municipality_name": "León",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/leon/"
+      }
+    ],
+    "Jalisco": [
+      {
+        "municipality_name": "Guadalajara",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/farmacias-similares-guadalajara/"
+      },
+      {
+        "municipality_name": "Puerto Vallarta",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/puerto-vallarta/"
+      },
+      {
+        "municipality_name": "Zapopan",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/zapopan/"
+      }
+    ],
+    "Michoacán": [
+      {
+        "municipality_name": "Morelia",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/morelia/"
+      },
+      {
+        "municipality_name": "Uruapan",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/uruapan/"
+      }
+    ],
+    "Morelos": [
+      {
+        "municipality_name": "Cuernavaca",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/cuernavaca/"
+      }
+    ],
+    "Nayarit": [
+      {
+        "municipality_name": "Tepic",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/tepic/"
+      }
+    ],
+    "Nuevo-león": [
+      {
+        "municipality_name": "Apodaca",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/apodaca/"
+      },
+      {
+        "municipality_name": "Monterrey",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/monterrey/"
+      },
+      {
+        "municipality_name": "Santa Catarina",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/santa-catarina/"
+      }
+    ],
+    "Puebla": [
+      {
+        "municipality_name": "Tehuacán",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/tehuacan/"
+      }
+    ],
+    "Quintana-roo": [
+      {
+        "municipality_name": "Cancún",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/cancun/"
+      },
+      {
+        "municipality_name": "Chetumal",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/chetumal/"
+      },
+      {
+        "municipality_name": "Playa Del Carmen",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/playa-del-carmen/"
+      }
+    ],
+    "San-luis-potosí": [
+      {
+        "municipality_name": "San Luis Potosí",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/san-luis-potosi/"
+      }
+    ],
+    "Sinaloa": [
+      {
+        "municipality_name": "Los Mochis",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/los-mochis/"
+      },
+      {
+        "municipality_name": "Mazatlán",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/mazatlan/"
+      }
+    ],
+    "Sonora": [
+      {
+        "municipality_name": "Hermosillo",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/farmacias-similares-hermosillo/"
+      }
+    ],
+    "Tabasco": [
+      {
+        "municipality_name": "Villahermosa",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/farmacias-similares-villahermosa/"
+      }
+    ],
+    "Tamaulipas": [
+      {
+        "municipality_name": "Nuevo Laredo",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/farmacias-similares-nuevo-laredo/"
+      },
+      {
+        "municipality_name": "Reynosa",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/reynosa/"
+      },
+      {
+        "municipality_name": "Tampico",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/tampico/"
+      }
+    ],
+    "Veracruz": [
+      {
+        "municipality_name": "Coatzacoalcos",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/coatzacoalcos/"
+      },
+      {
+        "municipality_name": "Orizaba",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/orizaba/"
+      },
+      {
+        "municipality_name": "Veracruz",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/farmacias-similares-veracruz/"
+      },
+      {
+        "municipality_name": "Xalapa",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/xalapa/"
+      }
+    ],
+    "Yucatán": [
+      {
+        "municipality_name": "Mérida",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/farmacias-similares-merida/"
+      }
+    ],
+    "Zacatecas": [
+      {
+        "municipality_name": "Zacatecas",
+        "branch_url": "https://quefarmacia.com/farmacias/similares/zacatecas/"
+      }
+    ]
+  },
+  "Farmacias Guadalajara": {
+    "Aguascalientes": [
+      {
+        "municipality_name": "Aguascalientes",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/aguascalientes/"
+      }
+    ],
+    "Baja-california": [
+      {
+        "municipality_name": "Mexicali",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/mexicali/"
+      },
+      {
+        "municipality_name": "Tijuana",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/farmacias-guadalajara-tijuana/"
+      }
+    ],
+    "Baja-california-sur": [
+      {
+        "municipality_name": "La Paz",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/la-paz/"
+      }
+    ],
+    "Chiapas": [
+      {
+        "municipality_name": "Tuxtla Gutiérrez",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/tuxtla-gutierrez/"
+      }
+    ],
+    "Chihuahua": [
+      {
+        "municipality_name": "Chihuahua",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/farmacias-guadalajara-chihuahua/"
+      },
+      {
+        "municipality_name": "Ciudad Juárez",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/ciudad-juarez/"
+      },
+      {
+        "municipality_name": "Delicias",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/delicias/"
+      }
+    ],
+    "Ciudad-de-méxico": [
+      {
+        "municipality_name": "CDMX",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/cdmx/"
+      }
+    ],
+    "Coahuila": [
+      {
+        "municipality_name": "Monclova",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/monclova/"
+      },
+      {
+        "municipality_name": "Piedras Negras",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/piedras-negras/"
+      },
+      {
+        "municipality_name": "Saltillo",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/saltillo/"
+      },
+      {
+        "municipality_name": "Torreón",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/torreon/"
+      }
+    ],
+    "Colima": [
+      {
+        "municipality_name": "Colima",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/colima/"
+      },
+      {
+        "municipality_name": "Manzanillo",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/manzanillo/"
+      }
+    ],
+    "Durango": [
+      {
+        "municipality_name": "Gómez Palacio",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/gomez-palacio/"
+      }
+    ],
+    "Estado-de-méxico": [
+      {
+        "municipality_name": "Chimalhuacán",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/chimalhuacan/"
+      },
+      {
+        "municipality_name": "Cuautitlán Izcalli",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/cuautitlan-izcalli/"
+      },
+      {
+        "municipality_name": "Ecatepec",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/ecatepec/"
+      },
+      {
+        "municipality_name": "Ixtapaluca",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/ixtapaluca/"
+      },
+      {
+        "municipality_name": "Ojo De Agua",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/ojo-de-agua/"
+      }
+    ],
+    "Guanajuato": [
+      {
+        "municipality_name": "Celaya",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/celaya/"
+      },
+      {
+        "municipality_name": "Irapuato",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/irapuato/"
+      },
+      {
+        "municipality_name": "León",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/leon/"
+      },
+      {
+        "municipality_name": "Salamanca",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/salamanca/"
+      }
+    ],
+    "Guerrero": [
+      {
+        "municipality_name": "Iguala",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/iguala/"
+      }
+    ],
+    "Jalisco": [
+      {
+        "municipality_name": "Puerto Vallarta",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/puerto-vallarta/"
+      },
+      {
+        "municipality_name": "Tlaquepaque",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/tlaquepaque/"
+      },
+      {
+        "municipality_name": "Tonalá",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/tonala/"
+      },
+      {
+        "municipality_name": "Zapopan",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/zapopan/"
+      }
+    ],
+    "Michoacán": [
+      {
+        "municipality_name": "Morelia",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/morelia/"
+      },
+      {
+        "municipality_name": "Uruapan",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/uruapan/"
+      },
+      {
+        "municipality_name": "Zamora",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/zamora/"
+      }
+    ],
+    "Morelos": [
+      {
+        "municipality_name": "Cuernavaca",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/cuernavaca/"
+      },
+      {
+        "municipality_name": "Jiutepec",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/jiutepec/"
+      }
+    ],
+    "Nayarit": [
+      {
+        "municipality_name": "Tepic",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/tepic/"
+      }
+    ],
+    "Nuevo-león": [
+      {
+        "municipality_name": "Apodaca",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/apodaca/"
+      },
+      {
+        "municipality_name": "Juárez",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/juarez/"
+      },
+      {
+        "municipality_name": "Monterrey",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/monterrey/"
+      },
+      {
+        "municipality_name": "Santa Catarina",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/santa-catarina/"
+      }
+    ],
+    "Puebla": [
+      {
+        "municipality_name": "Tehuacán",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/tehuacan/"
+      }
+    ],
+    "Querétaro": [
+      {
+        "municipality_name": "San Juan Del Río",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/san-juan-del-rio/"
+      }
+    ],
+    "Quintana-roo": [
+      {
+        "municipality_name": "Cancún",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/cancun/"
+      }
+    ],
+    "San-luis-potosí": [
+      {
+        "municipality_name": "San Luis Potosí",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/san-luis-potosi/"
+      }
+    ],
+    "Sinaloa": [
+      {
+        "municipality_name": "Los Mochis",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/los-mochis/"
+      },
+      {
+        "municipality_name": "Mazatlán",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/mazatlan/"
+      }
+    ],
+    "Sonora": [
+      {
+        "municipality_name": "Guaymas",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/guaymas/"
+      },
+      {
+        "municipality_name": "Hermosillo",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/farmacias-guadalajara-hermosillo/"
+      },
+      {
+        "municipality_name": "Navojoa",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/navojoa/"
+      }
+    ],
+    "Tabasco": [
+      {
+        "municipality_name": "Villahermosa",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/farmacias-guadalajara-villahermosa/"
+      }
+    ],
+    "Tamaulipas": [
+      {
+        "municipality_name": "Ciudad Victoria",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/ciudad-victoria/"
+      },
+      {
+        "municipality_name": "Nuevo Laredo",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/farmacias-guadalajara-nuevo-laredo/"
+      },
+      {
+        "municipality_name": "Reynosa",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/reynosa/"
+      },
+      {
+        "municipality_name": "Tampico",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/tampico/"
+      }
+    ],
+    "Veracruz": [
+      {
+        "municipality_name": "Coatzacoalcos",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/coatzacoalcos/"
+      },
+      {
+        "municipality_name": "Cordoba",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/cordoba/"
+      },
+      {
+        "municipality_name": "Minatitlán",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/minatitlan/"
+      },
+      {
+        "municipality_name": "Orizaba",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/orizaba/"
+      },
+      {
+        "municipality_name": "Veracruz",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/farmacias-guadalajara-veracruz/"
+      },
+      {
+        "municipality_name": "Xalapa",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/xalapa/"
+      }
+    ],
+    "Yucatán": [
+      {
+        "municipality_name": "Mérida",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/farmacias-guadalajara-merida/"
+      }
+    ],
+    "Zacatecas": [
+      {
+        "municipality_name": "Guadalupe",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/guadalupe/"
+      },
+      {
+        "municipality_name": "Zacatecas",
+        "branch_url": "https://quefarmacia.com/farmacias/guadalajara/zacatecas/"
+      }
+    ]
+  },
+  "Farmacias Del Ahorro": {
+    "Aguascalientes": [
+      {
+        "municipality_name": "Aguascalientes",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/aguascalientes/"
+      }
+    ],
+    "Baja-california": [
+      {
+        "municipality_name": "Ensenada",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/ensenada/"
+      },
+      {
+        "municipality_name": "Mexicali",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/mexicali/"
+      },
+      {
+        "municipality_name": "Tijuana",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/farmacias-del-ahorro-tijuana/"
+      }
+    ],
+    "Baja-california-sur": [
+      {
+        "municipality_name": "La Paz",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/la-paz/"
+      }
+    ],
+    "Campeche": [
+      {
+        "municipality_name": "Ciudad Del Carmen",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/ciudad-del-carmen/"
+      }
+    ],
+    "Chiapas": [
+      {
+        "municipality_name": "Tapachula",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/tapachula/"
+      },
+      {
+        "municipality_name": "Tuxtla Gutiérrez",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/tuxtla-gutierrez/"
+      }
+    ],
+    "Chihuahua": [
+      {
+        "municipality_name": "Chihuahua",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/farmacias-del-ahorro-chihuahua/"
+      },
+      {
+        "municipality_name": "Ciudad Juárez",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/ciudad-juarez/"
+      }
+    ],
+    "Ciudad-de-méxico": [
+      {
+        "municipality_name": "CDMX",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/cdmx/"
+      }
+    ],
+    "Coahuila": [
+      {
+        "municipality_name": "Monclova",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/monclova/"
+      },
+      {
+        "municipality_name": "Saltillo",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/saltillo/"
+      },
+      {
+        "municipality_name": "Torreón",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/torreon/"
+      }
+    ],
+    "Colima": [
+      {
+        "municipality_name": "Colima",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/colima/"
+      },
+      {
+        "municipality_name": "Manzanillo",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/manzanillo/"
+      }
+    ],
+    "Estado-de-méxico": [
+      {
+        "municipality_name": "Buenavista",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/buenavista/"
+      },
+      {
+        "municipality_name": "Chimalhuacán",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/chimalhuacan/"
+      },
+      {
+        "municipality_name": "Cuautitlán",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/cuautitlan/"
+      },
+      {
+        "municipality_name": "Cuautitlán Izcalli",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/cuautitlan-izcalli/"
+      },
+      {
+        "municipality_name": "Ecatepec",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/ecatepec/"
+      },
+      {
+        "municipality_name": "Ixtapaluca",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/ixtapaluca/"
+      },
+      {
+        "municipality_name": "Ojo De Agua",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/ojo-de-agua/"
+      }
+    ],
+    "Guanajuato": [
+      {
+        "municipality_name": "Celaya",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/celaya/"
+      },
+      {
+        "municipality_name": "Irapuato",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/irapuato/"
+      },
+      {
+        "municipality_name": "Leon",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/leon/"
+      },
+      {
+        "municipality_name": "Salamanca",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/salamanca/"
+      }
+    ],
+    "Guerrero": [
+      {
+        "municipality_name": "Iguala",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/iguala/"
+      }
+    ],
+    "Jalisco": [
+      {
+        "municipality_name": "Guadalajara",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/farmacias-del-ahorro-guadalajara/"
+      },
+      {
+        "municipality_name": "Puerto Vallarta",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/puerto-vallarta/"
+      },
+      {
+        "municipality_name": "Tlaquepaque",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/tlaquepaque/"
+      },
+      {
+        "municipality_name": "Tonalá",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/tonala/"
+      },
+      {
+        "municipality_name": "Zapopan",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/zapopan/"
+      }
+    ],
+    "Michoacán": [
+      {
+        "municipality_name": "Morelia",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/morelia/"
+      },
+      {
+        "municipality_name": "Uruapan",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/uruapan/"
+      },
+      {
+        "municipality_name": "Zamora",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/zamora/"
+      }
+    ],
+    "Morelos": [
+      {
+        "municipality_name": "Cuernavaca",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/cuernavaca/"
+      },
+      {
+        "municipality_name": "Jiutepec",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/jiutepec/"
+      }
+    ],
+    "Nayarit": [
+      {
+        "municipality_name": "Tepic",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/tepic/"
+      }
+    ],
+    "Nuevo-león": [
+      {
+        "municipality_name": "Apodaca",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/apodaca/"
+      },
+      {
+        "municipality_name": "Juárez",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/juarez/"
+      },
+      {
+        "municipality_name": "Monterrey",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/monterrey/"
+      },
+      {
+        "municipality_name": "Santa Catarina",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/santa-catarina/"
+      }
+    ],
+    "Puebla": [
+      {
+        "municipality_name": "Tehuacán",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/tehuacan/"
+      }
+    ],
+    "Querétaro": [
+      {
+        "municipality_name": "San Juan Del Río",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/san-juan-del-rio/"
+      }
+    ],
+    "Quintana-roo": [
+      {
+        "municipality_name": "Cancún",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/cancun/"
+      },
+      {
+        "municipality_name": "Chetumal",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/chetumal/"
+      },
+      {
+        "municipality_name": "Playa Del Carmen",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/playa-del-carmen/"
+      }
+    ],
+    "San-luis-potosí": [
+      {
+        "municipality_name": "San Luis Potosí",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/san-luis-potosi/"
+      }
+    ],
+    "Sinaloa": [
+      {
+        "municipality_name": "Los Mochis",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/los-mochis/"
+      },
+      {
+        "municipality_name": "Mazatlán",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/mazatlan/"
+      }
+    ],
+    "Sonora": [
+      {
+        "municipality_name": "Hermosillo",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/farmacias-del-ahorro-hermosillo/"
+      }
+    ],
+    "Tabasco": [
+      {
+        "municipality_name": "Villahermosa",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/farmacias-del-ahorro-villahermosa/"
+      }
+    ],
+    "Tamaulipas": [
+      {
+        "municipality_name": "Nuevo Laredo",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/farmacias-del-ahorro-nuevo-laredo/"
+      },
+      {
+        "municipality_name": "Reynosa",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/reynosa/"
+      },
+      {
+        "municipality_name": "Tampico",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/tampico/"
+      }
+    ],
+    "Veracruz": [
+      {
+        "municipality_name": "Coatzacoalcos",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/coatzacoalcos/"
+      },
+      {
+        "municipality_name": "Cordoba",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/cordoba/"
+      },
+      {
+        "municipality_name": "Minatitlán",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/minatitlan/"
+      },
+      {
+        "municipality_name": "Orizaba",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/orizaba/"
+      },
+      {
+        "municipality_name": "Veracruz",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/farmacias-del-ahorro-veracruz/"
+      },
+      {
+        "municipality_name": "Xalapa",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/xalapa/"
+      }
+    ],
+    "Yucatán": [
+      {
+        "municipality_name": "Mérida",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/farmacias-del-ahorro-merida/"
+      }
+    ],
+    "Zacatecas": [
+      {
+        "municipality_name": "Guadalupe",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/guadalupe/"
+      },
+      {
+        "municipality_name": "Zacatecas",
+        "branch_url": "https://quefarmacia.com/farmacias/del-ahorro/zacatecas/"
+      }
+    ]
+  }
+}
