@@ -1,10 +1,11 @@
-import { Grid, Stack, Typography } from "@mui/material";
+import { Paper, Stack, Typography } from "@mui/material";
 import { CustomButton } from "./CustomButton";
 import './Item.css';
 
 export const Item = ({product}) => {
   return (
-    <Grid
+    <Paper
+      className="container"
       item
       xs={12}
       sm={6}
@@ -18,8 +19,8 @@ export const Item = ({product}) => {
         boxShadow: 1,
         borderRadius: 5,
         padding: 2,
-        bgcolor: '#40c0cb',
-        m: 1,
+        bgcolor: '#fff',
+        m: 2.5,
         minWidth: '300px',
       }}
     >
@@ -40,6 +41,6 @@ export const Item = ({product}) => {
         </Typography>
         <CustomButton text={'Ver Detalles'} />
       </Stack>
-    </Grid>
+    </Paper>
   )
 }

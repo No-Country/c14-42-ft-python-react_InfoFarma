@@ -34,7 +34,7 @@ export const PageProductos = () => {
           </Step>
         ))}
       </Stepper>
-      <Grid container spacing={3} className='grid-productos'>
+      <Grid container  className='grid-productos'>
         {productosFiltrados.map((producto) => (
           <Item key={producto.id} product={producto} />
         ))}
