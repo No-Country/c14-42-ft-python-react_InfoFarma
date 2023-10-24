@@ -1,15 +1,21 @@
-.stepper-alfabeto {
-    margin: 20px auto;
-    max-width: 80%;
+.container {
+    margin-top: 2rem;
+    padding: 0 1rem;
+
 }
 
-.page-productos {
-    margin: 0 auto;
+.nav-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
 }
 
-.grid-productos {
-    /* justify-content: center; */
-    /* align-content: center; */
-    margin: 0 auto;
-    max-width: 80%;
+@media (max-width: 775px) {
+    .nav-container {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
 }
