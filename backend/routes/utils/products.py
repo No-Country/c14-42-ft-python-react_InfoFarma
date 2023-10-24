@@ -10,7 +10,6 @@ from db.schemas.product import ProductCreate
 class ProductUtils:
     @staticmethod
     async def get_one(db: AsyncSession, product_id: int):
-        Table
         query = select(
             Medicine.name, 
             Product.id, 

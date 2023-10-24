@@ -19,16 +19,24 @@ class StateUtils:
 
     @staticmethod
     async def get_or_create(db: AsyncSession, state: StateCreate):
-        result = await db.execute(select(State).where(State.name == state.name.lower()))
+        format_name = state.name.lower().replace("-", " ")
+        result = await db.execute(select(State).where(State.name == format_name))
         result = result.scalar_one_or_none()
 
         if result:
             return result
 
         new_state = State(
-            name = state.name.lower()
+            name = format_name
         )
         db.add(new_state)
         await db.commit()
         await db.refresh(new_state)
         return new_state
+    
+
+    @staticmethod
+    async def get_by_name(db: AsyncSession, state_name: str):
+        query = select(State).where(State.name == state_name.lower().replace("-", " "))
+        result = await db.execute(query)
+        return result.scalar_one_or_none()
