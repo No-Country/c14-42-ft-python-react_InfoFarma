@@ -11,7 +11,7 @@ import MenuList from '@mui/material/MenuList';
 
 const options = ['Filtrar por...', 'Menor a mayor precio', 'Mayor a menor precio'];
 
-export const Filtrador = () => {
+export const Filtrador = ({ onFiltrar }) => {
     const [open, setOpen] = useState(false);
     const anchorRef = useRef(null);
     const [selectedIndex, setSelectedIndex] = useState(0);
@@ -23,6 +23,7 @@ export const Filtrador = () => {
     const handleMenuItemClick = (event, index) => {
         setSelectedIndex(index);
         setOpen(false);
+        onFiltrar(index)
     };
 
     const handleToggle = () => {
