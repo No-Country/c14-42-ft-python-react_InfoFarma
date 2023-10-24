@@ -1,9 +1,10 @@
-.stepper-alfabeto {
-    margin: 20px auto;
-    max-width: 80%;
+.container {
+    margin-top: 2rem;
+
 }
 
-.grid-productos {
-    margin: 0 auto;
-    max-width: 80%;
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+
 }

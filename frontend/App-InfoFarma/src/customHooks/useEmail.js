@@ -19,7 +19,6 @@ const useEmail = () => {
             
 
             setEmailError('');
-            // Resto de la lógica de suscripción...
         }
     }
     return {
