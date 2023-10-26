@@ -7,9 +7,16 @@ import { useState } from 'react';
 export const Item = ({product}) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
+  const firstLetter = (str) => {
+    const firstLetter = str.charAt(0).toUpperCase();
+    const restOfStr = str.slice(1);
+    return firstLetter.concat(restOfStr);
+}
+
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
   };
+
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
       <Paper
@@ -36,13 +43,13 @@ export const Item = ({product}) => {
         }}
       >
         <img
-          src={product.imagen}
-          alt={product.medicamento}
+          src={product.img}
+          alt={product.name}
           className="item--img"
         />
         <Stack sx={{  flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           <Typography variant="h6" gutterBottom>
-            {product.medicamento}
+            {firstLetter(product.name)}
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
             Precio Mínimo: ${product.min_price}
@@ -80,20 +87,17 @@ export const Item = ({product}) => {
       >
         <Stack sx={{ margin: 1, flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           <Typography variant="h6">
-            {product.medicamento}
+            {firstLetter(product.name)}
           </Typography>
           <Typography variant="subtitle1" sx={{ wordWrap: 'break-word', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'normal', maxWidth: '300px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            {product.presentacion}
+            {product.details}
           </Typography>
-          <Typography variant="subtitle1" >
+          {/* <Typography variant="subtitle1" >
             Precio Mínimo: ${product.min_price}
           </Typography>
           <Typography variant="subtitle1">
             Precio Máximo: ${product.max_price}
-          </Typography>
-          <Typography variant="subtitle1" >
-            Porcentaje: {product.porcentaje}%
-          </Typography>
+          </Typography> */}
         </Stack>
       </Paper>
     </ReactCardFlip>
