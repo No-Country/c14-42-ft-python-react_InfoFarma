@@ -18,13 +18,26 @@ function SearchBar() {
     dispatch(getAllProducts());
   }, [dispatch])
 
+  useEffect(() => {
+    const lastSearchTerm = localStorage.getItem('lastSearchTerm');
+    if (lastSearchTerm) {
+      setSearchTerm(lastSearchTerm);
+      filterData(lastSearchTerm);
+    }
+  }, [allProducts]);
+
   const clearInput = () => {
     setSearchTerm('');
+    setFilteredData([]);
+    localStorage.removeItem('lastSearchTerm');
   }
   
   const handleInputChange = (event) => {
-    setSearchTerm(event.target.value);
-    filterData(event.target.value);
+    const newSearchTerm = event.target.value;
+    localStorage.setItem('lastSearchTerm', newSearchTerm);
+    setSearchTerm(newSearchTerm);
+    filterData(newSearchTerm);
+  
   };
 
   const filterData = (searchTerm) => {
