@@ -5,7 +5,8 @@ export const Navegador = ({ letras, letraSeleccionada, onChange }) => {
     return (
         <Box 
         sx={{ 
-            maxWidth: '70%'
+            maxWidth: {xs: '97%', md:'77%'},
+            margin: {xs: 1}
             }}>
             <Tabs
                 value={letraSeleccionada}

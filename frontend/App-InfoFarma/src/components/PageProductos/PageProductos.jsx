@@ -7,6 +7,7 @@ import { getAllProducts, filterAlphabetic, orderBy } from '../../redux/actions';
 import useLocalStorage from '../../customHooks/useLocalStorage';
 import './PageProductos.css';
 import { Filtrador } from './Components/Filtrador';
+import { Box } from '@mui/material';
 
 export const PageProductos = () => {
   const dispatch = useDispatch();
@@ -51,18 +52,30 @@ export const PageProductos = () => {
   }, [order])
 
   return (
-    <div className='container'>
-      <div className='nav-container'>
+    <Box sx={{
+      p: [0, '1rem'],
+      bgcolor: '#dcf1dc64'
+      // maxWidth: '87vw'
+    }}>
+      <Box sx={
+        {
+          pt: '1rem',
+          width: '100%',
+          display: {md: 'flex'},
+          // mt: 5
+          // justifyContent: 'space-around'
+        }
+      }>
         <Navegador className='nav' letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
         <Filtrador onFiltrar={setOrder} />
-      </div>
+      </Box>
       {productos.length === 0 ? (
         <div>Cargando productos...</div>
       ) : (
         <ProductList productos={productsFiltered} />
       )}
       <Footer />
-    </div>
+    </Box>
   )
 }
 
