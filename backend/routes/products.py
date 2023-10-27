@@ -34,3 +34,8 @@ async def get_general_products(db: AsyncSession = Depends(get_db)):
 @router.post("/productos", response_model=ProductSchema)
 async def create_product(product: ProductCreate, db: AsyncSession = Depends(get_db)):
     return await ProductUtils.create(db, product)
+
+@router.get("/productos-generales/{medicine_id}", response_model=list[ProductSchema])
+async def get_by_id(medicine_id: int, db: AsyncSession = Depends(get_db)):
+    product = await ProductUtils.get_by_id(db, medicine_id)
+    return product
