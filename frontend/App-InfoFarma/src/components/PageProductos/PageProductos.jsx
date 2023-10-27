@@ -5,7 +5,7 @@ import { Navegador } from './Components/Navegador';
 import { ProductList } from './Components/ProductList';
 import { getAllProducts, filterAlphabetic, orderBy } from '../../redux/actions';
 import useLocalStorage from '../../customHooks/useLocalStorage';
-import { Filtrador } from './Components/Filtrador';
+import { Filtrador } from './Components/Filtrador'; 
 import { Box } from '@mui/material';
 
 export const PageProductos = () => {
