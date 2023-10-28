@@ -10,12 +10,23 @@
     justify-content: space-around;
 }
 
+.loading {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.loading text{
+    font-weight: 400;
+    font-size: large;
+}
+
+
 @media (max-width: 775px) {
     .nav-container {
-
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
     }
+
 }

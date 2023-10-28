@@ -16,10 +16,6 @@ export const Filtrador = ({ onFiltrar }) => {
     const anchorRef = useRef(null);
     const [selectedIndex, setSelectedIndex] = useState(0);
 
-    const handleClick = () => {
-        console.info(`You clicked ${options[selectedIndex]}`);
-    };
-
     const handleMenuItemClick = (event, index) => {
         setSelectedIndex(index);
         setOpen(false);
@@ -41,7 +37,7 @@ export const Filtrador = ({ onFiltrar }) => {
     return (
         <>
             <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button">
-                <Button onClick={handleClick}>{options[selectedIndex]}</Button>
+                <Button>{options[selectedIndex]}</Button>
                 <Button
                     size="small"
                     aria-controls={open ? 'split-button-menu' : undefined}

@@ -1,22 +1,22 @@
 import { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { Filtrador } from './Components/Filtrador';
 import { Footer } from '../Footer/Footer';
 import { Navegador } from './Components/Navegador';
 import { ProductList } from './Components/ProductList';
 import { getAllProducts, filterAlphabetic, orderBy } from '../../redux/actions';
 import useLocalStorage from '../../customHooks/useLocalStorage';
 import './PageProductos.css';
-import { Filtrador } from './Components/Filtrador';
+import { CircularProgress, LinearProgress } from '@mui/material';
 
 export const PageProductos = () => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch()
 
-  const productos = useSelector((state) => state.allProducts);
-  const productsFiltered = useSelector((state) => state.productsFiltered);
+  const productos = useSelector((state) => state.allProducts)
+  const productsFiltered = useSelector((state) => state.productsFiltered)
 
-  const [alfabeto, setAlfabeto] = useState([]);
-  const [letraSeleccionada, setLetraSeleccionada] = useLocalStorage('letraSeleccionada', '');
-  const [productosFiltrados, setProductosFiltrados] = useState(productos); // Estado para productos filtrados
+  const [alfabeto, setAlfabeto] = useState([])
+  const [letraSeleccionada, setLetraSeleccionada] = useLocalStorage('letraSeleccionada', '')
 
   const [order, setOrder] = useState(0)
 
@@ -31,7 +31,7 @@ export const PageProductos = () => {
       });
   }, [dispatch]);
 
-// Primero guardo las letras y la letra seleccionada en sus estados locales
+  // Primero guardo las letras y la letra seleccionada en sus estados locales
   useEffect(() => {
     const letras = [...new Set(productos.map((producto) => producto.name[0]))].sort();
     setAlfabeto(letras);
@@ -47,54 +47,29 @@ export const PageProductos = () => {
 
   // Se le pasa al estado order la option definida en el componente Filtrador, allí se modifica el estado según la selección de filtro y luego se hace un dispatch a orderBy y se le pasa el estado mencionado anteriormente 
   useEffect(() => {
-      dispatch(orderBy(order))
+    dispatch(orderBy(order))
   }, [order])
 
   return (
     <div className='container'>
       <div className='nav-container'>
         <Navegador className='nav' letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
-        <Filtrador onFiltrar={setOrder} />
+        {productos.length === 0 ? (
+          <div className='loading'>
+            <text>Cargando productos...</text>
+            <LinearProgress color='success' />
+            </div>
+        ) : (
+          // Renderizar <Filtrador /> solo cuando productos estén cargados
+          <Filtrador className='filtrador' onFiltrar={setOrder} />
+        )}
       </div>
-      {productos.length === 0 ? (
-        <div>Cargando productos...</div>
-      ) : (
+      {productos.length === 0 ? null : (
+        // Renderizar <ProductList /> solo cuando productos estén cargados
         <ProductList productos={productsFiltered} />
       )}
       <Footer />
     </div>
-  )
-}
-
-
-//La siguiente estructura me estaba creando un bucle a la hora de hacer las peticiones a la API:
-/*
-export const PageProductos = () => {
-  const dispatch = useDispatch()
-  const productos = useSelector((state) => state.allProducts)
-  const [alfabeto, setAlfabeto] = useState([])
-  const [letraSeleccionada, setLetraSeleccionada] = useLocalStorage('letraSeleccionada', '');
-
-  useEffect(() => {
-    dispatch(getAllProducts());
-    const arrayProductos = productos;
-
-    if (!letraSeleccionada) {
-      const letras = [...new Set(arrayProductos.map((producto) => producto.name[0]))].sort();
-      setAlfabeto(letras);
-      setLetraSeleccionada(letras[0] || '');
-    } else {
-      const letras = [...new Set(arrayProductos.map((producto) => producto.name[0]))].sort();
-      setAlfabeto(letras);
-    }
-  }, [dispatch, productos, setLetraSeleccionada, letraSeleccionada]);
-
-  return (
-    <div className='container'>
-      <Navegador letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
-      <ProductList productos={productos} letraSeleccionada={letraSeleccionada} />
-      <Footer />
-    </div>
   );
-};
-*/
+
+}

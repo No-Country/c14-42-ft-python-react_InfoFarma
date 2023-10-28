@@ -20,7 +20,6 @@ const rootReducer = (state = inicialState, action) => {
             }
 
         case FILTER_BY_ALPHABETIC:
-            {console.log(action.payload)}
             let value = action.payload;
             
             let productsFiltered = state.products.filter(product => product.name[0].toLowerCase() === value.toLowerCase());
