@@ -30,7 +30,7 @@ class Branch(Base):
     __tablename__ = "branches"
 
     id = Column(Integer, primary_key=True, index=True)
-    address = Column(String(100), unique=True, index=True, nullable=False)
+    address = Column(String(300), unique=True, index=True, nullable=False)
     municipality_id = Column(Integer, ForeignKey("municipalities.id"), nullable=False)
     pharmacy_id = Column(Integer, ForeignKey("pharmacies.id"), nullable=False)
 
