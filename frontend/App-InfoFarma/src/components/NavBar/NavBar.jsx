@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 // import logo from '../../assets/logo.webp';
 import './NavBar.css'
 
-const pages = ['Home', 'Productos', 'Padecimientos', 'Nosotros'];
+const pages = ['Login', 'Home', 'Productos', 'Padecimientos', 'Nosotros', 'Dashboard'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

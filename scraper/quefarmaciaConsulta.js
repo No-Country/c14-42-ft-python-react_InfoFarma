@@ -116,10 +116,11 @@ async function extractMedicationData() {
     const datosConFarmacias = asignarFarmacias(medicationsData);
 
     console.log(medicationsData);
-
-    const jsonData = JSON.stringify(datosConFarmacias, null, 2);
-    fs.writeFileSync(outputFilePath, jsonData);
-    console.log("Datos guardados en", outputFilePath);
+    if (datosConFarmacias.length > 0) {
+      const jsonData = JSON.stringify(datosConFarmacias, null, 2);
+      fs.writeFileSync(outputFilePath, jsonData);
+      console.log("Datos guardados en", outputFilePath);
+    }
   } catch (error) {
     console.error("Error:", error);
   }
@@ -164,6 +165,7 @@ function updateMedicamentosFile(data) {
     console.error('Error al actualizar el archivo:', error);
   }
 }
+
 
 // Ejemplo de uso:
 const newData = { /* Nuevos datos */ };

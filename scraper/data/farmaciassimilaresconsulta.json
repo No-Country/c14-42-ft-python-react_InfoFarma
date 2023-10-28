@@ -1,0 +1,2182 @@
+[
+  {
+    "medicamento": "acetaminofen",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acetaminofen",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ibuprofeno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ibuprofeno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "naproxeno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "naproxeno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-acetilsalicilico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-acetilsalicilico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "loratadina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "loratadina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cetirizina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cetirizina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fexofenadina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fexofenadina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "desloratadina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "desloratadina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bromhexina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bromhexina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "guaifenesina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "guaifenesina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dextrometorfano",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dextrometorfano",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "loperamida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "loperamida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "omeprazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "omeprazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ranitidina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ranitidina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "simeticona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "simeticona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "metoclopramida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "metoclopramida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dimenhidrinato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dimenhidrinato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "eucalipto",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "eucalipto",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clorhexidina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clorhexidina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "polvo-de-talco",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "polvo-de-talco",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "vaselina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "vaselina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "crema-de-hidrocortisona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "crema-de-hidrocortisona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "pomada-de-calendula",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "pomada-de-calendula",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "difenhidramina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "difenhidramina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "peroxido-de-benzoilo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "peroxido-de-benzoilo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piroxicam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piroxicam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clotrimazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clotrimazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "miconazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "miconazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "terbinafina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "terbinafina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bacitracina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bacitracina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "polimixina-b",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "polimixina-b",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "neomicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "neomicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "glicerina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "glicerina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bisacodilo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bisacodilo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "lactulosa",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "lactulosa",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "aloe-vera",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "aloe-vera",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "aceite-de-ricino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "aceite-de-ricino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "betametasona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "betametasona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "salbutamol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "salbutamol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "epinefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "epinefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "polivitaminicos",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "polivitaminicos",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "calcio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "calcio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "hierro",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "hierro",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-folico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-folico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "vitamina-c",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "vitamina-c",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "sulfato-ferroso",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "sulfato-ferroso",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "magnesio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "magnesio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "glucosamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "glucosamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "omega-3",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "omega-3",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "melatonina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "melatonina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "extracto-de-valeriana",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "extracto-de-valeriana",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "probioticos",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "probioticos",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fenilefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fenilefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "oximetazolina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "oximetazolina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clorfenamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clorfenamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ketotifeno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ketotifeno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cloruro-de-benzalconio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cloruro-de-benzalconio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-salicilico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-salicilico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "carbon-activado",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "carbon-activado",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-borico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-borico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-citrico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-citrico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "metilfenidato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "metilfenidato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "pseudoefedrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "pseudoefedrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "gluconato-de-zinc",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "gluconato-de-zinc",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "aminofilina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "aminofilina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-hialuronico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-hialuronico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "pomada-de-oxido-de-zinc",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "pomada-de-oxido-de-zinc",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "enemas",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "enemas",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "nistatina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "nistatina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "trimetoprima-y-sulfametoxazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "trimetoprima-y-sulfametoxazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cloruro-de-sodio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cloruro-de-sodio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "aceite-mineral",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "aceite-mineral",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "supositorios-de-glicerina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "supositorios-de-glicerina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "lomotil",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "lomotil",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "yodo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "yodo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-ascorbico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-ascorbico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "difenidol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "difenidol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "oxolamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "oxolamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dextrometorfano-con-guaifenesina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dextrometorfano-con-guaifenesina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "metilfenidato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "metilfenidato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "nimesulida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "nimesulida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fenilefrina-con-clorfeniramina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fenilefrina-con-clorfeniramina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dextrometorfano-con-fenilefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dextrometorfano-con-fenilefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dexclorfeniramina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dexclorfeniramina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ambroxol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ambroxol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-mefenamico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-mefenamico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "paracetamol-con-fenilefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "paracetamol-con-fenilefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "naproxeno-con-esomeprazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "naproxeno-con-esomeprazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ibuprofeno-con-clorfeniramina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ibuprofeno-con-clorfeniramina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "vitamina-d3",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "vitamina-d3",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "calcio-con-vitamina-d3",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "calcio-con-vitamina-d3",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "valproato-de-magnesio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "valproato-de-magnesio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piracetam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piracetam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "carnitina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "carnitina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "paracetamol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "paracetamol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "simvastatina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "simvastatina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "amoxicilina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "amoxicilina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "atorvastatina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "atorvastatina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "losartan",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "losartan",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "metformina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "metformina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acetaminofen",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acetaminofen",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "loratadina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "loratadina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-ascorbico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-ascorbico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "colecalciferol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "colecalciferol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "retinol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "retinol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tiamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tiamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piridoxina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piridoxina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cianocobalamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cianocobalamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "carbonato-de-calcio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "carbonato-de-calcio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "agave-tequilana",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "agave-tequilana",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "orlistat",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "orlistat",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "estradiol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "estradiol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "didrogesterona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "didrogesterona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "talazoparib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "talazoparib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "oseltamivir",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "oseltamivir",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "neratinib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "neratinib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "celecoxib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "celecoxib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "budesonida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "budesonida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "quetiapina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "quetiapina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "erlotinib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "erlotinib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "temozolomida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "temozolomida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "olmesartan",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "olmesartan",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "medoxomilo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "medoxomilo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bezafibrato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bezafibrato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bevacizumab",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bevacizumab",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "insulina lispro",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "insulina lispro",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "trastuzumab",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "trastuzumab",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fenilefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fenilefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "glucosa",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "glucosa",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "hidroclorotiazida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "hidroclorotiazida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bortezomib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bortezomib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "doxorubicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "doxorubicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "levetiracetam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "levetiracetam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "paclitaxel",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "paclitaxel",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "beclometasona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "beclometasona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ceftriaxona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ceftriaxona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "trifaroteno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "trifaroteno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piracetam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piracetam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "carboplatino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "carboplatino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "damoctocog-alfa-pegol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "damoctocog-alfa-pegol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "naproxeno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "naproxeno",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "filgrastim",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "filgrastim",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piperacilina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "piperacilina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tazobactam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tazobactam",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cefepima",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cefepima",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "mifepristona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "mifepristona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "gardasil-9",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "gardasil-9",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-zoledronico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acido-zoledronico",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "colistimetato-de-sodio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "colistimetato-de-sodio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tamsulosina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tamsulosina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "budesonida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "budesonida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "glicopirronio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "glicopirronio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fumarato-de-formoterol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "fumarato-de-formoterol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "norepinefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "norepinefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "enoxaparina-sodica",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "enoxaparina-sodica",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "omeprazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "omeprazol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bicarbonato-de-sodio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bicarbonato-de-sodio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clorfenamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clorfenamina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "articaina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "articaina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "epinefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "epinefrina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "mepivacaina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "mepivacaina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "epirubicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "epirubicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "citarabina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "citarabina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "pregabalina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "pregabalina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tramadol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tramadol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ofatumumab",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ofatumumab",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "shingrix",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "shingrix",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "zenalb-20",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "zenalb-20",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cisplatino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cisplatino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "lidocaina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "lidocaina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ertapenem",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ertapenem",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cloruro-de-suxametonio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cloruro-de-suxametonio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "Bromuro pinaverio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "Bromuro pinaverio",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "capsaicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "capsaicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "misoprostol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "misoprostol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "indometacina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "indometacina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dacarbazina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dacarbazina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "polimixina-b",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "polimixina-b",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "etoricoxib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "etoricoxib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "nitrofurantoina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "nitrofurantoina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "entecavir",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "entecavir",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tobramicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tobramicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dexametasona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dexametasona",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "celecoxib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "celecoxib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ivermectina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "ivermectina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "paracetamol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "paracetamol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "amlodipino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "amlodipino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "losartan",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "losartan",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "rosuvastatina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "rosuvastatina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "darolutamida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "darolutamida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bleomicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bleomicina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tacrolimus",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tacrolimus",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "calcifediol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "calcifediol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "etoricoxib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "etoricoxib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "doxilamina-succinato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "doxilamina-succinato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clorhidrato-de-piridoxina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "clorhidrato-de-piridoxina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "diroximel fumarato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "diroximel fumarato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acotiamida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acotiamida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cabergolina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "cabergolina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "loeramida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "loeramida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "docetaxel",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "docetaxel",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "sunitinib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "sunitinib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "erdafitinib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "erdafitinib",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "delafloxacino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "delafloxacino",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "roxadustat",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "roxadustat",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "sugammadex",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "sugammadex",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "propofol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "propofol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "micofenolato-de-mofetilo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "micofenolato-de-mofetilo",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tamsulosina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "tamsulosina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "isotretinoina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "isotretinoina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bosentan",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "bosentan",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "anastrozol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "anastrozol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "sucralfato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "sucralfato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dimetilfumarato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "dimetilfumarato",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "teriflunomida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "teriflunomida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acetazolamida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "acetazolamida",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "mesiprostol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "mesiprostol",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "quetiapina",
+    "details": "",
+    "price": ""
+  },
+  {
+    "medicamento": "quetiapina",
+    "details": "",
+    "price": ""
+  }
+]
