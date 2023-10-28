@@ -19,14 +19,15 @@ class MedicineUtils:
 
     @staticmethod
     async def get_or_create(db: AsyncSession, medicine: MedicineCreate):
-        result = await db.execute(select(Medicine).where(Medicine.name == medicine.name.lower()))
+        format_name = medicine.name.lower().replace("-", " ")
+        result = await db.execute(select(Medicine).where(Medicine.name == format_name))
         result = result.scalar_one_or_none()
 
         if result:
             return result
 
         new_medicine = Medicine(
-            name = medicine.name.lower()
+            name = format_name
         )
         db.add(new_medicine)
         await db.commit()

@@ -32,3 +32,10 @@ class PharmacyUtils:
         await db.commit()
         await db.refresh(new_pharmacy)
         return new_pharmacy
+
+
+    @staticmethod
+    async def get_by_name(db: AsyncSession, pharmacy_name: str):
+        query = select(Pharmacy).where(Pharmacy.name == pharmacy_name.lower().replace("-", " "))
+        result = await db.execute(query)
+        return result.scalar_one_or_none()
