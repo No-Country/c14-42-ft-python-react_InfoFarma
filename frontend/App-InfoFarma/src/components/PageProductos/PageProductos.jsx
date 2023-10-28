@@ -7,7 +7,7 @@ import { ProductList } from './Components/ProductList';
 import { getAllProducts, filterAlphabetic, orderBy } from '../../redux/actions';
 import useLocalStorage from '../../customHooks/useLocalStorage';
 import './PageProductos.css';
-import { CircularProgress, LinearProgress } from '@mui/material';
+import { LinearProgress } from '@mui/material';
 
 export const PageProductos = () => {
   const dispatch = useDispatch()
@@ -51,23 +51,63 @@ export const PageProductos = () => {
   }, [order])
 
   return (
-    <div className='container'>
-      <div className='nav-container'>
+    <Box sx={{
+      p: [0, '1rem'],
+      bgcolor: '#dcf1dc64'
+      // maxWidth: '87vw'
+    }}>
+      <Box sx={
+        {
+          pt: '1rem',
+          width: '100%',
+          display: { md: 'flex' },
+          // mt: 5
+          // justifyContent: 'space-around'
+        }
+      }>
         <Navegador className='nav' letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
-        {productos.length === 0 ? (
-          <div className='loading'>
-            <text>Cargando productos...</text>
-            <LinearProgress color='success' />
-            </div>
-        ) : (
-          // Renderizar <Filtrador /> solo cuando productos estén cargados
-          <Filtrador className='filtrador' onFiltrar={setOrder} />
-        )}
-      </div>
-      {productos.length === 0 ? null : (
-        // Renderizar <ProductList /> solo cuando productos estén cargados
+        <Filtrador onFiltrar={setOrder} />
+      </Box>
+      {productos.length === 0 ? (
+        <div className='loading'>
+          <text>Cargando productos...</text>
+          <LinearProgress color='success' />
+        </div>
+      ) : (
         <ProductList productos={productsFiltered} />
       )}
+      <Footer />
+    </Box>
+  )
+}
+
+
+//La siguiente estructura me estaba creando un bucle a la hora de hacer las peticiones a la API:
+/*
+export const PageProductos = () => {
+  const dispatch = useDispatch()
+  const productos = useSelector((state) => state.allProducts)
+  const [alfabeto, setAlfabeto] = useState([])
+  const [letraSeleccionada, setLetraSeleccionada] = useLocalStorage('letraSeleccionada', '');
+
+  useEffect(() => {
+    dispatch(getAllProducts());
+    const arrayProductos = productos;
+
+    if (!letraSeleccionada) {
+      const letras = [...new Set(arrayProductos.map((producto) => producto.name[0]))].sort();
+      setAlfabeto(letras);
+      setLetraSeleccionada(letras[0] || '');
+    } else {
+      const letras = [...new Set(arrayProductos.map((producto) => producto.name[0]))].sort();
+      setAlfabeto(letras);
+    }
+  }, [dispatch, productos, setLetraSeleccionada, letraSeleccionada]);
+
+  return (
+    <div className='container'>
+      <Navegador letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
+      <ProductList productos={productos} letraSeleccionada={letraSeleccionada} />
       <Footer />
     </div>
   );

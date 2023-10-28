@@ -34,15 +34,17 @@ const rootReducer = (state = inicialState, action) => {
             orderBy = orderBy.sort((a, b) => {
                 switch (action.payload) {    
                     case 1:
-                        if (a.min_price < b.min_price) return -1
-                        if (a.min_price > b.min_price) return 1                
+                        if (parseInt(a.price) < parseInt(b.price)) return -1
+                        if (parseInt(a.price) > parseInt(b.price)) return 1
+                        
                         return 0
 
                     case 2:
-                        if (a.max_price > b.max_price) return -1
-                        if (a.max_price < b.max_price) return 1
+                        if (parseInt(a.price) > parseInt(b.price)) return -1
+                        if (parseInt(a.price) < parseInt(b.price)) return 1
+                        
                         return 0
-    
+
                     default:
                         return {...state}
                     }

@@ -8,6 +8,7 @@ import Paper from '@mui/material/Paper';
 import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
+import { Box } from '@mui/material';
 
 const options = ['Filtrar por...', 'Menor a mayor precio', 'Mayor a menor precio'];
 
@@ -35,7 +36,13 @@ export const Filtrador = ({ onFiltrar }) => {
     };
 
     return (
-        <>
+        <Box sx={{
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            mt: 4
+        }}
+        >
             <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button">
                 <Button>{options[selectedIndex]}</Button>
                 <Button
@@ -85,6 +92,6 @@ export const Filtrador = ({ onFiltrar }) => {
                     </Grow>
                 )}
             </Popper>
-        </>
+        </Box>
     );
 }
