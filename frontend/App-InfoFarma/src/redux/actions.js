@@ -7,7 +7,7 @@ export const ORDER_BY = 'ORDER_BY';
 export const getAllProducts = () => {
     return async function (dispatch) {
         try {
-            const response = await axios('https://info-farma-backend.onrender.com/productos-generales');
+            const response = await axios('https://info-farma-backend.onrender.com/productos');
             const allProducts = response.data;
             // console.log({allProducts})
 
