@@ -6,8 +6,7 @@ import { Navegador } from './Components/Navegador';
 import { ProductList } from './Components/ProductList';
 import { getAllProducts, filterAlphabetic, orderBy } from '../../redux/actions';
 import useLocalStorage from '../../customHooks/useLocalStorage';
-import './PageProductos.css';
-import { LinearProgress } from '@mui/material';
+import { LinearProgress, Box } from '@mui/material';
 
 export const PageProductos = () => {
   const dispatch = useDispatch()
@@ -79,37 +78,4 @@ export const PageProductos = () => {
       <Footer />
     </Box>
   )
-}
-
-
-//La siguiente estructura me estaba creando un bucle a la hora de hacer las peticiones a la API:
-/*
-export const PageProductos = () => {
-  const dispatch = useDispatch()
-  const productos = useSelector((state) => state.allProducts)
-  const [alfabeto, setAlfabeto] = useState([])
-  const [letraSeleccionada, setLetraSeleccionada] = useLocalStorage('letraSeleccionada', '');
-
-  useEffect(() => {
-    dispatch(getAllProducts());
-    const arrayProductos = productos;
-
-    if (!letraSeleccionada) {
-      const letras = [...new Set(arrayProductos.map((producto) => producto.name[0]))].sort();
-      setAlfabeto(letras);
-      setLetraSeleccionada(letras[0] || '');
-    } else {
-      const letras = [...new Set(arrayProductos.map((producto) => producto.name[0]))].sort();
-      setAlfabeto(letras);
-    }
-  }, [dispatch, productos, setLetraSeleccionada, letraSeleccionada]);
-
-  return (
-    <div className='container'>
-      <Navegador letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
-      <ProductList productos={productos} letraSeleccionada={letraSeleccionada} />
-      <Footer />
-    </div>
-  );
-
 }

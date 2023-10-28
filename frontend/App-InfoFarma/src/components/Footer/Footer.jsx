@@ -25,11 +25,14 @@ export const Footer = () => {
   const handleSnackOpen = () => {
     setSnack(true)
   }
+  const isSnackbarOpen = (emailSuccess, snack) => {
+    return typeof emailSuccess === "boolean" && typeof snack === "boolean" && emailSuccess && snack;
+  };
+
 
   const handleIconClick = (url) => {
     window.open = (url, '_blank')
   }
-
   return (
     <Container className="footer-container">
       <Paper elevation={3} square={false} className="footer-paper">
@@ -109,13 +112,13 @@ export const Footer = () => {
       </Paper>
 
       <Snackbar
-        open={emailSuccess && snack}
+        open={isSnackbarOpen(emailSuccess, snack)}
         autoHideDuration={2200}
         onClose={handleSnackClose}
         message="¡Registro exitoso!"
-        anchorOrigin={{vertical: "bottom", horizontal: "right"}}
+        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
         TransitionComponent={Slide}
-        TransitionProps={{direction: "left"}}
+        TransitionProps={{ direction: "left" }}
       />
     </Container >
   );
