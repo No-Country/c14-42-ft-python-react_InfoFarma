@@ -3,7 +3,7 @@ import { HeroSection } from "./HeroSection/HeroSection"
 import './Home.css'
 import IconsInfo from "./IconsInfo/Icons&Info"
 import { Info } from "./Info/Info"
-export const Home = () => {
+function Home() {
   return (
     <>
       <HeroSection />
@@ -13,3 +13,5 @@ export const Home = () => {
     </>
   )
 }
+
+export default Home

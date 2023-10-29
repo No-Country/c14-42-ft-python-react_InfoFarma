@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Container, Paper, Button, TextField, Grid, Typography, Link, Snackbar, Slide } from '@mui/material';
 import { IoLogoGithub, IoLogoSlack, IoLogoLinkedin } from 'react-icons/io5';
 import { IconContext } from 'react-icons';
-import useEmail from '../../customHooks/useEmail'
+import useEmail from '../../hooks/customHooks/useEmail'
 import './Footer.css';
 
 export const Footer = () => {
