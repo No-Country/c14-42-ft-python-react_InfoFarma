@@ -1,8 +1,8 @@
 import { Button } from '@mui/material'
 import { useState } from 'react'
-import { AvisoResp } from '../AvisoResp'
+import { AvisoResp } from '../AvisoResp/AvisoResp'
 
-export const PageNosotros = () => {
+function PageNosotros() {
   const [dialogOpen, setDialogOpen] = useState(false)
 
   const handleOpenDialog = () => {
@@ -20,3 +20,5 @@ export const PageNosotros = () => {
     </div>
   )
 }
+
+export default PageNosotros
