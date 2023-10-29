@@ -4,11 +4,11 @@ import { Filtrador } from './Components/Filtrador';
 import { Footer } from '../Footer/Footer';
 import { Navegador } from './Components/Navegador';
 import { ProductList } from './Components/ProductList';
-import { getAllProducts, filterAlphabetic, orderBy } from '../../redux/actions';
-import useLocalStorage from '../../customHooks/useLocalStorage';
+import { getAllProducts, filterAlphabetic, orderBy } from '../../middlewares/redux/actions';
+import useLocalStorage from '../../hooks/customHooks/useLocalStorage';
 import { LinearProgress, Box } from '@mui/material';
 
-export const PageProductos = () => {
+function PageProductos() {
   const dispatch = useDispatch()
 
   const productos = useSelector((state) => state.allProducts)
@@ -79,3 +79,5 @@ export const PageProductos = () => {
     </Box>
   )
 }
+
+export default PageProductos
