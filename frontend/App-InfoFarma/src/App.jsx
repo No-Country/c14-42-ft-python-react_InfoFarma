@@ -39,12 +39,12 @@ function App() {
             <Route path='/login' element={<LoginButton />} />
             <Route path='/logout' element={<LogoutButton />} />
             <Route path='/profile' element={<Profile />} />
-            <PrivateRoute path='/dashboard' element={<DashboardComponent />} isAuthenticated={isAuthenticated} />
+            {isAuthenticated && <Route path='/dashboard' element={<DashboardComponent />} />}
             <Route path='/home' element={<Home />} />
             <Route path='/productos' element={<PageProductos />} />
             <Route path='/nosotros' element={<PageNosotros />} />
           </Routes>
-        </Router>
+      </Router>
       </div>
     </>
   );

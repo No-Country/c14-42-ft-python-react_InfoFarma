@@ -1,19 +1,11 @@
 import React from "react";
-import { Route, useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
-const PrivateRoute = ({ component: Component, isAuthenticated, ...rest }) => (
-  <Route>
-  <>
-    {...rest}
-    render={(props) =>
-      isAuthenticated ? (
-        <Component {...props} />
-      ) : (
-        navigate('/login')
-      )
-    }
-  </>
-  </Route>
-);
+function PrivateRoute({ children, element }) {
+  const { isAuthenticated } = useAuth0();
+
+  return isAuthenticated ? element : <Navigate to="/login" />;
+}
 
 export default PrivateRoute;
