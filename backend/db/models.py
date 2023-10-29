@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from sqlalchemy import Column, Integer, String, ForeignKey, Numeric, Text, DateTime, UnicodeText
+from sqlalchemy_utils  import EmailType
 from sqlalchemy.orm import relationship
 
 from .db_setup import Base
@@ -125,3 +126,10 @@ class Role(Base):
     name = Column(String(50), index=True, nullable=False)
 
     user = relationship(User, back_populates="role")
+
+
+class Newsletter(Base):
+    __tablename__ = "newsletters"
+
+    id = Column(Integer, primary_key=True, index=True)
+    email = Column(EmailType, index=True, nullable=False, unique=True)
