@@ -1,24 +1,38 @@
-import React from 'react';
-import { Container, Paper, Button, TextField, Grid, Typography, Link, } from '@mui/material';
+import { useState } from 'react';
+import { Container, Paper, Button, TextField, Grid, Typography, Link, Snackbar, Slide } from '@mui/material';
 import { IoLogoGithub, IoLogoSlack, IoLogoLinkedin } from 'react-icons/io5';
 import { IconContext } from 'react-icons';
-import useEmail from '../../customHooks/useEmail'
+import useEmail from '../../hooks/customHooks/useEmail'
 import './Footer.css';
-
 
 export const Footer = () => {
 
+  //Lógica formulario
   const {
     email,
     emailError,
+    emailSuccess,
     handleEmailCheck,
     handleSubscribe
   } = useEmail()
 
+  //Lógica del SnackBar
+  const [snack, setSnack] = useState(false)
+
+  const handleSnackClose = () => {
+    setSnack(false)
+  }
+  const handleSnackOpen = () => {
+    setSnack(true)
+  }
+  const isSnackbarOpen = (emailSuccess, snack) => {
+    return typeof emailSuccess === "boolean" && typeof snack === "boolean" && emailSuccess && snack;
+  };
+
+
   const handleIconClick = (url) => {
     window.open = (url, '_blank')
   }
-
   return (
     <Container className="footer-container">
       <Paper elevation={3} square={false} className="footer-paper">
@@ -73,6 +87,7 @@ export const Footer = () => {
                     variant="outlined"
                     color="inherit"
                     className="subscribe-button"
+                    onClick={handleSnackOpen}
                   >
                     Suscríbete
                   </Button>
@@ -82,43 +97,29 @@ export const Footer = () => {
           </Grid>
         </Grid>
 
-        <Typography variant="body1" paragraph>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Rem dolores quia, expedita quibusdam necessitatibus quaerat distinctio neque voluptates quasi,
-          officiis facere id tenetur beatae error sapiente itaque consequuntur dolor facilis?
+        <Typography
+          variant="body2"
+          color="textSecondary"
+          align="center"
+          className="copyright"
+        >
+          © 2023 Copyright:
+          <Link href="https://www.nocountry.tech/" target='_blank' rel="noopener noreferrer" color="inherit">
+            nocountry.tech
+          </Link>
         </Typography>
 
-        <div className="links-container">
-          {[...Array(2)].map((_, index) => (
-            <div key={index}>
-              <Typography variant="h6" component="div" gutterBottom>
-                Colaboradores
-              </Typography>
-              <ul className="list">
-                {[...Array(5)].map((_, subIndex) => (
-                  <li key={subIndex}>
-                    <Link href="#!" color="inherit">
-                      Link {subIndex + 1}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
       </Paper>
 
-      <Typography
-        variant="body2"
-        color="textSecondary"
-        align="center"
-        className="copyright"
-      >
-        © 2023 Copyright:
-        <Link href="https://www.nocountry.tech/" target='_blank' rel="noopener noreferrer" color="inherit">
-          nocountry.tech
-        </Link>
-      </Typography>
+      <Snackbar
+        open={isSnackbarOpen(emailSuccess, snack)}
+        autoHideDuration={2200}
+        onClose={handleSnackClose}
+        message="¡Registro exitoso!"
+        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+        TransitionComponent={Slide}
+        TransitionProps={{ direction: "left" }}
+      />
     </Container >
   );
 };

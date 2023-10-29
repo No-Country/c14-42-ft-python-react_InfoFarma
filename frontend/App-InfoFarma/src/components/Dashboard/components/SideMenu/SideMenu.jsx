@@ -1,8 +1,10 @@
 import React from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
-import { Profile } from '../../Profile/Profile'; 
+import Profile from '../../../Profile/Profile'; 
 
-const SideMenu = () => {
+function SideMenu() {
+  const user = Profile().props.user;
+
   return (
     <div className='bg-sideMenuBg relative h-[100%] basis-20 p-4'>
       {/* Logo Div */}
@@ -13,9 +15,9 @@ const SideMenu = () => {
 
       {/* User Div */}
       <div className='flex items-center justify-center text-[white] flex-col mt-[3rem] admin'>
-        <img src={Profile().props.user.picture} alt='Admin Image' className='h-[80px] w-[80px] border-red-200 border-[4px] object-cover rounded-full' />
+        <img src={user.picture} alt='Admin Image' className='h-[80px] w-[80px] border-red-200 border-[4px] object-cover rounded-full' />
         <span className='opacity-70 mt-2 text-gray-400'>Bienvenido,</span>
-        <h3 className='font-bold text-textColor'>{Profile().props.user.name}</h3>
+        <h3 className='font-bold text-textColor'>{user.name}</h3>
       </div>
 
       {/* simple Menu */}
@@ -30,4 +32,4 @@ const SideMenu = () => {
   );
 }
 
-export default SideMenu;
+export default SideMenu

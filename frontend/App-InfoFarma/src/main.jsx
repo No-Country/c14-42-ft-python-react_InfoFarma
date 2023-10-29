@@ -4,7 +4,7 @@ import { Auth0Provider } from '@auth0/auth0-react'
 import App from './App.jsx'
 import './index.css'
 import { Provider } from 'react-redux';
-import store from './redux/store';
+import store from './middlewares/redux/store.js';
 
 import { ThemeProvider, createTheme } from '@mui/material'
 

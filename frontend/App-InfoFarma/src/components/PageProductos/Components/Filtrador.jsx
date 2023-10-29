@@ -8,6 +8,7 @@ import Paper from '@mui/material/Paper';
 import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
+import { Box } from '@mui/material';
 
 const options = ['Filtrar por...', 'Menor a mayor precio', 'Mayor a menor precio'];
 
@@ -15,10 +16,6 @@ export const Filtrador = ({ onFiltrar }) => {
     const [open, setOpen] = useState(false);
     const anchorRef = useRef(null);
     const [selectedIndex, setSelectedIndex] = useState(0);
-
-    const handleClick = () => {
-        console.info(`You clicked ${options[selectedIndex]}`);
-    };
 
     const handleMenuItemClick = (event, index) => {
         setSelectedIndex(index);
@@ -39,9 +36,15 @@ export const Filtrador = ({ onFiltrar }) => {
     };
 
     return (
-        <>
+        <Box sx={{
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            mt: 4
+        }}
+        >
             <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button">
-                <Button onClick={handleClick}>{options[selectedIndex]}</Button>
+                <Button>{options[selectedIndex]}</Button>
                 <Button
                     size="small"
                     aria-controls={open ? 'split-button-menu' : undefined}
@@ -89,6 +92,6 @@ export const Filtrador = ({ onFiltrar }) => {
                     </Grow>
                 )}
             </Popper>
-        </>
+        </Box>
     );
 }

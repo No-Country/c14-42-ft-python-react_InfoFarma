@@ -16,6 +16,19 @@ const Body = () => {
           <button className='bg-sideMenuBg cursor-pointer text-bodyBg font-semibold py-2 px-4 rounded-[5px] hover:bg-[#55545e] transition-all'>Go Premium</button>
         </div>
       </div>
+
+      {/* Title Div */}
+      <div 
+      className='flex items-center justify-between mt-8'>
+        <div className='title'>
+          <h1 className='text-[35px] text-titleColor tracking-[1px] font-black'>Busca tu medicamento</h1>
+          <span className='text-[16px] opacity-70'><strong>Tu región,</strong></span>
+        </div>
+
+        <div className='flex items'>
+
+        </div>
+      </div>
     </div>
   )
 }
