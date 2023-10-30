@@ -12,10 +12,9 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
 
-// import logo from '../../assets/logo.webp';
 import './NavBar.css'
 
-const pages = ['Home', 'Productos', 'Padecimientos', 'Nosotros', 'Login', 'Dashboard'];
+const pages = ['Home', 'Productos', /*'Padecimientos'*/, 'Nosotros', 'Login', 'Dashboard'];
     
         
           
@@ -33,44 +32,6 @@ function NavBar() {
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
           <img className='logo' alt="logo de la empresa." src='/favicon.png' />
-          {/* Titulo Desktop */}
-          {/* <Link to='/' style={{textDecoration: 'none', color: '#232D21', flexGrow: 1}}>
-            <Typography
-              variant="h6"
-              noWrap
-              sx={{
-                flexGrow: 1,
-                mr: 2,
-                display: { xs: 'none', md: 'flex' },
-                fontFamily: 'monospace',
-                fontWeight: 700,
-                letterSpacing: '.3rem',
-                color: 'inherit',
-                textDecoration: 'none',
-              }}
-            >
-              InfoFarma
-            </Typography>
-          </Link> */}
-          {/* Titulo Mobile */}
-          {/* <Typography
-            variant="h5"
-            noWrap
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            <Link to='/' style={{textDecoration: 'none', color: '#232D21'}}>
-              InfoFarma
-            </Link>
-          </Typography> */}
 
           {/* Links Desktop */}
           <Box sx={{display: { xs: 'none', md: 'flex' } }}>
