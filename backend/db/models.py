@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import Column, Integer, String, ForeignKey, Numeric, Text, DateTime, UnicodeText
+from sqlalchemy import Column, Integer, String, ForeignKey, Numeric, Text, DateTime, UnicodeText, Boolean
 from sqlalchemy_utils  import EmailType
 from sqlalchemy.orm import relationship
 
@@ -104,6 +104,18 @@ class Brand(Base):
     name = Column(String(50), unique=True, index=True, nullable=False)
 
     product = relationship(Product, back_populates="brand")
+
+
+class Suggestion(Base):
+    __tablename__ = "suggestions"
+
+    id = Column(Integer, primary_key=True, index=True)
+    price = Column(Numeric(12,2), nullable=False)
+    details = Column(UnicodeText, nullable=True)
+    img = Column(Text, nullable=True)
+    medicine_name = Column(String(50), nullable=False)
+    pharmacy_name = Column(String(50), nullable=False) # TODO Consider to put a Foreign Key
+    verified = Column(Boolean, default=False, nullable=False)
 
 
 class User(Base):
