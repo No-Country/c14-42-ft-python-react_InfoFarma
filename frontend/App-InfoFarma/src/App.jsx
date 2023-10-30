@@ -11,7 +11,6 @@ import Home from './components/Home/Home';
 import NavBar from './components/NavBar/NavBar';
 import PageNosotros from './components/PageNosotros/PageNosotros';
 import PageProductos from './components/PageProductos/PageProductos';
-import { PageNewProd } from './components/PageNewProd/PageNewProd';
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -37,7 +36,6 @@ function App() {
           </div>
           <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/form' element={<PageNewProd />} />
             <Route path='/login' element={<LoginButton />} />
             <Route path='/logout' element={<LogoutButton />} />
             <Route path='/profile' element={<Profile />} />
