@@ -1,66 +1,66 @@
 [
   {
     "medicamento": "acetaminofen",
-    "details": "Aceler 2% crema 15 g",
+    "details": "Acc 200 mg 20 tabletas efervescentes",
     "brand": null,
-    "price": "264.00",
+    "price": "247.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131470141L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750221693122L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Actron 600 mg 30 cápsulas",
+    "details": "Actron 600 mg 10 cápsulas",
     "brand": null,
-    "price": "302.00",
+    "price": "94.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131863475L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131860902L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Ácido alendrónico medimart 70 mg 4 tabletas",
-    "brand": "medimart",
-    "price": "130.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222629083L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "acetaminofen",
-    "details": "Acemetacina medimart 90 mg 14 cápsulas de liberación prolongada",
-    "brand": "medimart",
-    "price": "120.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750649500314L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "acetaminofen",
-    "details": "Acheflan 5 mg/G crema tubo con 30 g",
+    "details": "Actron 400 mg 10 cápsulas",
     "brand": null,
-    "price": "321.00",
+    "price": "108.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110160032L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131860890L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceite de coco jaloma 120 ml",
+    "details": "Acanol loperamida 2 mg 12 tabletas",
+    "brand": null,
+    "price": "138.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750132897871L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "acetaminofen",
+    "details": "Aceite de aguacate jaloma 120 ml",
     "brand": null,
     "price": "41.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00075968403114L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00075968403117L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceite de argán jaloma 120 ml",
+    "details": "Ácido Fólico de 240 Cápsulas con Brócoli y Espinaca. Ingredientes Naturales. Folic Acid Blend B Life.",
     "brand": null,
-    "price": "41.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00075968403119L.jpg",
-    "farmacia": "walmart"
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41uHfJDcqOL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "acetaminofen",
+    "details": "Aceite Corporal Azus de Ricino Grado Cosmético 110ml",
+    "brand": null,
+    "price": "41.90",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20333020/7501857301393_00.jpg?v=638326703989030000",
+    "farmacia": "chedraui"
   },
   {
     "medicamento": "acetaminofen",
@@ -73,20 +73,20 @@
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceite Corporal Takinka Puro de almendras 125ml",
+    "details": "Aceite de Almendras Belskin 1 Botella 120ml",
     "brand": null,
-    "price": "129.00",
+    "price": "25.50",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
-    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/19002293/7501523301023_00.jpg?v=638302216337230000",
+    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20273165/7503017713046_00.jpg?v=638326094250600000",
     "farmacia": "chedraui"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceite Corporal Takinka Puro de Almendras 60ml",
+    "details": "Acetona Lasa con Aceite de Ricino 55ml",
     "brand": null,
-    "price": "72.00",
+    "price": "25.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
-    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/11902736/7501523300972_00.jpg?v=638119141845400000",
+    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20249538/7501006890013_00.jpg?v=638325877260100000",
     "farmacia": "chedraui"
   },
   {
@@ -100,11 +100,11 @@
   },
   {
     "medicamento": "ibuprofeno",
-    "details": "Ibuprofeno medimart 800 mg 10 tabletas",
+    "details": "Ibuprofeno medimart 200 mg 12 tabletas",
     "brand": "medimart",
-    "price": "45.00",
+    "price": "30.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750147831542L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110976931L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -172,15 +172,6 @@
   },
   {
     "medicamento": "naproxeno",
-    "details": "Paracetamol, naproxeno syncol dual 275 mg, 300 mg, 12 tabletas",
-    "brand": null,
-    "price": "130.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750107060056L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "naproxeno",
     "details": "Alliviax 20 Tabletas Alivia Dolor e Inflamación Naproxeno 550 Mg",
     "brand": null,
     "price": "184.00",
@@ -208,11 +199,11 @@
   },
   {
     "medicamento": "loratadina",
-    "details": "Loratadina medimart 10 mg, 20 tabletas",
+    "details": "Loratadina/Betametasona medimart 0.5 mg/0.25 mg, 10 tabletas",
     "brand": "medimart",
-    "price": "55.00",
+    "price": "60.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750164475108L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125820545L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -487,6 +478,15 @@
   },
   {
     "medicamento": "eucalipto",
+    "details": "Caramelo macizo ricola eucalipto 27.5 g",
+    "brand": null,
+    "price": "33.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00761070001478L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "eucalipto",
     "details": "Pastillas Broncolin Liniston Sugar Free Eucalipto 16 Pastillas",
     "brand": null,
     "price": "57.40",
@@ -549,6 +549,15 @@
     "farmacia": "walmart"
   },
   {
+    "medicamento": "eucalipto",
+    "details": "Broncolin Bronco Fresh Miel Eucalipto Charola, 12 Piezas",
+    "brand": null,
+    "price": "183.01",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/51VS9mkMJYL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
     "medicamento": "difenhidramina",
     "details": "NyQuil Z - Difenhidramina 25 g, Ayuda a Conciliar el Sueño, Cápsulas para el Insomnio Ocasional, Ayuda a Dormir, para Dormir Bien, Caja con 30 Unidades",
     "brand": null,
@@ -609,6 +618,15 @@
     "price": "176.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131864508L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "terbinafina",
+    "details": "Terbinafina medimart 250 mg 28 tabletas",
+    "brand": "medimart",
+    "price": "340.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125820679L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -730,6 +748,15 @@
   },
   {
     "medicamento": "lactulosa",
+    "details": "Lactulosa lactulax 10 g /15 ml jarabe 125 ml",
+    "brand": null,
+    "price": "273.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131470495L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "lactulosa",
     "details": "Polvo Regulact Lactulosa 5g Caja con 15 Sobres",
     "brand": null,
     "price": "273.00",
@@ -744,6 +771,15 @@
     "price": "35.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125821426L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "betametasona",
+    "details": "Loratadina/Betametasona medimart 0.5 mg/0.25 mg, 10 tabletas",
+    "brand": "medimart",
+    "price": "60.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125820545L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -784,6 +820,15 @@
   },
   {
     "medicamento": "calcio",
+    "details": "Calcio 600 medimart 1500 mg 60 tabletas",
+    "brand": "medimart",
+    "price": "95.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750112433401L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "calcio",
     "details": "Tabletas Efervescentes Seltz Calcio Sabor Limonada Rosa Tubo con 20 Tabletas",
     "brand": null,
     "price": "99.75",
@@ -817,6 +862,15 @@
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
     "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/15883857/7501438300500_Dummie.jpg?v=638236253359430000",
     "farmacia": "chedraui"
+  },
+  {
+    "medicamento": "calcio",
+    "details": "Suplemento de calcio caltrate 600 +M 30 tabletas",
+    "brand": null,
+    "price": "145.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750106500233L.jpg",
+    "farmacia": "walmart"
   },
   {
     "medicamento": "calcio",
@@ -865,24 +919,6 @@
   },
   {
     "medicamento": "calcio",
-    "details": "MEN HAIR Biotina, Colágeno, Vitamina A, Vitamina B5, Vitamina C, Vitamina D3, Vitamina E, Calcio y Zinc para 60 días. Suplemento para Cabello Hombres en Cápsulas || LIFEED5 MENS HAIR & BEARD (Cabello y Barba)",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41eA1OoYaZL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "calcio",
-    "details": "Electrólitos Con Polvo de Agua de Coco 150 Cápsulas. Ingredientes naturales: Potasio, Magnesio, Sodio y Calcio. Electro Blend B Life.",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41yg0ap3vXL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "calcio",
     "details": "FORZAGEN Essentials | Hecho en EUA | Men's Multivitamin - 60 Tabletas | Vitaminas y Minerales Importados para Hombre | Vitamina C | Ácido Fólico | Zinc | Magnesio | Calcio | Poderosos Antioxidantes | Con Complejo de Rendimiento | BCAA | Creatina | L-Arginina | Refuerza Sistema Inmune | Protege la Salud | Incrementa Energía y Vitalidad | Esencial para Hombres | Suplemento Natural",
     "brand": null,
     "price": "2020",
@@ -892,20 +928,20 @@
   },
   {
     "medicamento": "calcio",
+    "details": "FORZAGEN Essentials | Hecho en EUA | Women’s Multivitamin - 60 Tabletas | Vitaminas y Minerales Importados para Mujer | Vitamina C | Ácido Fólico | Zinc | Magnesio | Calcio | Poderosos Antioxidantes | Con Complejo de Belleza | Biotina | Colágeno Hidrolizado | Ácido Hialurónico | Levadura | Mejora y Mantiene Salud de la Piel, Cabello y Uñas | Refuerza Sistema Inmune | Protege la Salud | Incrementa Energía y Vitalidad | Esencial para Mujeres | Suplemento Natural",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41b31b0FXvL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "calcio",
     "details": "Womens Zen de 150 Cápsulas. Ingredientes Naturales: Maca, Isoflavonas, Ñame Silvestre, Cohosh Negro, Calcio y Biotina. Womens Zen B Life",
     "brand": null,
     "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
     "img_medicamento": "https://m.media-amazon.com/images/I/41uxJR1nD9L._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "calcio",
-    "details": "ZEN•ZEI | ADVANCED ELECTROLYTES | Complejo de Electrolitos Avanzados 100% Natural — Rehidratar, Recuperar y Reponer — Formulado con: Cloruro de Potasio, Cloruro de Sodio, Gluconato de Magnesio, Fósforo, Citrato de Calcio y MAS — 30 Cápsulas Veganas | MARCA PREMIUM",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41qoYKQ+n-L._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -928,6 +964,15 @@
   },
   {
     "medicamento": "calcio",
+    "details": "Women Multivitamin + con 200 capsulas. Multivitamínico para Mujer con Colágeno Hidrolizado, Ácido Fólico, Biotina, Hierro, Calcio, Magnesio, Maca, Zinc y Vitamina D (400 IU) Complejo B VitalBotanics.",
+    "brand": null,
+    "price": "429.99",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41yThQNcJ2L._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "calcio",
     "details": "Pastillas para Articulaciones de Glucosamina y Condroitina con Colageno Hidrolizado, Calcio y Vitamina D Lifeed5 - 120 Días de Suplementos Alimenticios con Vitamina para Articulaciones, Multivitaminico Hombre y Mujer Joint Support",
     "brand": null,
     "price": "2020",
@@ -946,20 +991,11 @@
   },
   {
     "medicamento": "calcio",
-    "details": "Electrolitos de 60 Servicios Sin Azúcar con 1000mg de Citrato de Potasio, Citrato de Magnesio, Citrato de Calcio, Sodio, Zinc. B Life Electrolytes Blend (Fruit Punch) B Life.",
+    "details": "Health Hack Mineral Essentials | Suplemento de Minerales Esenciales | Con Glicinato de Magnesio, Calcio, Potasio, Zinc, Hierro, Cobre, Cromo, Yodo y Selenio | Refuerza tu Salud y Bienestar de Forma Natural",
     "brand": null,
-    "price": "2020",
+    "price": "499.99",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41DjccMI3HL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "calcio",
-    "details": "Health Hack Meno Support DIM Blend | Apoyo Natural para la Menopausia para Balance y Bienestar | Con DIM, Isoflavonas de Soja, Raiz de Black Cohosh, Extracto de Ñame, Extracto de Brocoli, Citrato de Calcio, Extracto de Raíz de Maca y Más",
-    "brand": null,
-    "price": "599.99",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/410PGC6bRLL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/411YqLEfhRL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -970,15 +1006,6 @@
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125083893L.jpg",
     "farmacia": "walmart"
-  },
-  {
-    "medicamento": "calcio",
-    "details": "Enterex Proteinex, caja con 12 latas de 275g cada una. Caseinato de Calcio.",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/51IUSm3mKWL._SL500_.jpg",
-    "farmacia": "amazon"
   },
   {
     "medicamento": "hierro",
@@ -1015,15 +1042,6 @@
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
     "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20249585/7502226293219_00.jpg?v=638325877470900000",
     "farmacia": "chedraui"
-  },
-  {
-    "medicamento": "hierro",
-    "details": "Ferinsol Hierro + Asociaciones, 50 Ml",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41y96BGRc7L._SL500_.jpg",
-    "farmacia": "amazon"
   },
   {
     "medicamento": "hierro",
@@ -1072,15 +1090,6 @@
   },
   {
     "medicamento": "hierro",
-    "details": "Multivitaminico para Hombre | Vitaminas y Minerales para Hombres con Arginina, BCAA’s, Creatina| Hierro, Magnesio, Zinc | 776 mg por Cápsula| 90 Cápsulas",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41xoM6bu2TL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "hierro",
     "details": "Elevit Multivitamínico Prenatal Embarazo y Lactancia Ácido Fólico y Hierro 30 Tabletas + Bepanthen Pomada Regeneradora de Piel 30 g",
     "brand": null,
     "price": "369.05",
@@ -1099,6 +1108,15 @@
   },
   {
     "medicamento": "hierro",
+    "details": "WU Nutrition® QUERIDA | Multivitaminico para Mujer | Suplemento con Colágeno Hidrolizado, Biotina, Ácido Fólico, Magnesio, Hierro y Vitaminas | Womens Multi | 120 Cápsulas | 2 meses de consumo",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/31-Tcl3E-oL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "hierro",
     "details": "Health Hack Nutrimom Embarazo y Lactancia | Suplemento Prenatal con Ácido Fólico, colageno hidrolizado, potasio, magnesio, calcio, hierro, zinc y vitaminas para Salud Materna y Desarrollo Fetal",
     "brand": null,
     "price": "399.99",
@@ -1108,11 +1126,11 @@
   },
   {
     "medicamento": "hierro",
-    "details": "Frisolac Gold Intensive HA Formula con Hierro para Lactantes en Polvo, 400 g",
+    "details": "Women Multivitamin + con 200 capsulas. Multivitamínico para Mujer con Colágeno Hidrolizado, Ácido Fólico, Biotina, Hierro, Calcio, Magnesio, Maca, Zinc y Vitamina D (400 IU) Complejo B VitalBotanics.",
     "brand": null,
-    "price": "462.77",
+    "price": "429.99",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/517sdMjuHcL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41yThQNcJ2L._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1123,6 +1141,24 @@
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750223576003L.jpg",
     "farmacia": "walmart"
+  },
+  {
+    "medicamento": "hierro",
+    "details": "Health Hack Mineral Essentials | Suplemento de Minerales Esenciales | Con Glicinato de Magnesio, Calcio, Potasio, Zinc, Hierro, Cobre, Cromo, Yodo y Selenio | Refuerza tu Salud y Bienestar de Forma Natural",
+    "brand": null,
+    "price": "499.99",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/411YqLEfhRL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "hierro",
+    "details": "Enfamil Poly-Vi-Sol Suplemento Multivitamínico Gotas con Hierro 50 ml",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/31zRWzhe3HL._SL500_.jpg",
+    "farmacia": "amazon"
   },
   {
     "medicamento": "magnesio",
@@ -1162,11 +1198,11 @@
   },
   {
     "medicamento": "magnesio",
-    "details": "Citrato Magnesio Suplemento Alimenticio 100 Capsulas 500 Mg (1)",
+    "details": "Cloruro de Magnesio + Tiamina 60 tabs de 500 mg Keep Natural",
     "brand": null,
-    "price": "169.99",
+    "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41Mk-6fb5bL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41SLgmEHmRL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1180,39 +1216,12 @@
   },
   {
     "medicamento": "magnesio",
-    "details": "Sportfeed Cycling Suplemento Alimenticio Deportivo Especializado para Ciclismo Hombre y Mujer con Colageno Hidrolizado en polvo, 5 Electrolitos, Magnesio, Complejo B y Ginseng - 30 porciones de Electrolitos en Polvo para Pre Workout, Durante y Post",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/417+mxU290L._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "magnesio",
     "details": "Diasporal 300 mg de magnesio por sobre",
     "brand": null,
     "price": "256.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750220971017L.jpg",
     "farmacia": "walmart"
-  },
-  {
-    "medicamento": "magnesio",
-    "details": "TESTROL. Magnesio Glicinato Essential. 420mg. Tu aliado para un bienestar óptimo. Suplemento de alta absorción. Regulación celular y equilibrio electrolítico. 1 Bote con 60 cápsulas.",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/418TADzJ6OL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "magnesio",
-    "details": "Wellthy UC-II 30 Cápsulas Colágeno Tipo 2 Sin Desnaturalizar Suizo, Glucosamina y Magnesio Marino SIMAG. Solo 1 Cápsula al Día, VCaps Cápsulas Veganas, Bottle Free.",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41ld-B4Q2FL._SL500_.jpg",
-    "farmacia": "amazon"
   },
   {
     "medicamento": "magnesio",
@@ -1225,20 +1234,11 @@
   },
   {
     "medicamento": "magnesio",
-    "details": "Electrólitos Con Polvo de Agua de Coco 150 Cápsulas. Ingredientes naturales: Potasio, Magnesio, Sodio y Calcio. Electro Blend B Life.",
+    "details": "Súluu Relaha | Gomitas Vitaminadas, Alivio del Estrés Acumulado, Sensación de Tranquilidad, Reductor de la Ansiedad | 60 Gomitas | Sabor Mora | Manzanilla, L-Teanina, Magnesio y Zinc | Sin Gluten",
     "brand": null,
     "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41yg0ap3vXL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "magnesio",
-    "details": "Multivitaminico para Hombre | Vitaminas y Minerales para Hombres con Arginina, BCAA’s, Creatina| Hierro, Magnesio, Zinc | 776 mg por Cápsula| 90 Cápsulas",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41xoM6bu2TL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/4128DKvrvxL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1252,6 +1252,15 @@
   },
   {
     "medicamento": "magnesio",
+    "details": "FORZAGEN Essentials | Hecho en EUA | Women’s Multivitamin - 60 Tabletas | Vitaminas y Minerales Importados para Mujer | Vitamina C | Ácido Fólico | Zinc | Magnesio | Calcio | Poderosos Antioxidantes | Con Complejo de Belleza | Biotina | Colágeno Hidrolizado | Ácido Hialurónico | Levadura | Mejora y Mantiene Salud de la Piel, Cabello y Uñas | Refuerza Sistema Inmune | Protege la Salud | Incrementa Energía y Vitalidad | Esencial para Mujeres | Suplemento Natural",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41b31b0FXvL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "magnesio",
     "details": "Citrato de Magnesio 2100mg | Citrato de Magnesio Puro sin rellenos| Suplementos formulados por científicos | Suplemento alimenticio de Magnesium Citrate | 180 caps",
     "brand": null,
     "price": "374.25",
@@ -1261,29 +1270,20 @@
   },
   {
     "medicamento": "magnesio",
-    "details": "Precursor de Testosterona y Multivitamínico para hombre Mens T+ BPN PRO Arginina Taurina Te verde Magnesio",
+    "details": "Magnesio Complex | CON 4 MAGNESIOS: Citrato de Magnesio -Glicinato de Magnesio -Gluconato de Magnesio- Óxido de Magnesio -700 mg Puro por Cápsula - Suplemento Vitamínico Formulado por Científicos - Suplemento Alimenticio en Cápsulas - Sin Azúcar Sin ingedientes artificiales-Ingredientes NON GMO- 180 cápsulas",
     "brand": null,
     "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/317S807c01L._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/415J9szHMHL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
     "medicamento": "magnesio",
-    "details": "ZEN•ZEI | ADVANCED ELECTROLYTES | Complejo de Electrolitos Avanzados 100% Natural — Rehidratar, Recuperar y Reponer — Formulado con: Cloruro de Potasio, Cloruro de Sodio, Gluconato de Magnesio, Fósforo, Citrato de Calcio y MAS — 30 Cápsulas Veganas | MARCA PREMIUM",
+    "details": "WU Nutrition® QUERIDA | Multivitaminico para Mujer | Suplemento con Colágeno Hidrolizado, Biotina, Ácido Fólico, Magnesio, Hierro y Vitaminas | Womens Multi | 120 Cápsulas | 2 meses de consumo",
     "brand": null,
     "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41qoYKQ+n-L._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "magnesio",
-    "details": "Men´s Multivitamin Multivitaminico Hombre para Performance Energia Vitalidad con 180 Capsulas | Adicionada con Vitaminas Creatina Arginina Zinc Magnesio | Vitaminas para Hombre Natural Wisdom",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41GqYb8gc3L._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/31-Tcl3E-oL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1297,29 +1297,11 @@
   },
   {
     "medicamento": "magnesio",
-    "details": "HealthAddiction - Inositol Suplemento Alimenticio con Myo Inositol, L Teanina, Arándano, Vitamina B6, Folato (ácido fólico), Magnesio y Selenio - 60 Cápsulas de 780mg c/u",
+    "details": "Women Multivitamin + con 200 capsulas. Multivitamínico para Mujer con Colágeno Hidrolizado, Ácido Fólico, Biotina, Hierro, Calcio, Magnesio, Maca, Zinc y Vitamina D (400 IU) Complejo B VitalBotanics.",
     "brand": null,
-    "price": "2020",
+    "price": "429.99",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/31Hucbtr1WL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "magnesio",
-    "details": "WU Nutrition® PAZ | Glicinato de Magnesio | 120 Cápsulas | 2 meses de consumo | Suplemento Premium",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/414u4iewf-L._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "magnesio",
-    "details": "Birdman Minerales Traza Esenciales Liquidos, Electrolitos, Hidratacion Efectiva, Energia, Regula tu pH, Formulado con Magnesio, Sodio, Cloruro y Sulfato| 125 servicios | 300ml",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/31kXCyWNQcL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41yThQNcJ2L._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1333,20 +1315,20 @@
   },
   {
     "medicamento": "magnesio",
-    "details": "Electrolitos de 60 Servicios Sin Azúcar con 1000mg de Citrato de Potasio, Citrato de Magnesio, Citrato de Calcio, Sodio, Zinc. B Life Electrolytes Blend (Fruit Punch) B Life.",
+    "details": "Health Hack Mineral Essentials | Suplemento de Minerales Esenciales | Con Glicinato de Magnesio, Calcio, Potasio, Zinc, Hierro, Cobre, Cromo, Yodo y Selenio | Refuerza tu Salud y Bienestar de Forma Natural",
     "brand": null,
-    "price": "2020",
+    "price": "499.99",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41DjccMI3HL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/411YqLEfhRL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
     "medicamento": "magnesio",
-    "details": "Health Hack Healthy Aging NMN Suplemento Premium con Mononucleotido de nicotinamida, Glicinato de Magnesio, Zinc, Resveratrol y Más | Producción de NAD+ para una Salud Óptima del Cuerpo y Mente",
+    "details": "GlutaShot | Suplemento Alimenticio Líquido | Caja con 30 unidades de 10ml c/u | Glutatión, Acerola (Vitamina C), Zinc y Magnesio",
     "brand": null,
     "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41TAEzopOhL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/414QuKji5tL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1369,30 +1351,21 @@
   },
   {
     "medicamento": "glucosamina",
+    "details": "Pretty Bee Grenetina Hidrolizada con Glucosamina y Omega 3,6 y 9 - 500 Grs",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41OygMFyUIS._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "glucosamina",
     "details": "Suplemento alimenticio solanum mv gtc glucosamina 40 cápsulas 600 mg c/U",
     "brand": null,
     "price": "216.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750300654755L.jpg",
     "farmacia": "walmart"
-  },
-  {
-    "medicamento": "glucosamina",
-    "details": "Wellthy UC-II 30 Cápsulas Colágeno Tipo 2 Sin Desnaturalizar Suizo, Glucosamina y Magnesio Marino SIMAG. Solo 1 Cápsula al Día, VCaps Cápsulas Veganas, Bottle Free.",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41ld-B4Q2FL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "glucosamina",
-    "details": "PURELY ORGANICS. Glucosamina Fem Complex. Bote con 90 cápsulas. Salud articular. Tu suplemento natural y complemento esencial para una vida activa y saludable.",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41h9FWk7LyL._SL500_.jpg",
-    "farmacia": "amazon"
   },
   {
     "medicamento": "glucosamina",
@@ -1413,12 +1386,39 @@
     "farmacia": "amazon"
   },
   {
-    "medicamento": "probioticos",
-    "details": "Sinuberase probioticos suspensión, Bacillus clausii 2 billones de UFC en 10 ampolletas",
+    "medicamento": "glucosamina",
+    "details": "USANA Procosa: Glucosamina",
+    "brand": null,
+    "price": "1159.99",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/31qCutTeJ0L._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "omega-3",
+    "details": "Multivitamínico para Mujer, Gomitas, Para Mayor Energía, Sabor Fresa y Granada, Con Ácido Hialurónico y Omega-3, Vitaminas A, B, C y E, 100% Natural, Sin Azúcar y Gluten, Heally",
     "brand": null,
     "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41XdB2KSOfL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41e8zweph8S._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "probioticos",
+    "details": "Multivitamínico para Mujer Mayor de 40 años con 90 Cápsulas. Ingredientes naturales: Colágeno, Inositol, Maca, Probioticos. Womens Multi Mature B Life.",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41WFW8Rl9zL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "probioticos",
+    "details": "Probioticos 50 Billones Lifeed5 | Enzimas Digestivas y Probioticos Vivos, Fibra Natural, Vitamina C y Zinc, 60 Capsulas de Probioticos y Prebioticos como Suplementos Alimenticios con Inulina de Agave y Lactobacilos para el Sistema Digestivo",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/416jHb4ixAL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1432,29 +1432,20 @@
   },
   {
     "medicamento": "probioticos",
-    "details": "OBY Probióticos 60 Billones, Prebióticos, Inulina de Agave, Enzimas digestivas Bromelina y Papaina, Fibra Linaza y Carbón Activado Vegetal de Coco. Probioticos Mujer y Hombre - Para 60 días",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/414Yc4ihA5L._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "probioticos",
     "details": "SINUBERASE Sinuberase Colitis Probioticos En Suspensión 4 Billones, 20 Ampolletas, color, 1 count, pack of/paquete de 1",
     "brand": null,
-    "price": "401.04",
+    "price": "374.51",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
     "img_medicamento": "https://m.media-amazon.com/images/I/41cpgkw02NL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
     "medicamento": "probioticos",
-    "details": "NW Greentox con Vinagre de Manzana Jengibre Nopal Apio Probioticos 180 Capsulas | Aporta Fibra Antioxidante Digestion | Gluten Free Soya Free Lacteos Free | Natural Wisdom",
+    "details": "OBY Probióticos 60 Billones, Prebióticos, Inulina de Agave, Enzimas digestivas Bromelina y Papaina, Fibra Linaza y Carbón Activado Vegetal de Coco. Probioticos Mujer y Hombre - Para 60 días",
     "brand": null,
-    "price": "536.95",
+    "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41dJZwmVXCL._SL500_.jpg",
+    "img_medicamento": "https://m.media-amazon.com/images/I/414Yc4ihA5L._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1504,6 +1495,15 @@
   },
   {
     "medicamento": "clorfenamina",
+    "details": "Clorfenamina compuesta medimart masferol 24 tabletas",
+    "brand": "medimart",
+    "price": "40.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110976923L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "clorfenamina",
     "details": "Dextrometorfano, fenilefrina, clorfenamina, paracetamol medimart 15 mg/5 mg/2 mg/250 mg 12 cápsulas",
     "brand": "medimart",
     "price": "40.00",
@@ -1548,24 +1548,6 @@
     "farmacia": "chedraui"
   },
   {
-    "medicamento": "enemas",
-    "details": "TopQuaFocus Kit de bombillas de enema de 8 onzas anal y vaginal para hombre, sistema de descarga de enemas de silicona, 4 puntas reemplazables",
-    "brand": null,
-    "price": "253.27",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/31oGycVGgtL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "enemas",
-    "details": "TopQuaFocus Bombilla grande de 14 onzas para enema para hombres y mujeres, limpieza de colon, enemas de cuidado femenino, libre de BPA y ftalatos, color negro",
-    "brand": null,
-    "price": "434.62",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/31oVGAWzqGL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
     "medicamento": "lomotil",
     "details": "Lomotil 2 mg 8 tabletas",
     "brand": null,
@@ -1594,15 +1576,6 @@
   },
   {
     "medicamento": "yodo",
-    "details": "Yodo medimart solución 120 ml",
-    "brand": "medimart",
-    "price": "42.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750104835058L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "yodo",
     "details": "Yodopovidona Dayondin Bucofaringea 120ml",
     "brand": null,
     "price": "79.90",
@@ -1626,6 +1599,24 @@
     "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
     "img_medicamento": "https://m.media-amazon.com/images/I/41aNwDCNoTL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "yodo",
+    "details": "Horbaach - Gotas de solución líquida de yodo | 2 onzas líquidas | 150 mcg | Suplemento de yodo y potasio | Tintura líquida vegetariana, sin OMG, sin gluten | por Horbaach",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41Yvb5X1rrL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "yodo",
+    "details": "Health Hack Mineral Essentials | Suplemento de Minerales Esenciales | Con Glicinato de Magnesio, Calcio, Potasio, Zinc, Hierro, Cobre, Cromo, Yodo y Selenio | Refuerza tu Salud y Bienestar de Forma Natural",
+    "brand": null,
+    "price": "499.99",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/411YqLEfhRL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1720,15 +1711,6 @@
   },
   {
     "medicamento": "carnitina",
-    "details": "Sportfeed Running Suplemento Deportivo Especializado para corredores con 5 Electrolitos en polvo, Condroitina, Complejo B, Aminoacidos, MSM, L Carnitina y Ginseng - 30 porciones multivitaminico hombre y mujer",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/413Yra1FEvL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "carnitina",
     "details": "Suplemento alimenticio forzagen premiun l-Carnitina 60 cápsulas",
     "brand": null,
     "price": "326.00",
@@ -1738,11 +1720,47 @@
   },
   {
     "medicamento": "carnitina",
+    "details": "Moods | Burn Baby, Burn | Keto & Ayuno - MCT Oil, L-Carnitina, Cetonas de Frambuesa, Vinagre de Sidra de Manzana y Omega 3 - Suplemento Alimenticio Premium para Acompañar Dietas Bajas en Carbs como la Dieta Keto y el Ayuno Intermitente - 100% Natural y Vegano - Cápsulas para 30 Días",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/31NwMKH5ICL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "carnitina",
     "details": "HomoDeus Nootrópico Natural | Concentración, Memoria y Agilidad Mental | Suplemento con Hongo de Melena de León, Bacopa monnieri, DMAE, Complejo B, L-Tirosina, L-Carnitina y Extracto de Semilla de Uva | Formulado para Cuidado del Cerebro y Potenciador de Energía.",
     "brand": null,
     "price": "499.99",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
     "img_medicamento": "https://m.media-amazon.com/images/I/41t34WLuu3L._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "carnitina",
+    "details": "DEKÓS +FB Burner | Termogénico Natural con efecto SLIM | L-Carnitina, Gymnema Sylvestre, Té Verde y Jengibre | 30 cápsulas",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/31hJKNR7d7L._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "carnitina",
+    "details": "LIPODRENE. Carnitina Essential. Protector muscular, además de su increíble labor en conversión de grasas a energía al natural. Bote con 60 cápsulas. Combo 2 unidades.",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41UqVs5cvBL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "carnitina",
+    "details": "Health Hack Keto Fuel | Suplemento Esencial para Keto | Con MCT Oil, B-Hidroxibutirato, Omega 3, Cetonas de Frambuesa, L-Carnitina, Raíz de Jengibre, Vitaminas y Minerales | Maximiza Tus Resultados en Cetosis",
+    "brand": null,
+    "price": "579.99",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41HC8P-z7pL._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -1774,15 +1792,6 @@
   },
   {
     "medicamento": "paracetamol",
-    "details": "Paracetamol medimart 750 mg 10 tabletas",
-    "brand": "medimart",
-    "price": "25.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750157390391L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "paracetamol",
     "details": "Tabletas Paracetamol 500mg Salpifar 10 Tabletas",
     "brand": null,
     "price": "25.50",
@@ -1807,6 +1816,15 @@
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
     "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20242832/7502276040375_00.jpg?v=638325812779370000",
     "farmacia": "chedraui"
+  },
+  {
+    "medicamento": "paracetamol",
+    "details": "Paracetamol, cafeína medimart 500 mg-50 mg, 20 tabletas",
+    "brand": "medimart",
+    "price": "35.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110976927L.jpg",
+    "farmacia": "walmart"
   },
   {
     "medicamento": "paracetamol",
@@ -1918,6 +1936,15 @@
   },
   {
     "medicamento": "paracetamol",
+    "details": "Tempra Solución Pediátrica Fiebre y Dolor Sabor Uva Paracetamol frasco de 30 ml",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/51QmSeLwVoL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "paracetamol",
     "details": "Tabletas Tempra Forte 650mg Paracetamol Adultos 24 Tabletas",
     "brand": null,
     "price": "120.00",
@@ -1932,15 +1959,6 @@
     "price": "129.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750130045026L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "paracetamol",
-    "details": "Paracetamol, naproxeno syncol dual 275 mg, 300 mg, 12 tabletas",
-    "brand": null,
-    "price": "130.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750107060056L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -2062,24 +2080,6 @@
   },
   {
     "medicamento": "amoxicilina",
-    "details": "Amoxicilina/Ácido clavulánico medimart 500 mg/125 mg 10 tabletas",
-    "brand": "medimart",
-    "price": "85.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750107061271L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "amoxicilina",
-    "details": "Amoxicilina/Ácido clavulánico medimart 875 mg/125 mg 10 tabletas",
-    "brand": "medimart",
-    "price": "125.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750107061287L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "amoxicilina",
     "details": "Amoxicilina ampliron 750 mg 12 comprimidos",
     "brand": null,
     "price": "241.00",
@@ -2116,6 +2116,15 @@
   },
   {
     "medicamento": "metformina",
+    "details": "Metformina medimart 750 mg liberación prolongada 30 tabletas",
+    "brand": "medimart",
+    "price": "88.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222629426L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "metformina",
     "details": "Metformina dabex 850 mg 30 tabletas",
     "brand": null,
     "price": "310.00",
@@ -2134,20 +2143,20 @@
   },
   {
     "medicamento": "metformina",
-    "details": "Metformina predial plus 1000 mg caja con 30 tabletas",
-    "brand": null,
-    "price": "424.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110160209L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "metformina",
     "details": "Glibenclamida / metformina sil norboral 5 mg / 500 mg 40 tabletas",
     "brand": null,
     "price": "449.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110164223L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "metformina",
+    "details": "Metformina predial plus 1000 mg caja con 30 tabletas",
+    "brand": null,
+    "price": "489.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110160209L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -2181,73 +2190,73 @@
     "medicamento": "metformina",
     "details": "Metformina predial plus liberación prolongada 850 mg 60 tabletas",
     "brand": null,
-    "price": "663.00",
+    "price": "772.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110161156L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceler 2% crema 15 g",
+    "details": "Acc 200 mg 20 tabletas efervescentes",
     "brand": null,
-    "price": "264.00",
+    "price": "247.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131470141L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750221693122L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Actron 600 mg 30 cápsulas",
+    "details": "Actron 600 mg 10 cápsulas",
     "brand": null,
-    "price": "302.00",
+    "price": "94.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131863475L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131860902L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Ácido alendrónico medimart 70 mg 4 tabletas",
-    "brand": "medimart",
-    "price": "130.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222629083L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "acetaminofen",
-    "details": "Acemetacina medimart 90 mg 14 cápsulas de liberación prolongada",
-    "brand": "medimart",
-    "price": "120.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750649500314L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "acetaminofen",
-    "details": "Acheflan 5 mg/G crema tubo con 30 g",
+    "details": "Actron 400 mg 10 cápsulas",
     "brand": null,
-    "price": "321.00",
+    "price": "108.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110160032L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750131860890L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceite de coco jaloma 120 ml",
+    "details": "Acanol loperamida 2 mg 12 tabletas",
+    "brand": null,
+    "price": "138.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750132897871L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "acetaminofen",
+    "details": "Aceite de aguacate jaloma 120 ml",
     "brand": null,
     "price": "41.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00075968403114L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00075968403117L.jpg",
     "farmacia": "walmart"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceite de argán jaloma 120 ml",
+    "details": "Ácido Fólico de 240 Cápsulas con Brócoli y Espinaca. Ingredientes Naturales. Folic Acid Blend B Life.",
     "brand": null,
-    "price": "41.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00075968403119L.jpg",
-    "farmacia": "walmart"
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41uHfJDcqOL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "acetaminofen",
+    "details": "Aceite Corporal Azus de Ricino Grado Cosmético 110ml",
+    "brand": null,
+    "price": "41.90",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
+    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20333020/7501857301393_00.jpg?v=638326703989030000",
+    "farmacia": "chedraui"
   },
   {
     "medicamento": "acetaminofen",
@@ -2260,20 +2269,20 @@
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceite Corporal Takinka Puro de almendras 125ml",
+    "details": "Aceite de Almendras Belskin 1 Botella 120ml",
     "brand": null,
-    "price": "129.00",
+    "price": "25.50",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
-    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/19002293/7501523301023_00.jpg?v=638302216337230000",
+    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20273165/7503017713046_00.jpg?v=638326094250600000",
     "farmacia": "chedraui"
   },
   {
     "medicamento": "acetaminofen",
-    "details": "Aceite Corporal Takinka Puro de Almendras 60ml",
+    "details": "Acetona Lasa con Aceite de Ricino 55ml",
     "brand": null,
-    "price": "72.00",
+    "price": "25.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
-    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/11902736/7501523300972_00.jpg?v=638119141845400000",
+    "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20249538/7501006890013_00.jpg?v=638325877260100000",
     "farmacia": "chedraui"
   },
   {
@@ -2296,11 +2305,11 @@
   },
   {
     "medicamento": "loratadina",
-    "details": "Loratadina medimart 10 mg, 20 tabletas",
+    "details": "Loratadina/Betametasona medimart 0.5 mg/0.25 mg, 10 tabletas",
     "brand": "medimart",
-    "price": "55.00",
+    "price": "60.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750164475108L.jpg",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750125820545L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -2404,6 +2413,15 @@
   },
   {
     "medicamento": "tiamina",
+    "details": "Cloruro de Magnesio + Tiamina 60 tabs de 500 mg Keep Natural",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41SLgmEHmRL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "tiamina",
     "details": "Solución Inyectable Tiaminal B12 Trivalente AP 3 Ampolletas de 2ml y 3 Jeringas",
     "brand": null,
     "price": "299.00",
@@ -2476,6 +2494,15 @@
   },
   {
     "medicamento": "estradiol",
+    "details": "Levonorgestrel, etinilestradiol medimart 0.15 mg / 0.03 mg, 21 tabletas",
+    "brand": "medimart",
+    "price": "49.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750164475104L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "estradiol",
     "details": "Levonorgestrel, etinilestradiol medimart 0.15 mg / 0.03 mg 28 tabletas",
     "brand": "medimart",
     "price": "55.00",
@@ -2511,6 +2538,15 @@
     "farmacia": "chedraui"
   },
   {
+    "medicamento": "celecoxib",
+    "details": "Celecoxib medimart 200 mg, 30 cápsulas",
+    "brand": "medimart",
+    "price": "599.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222629481L.jpg",
+    "farmacia": "walmart"
+  },
+  {
     "medicamento": "budesonida",
     "details": "Miflonide breezhaler budesonida bucal para inhalación 60 cápsulas 200 µg",
     "brand": null,
@@ -2544,6 +2580,15 @@
     "price": "931.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00773097909733L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "medoxomilo",
+    "details": "Olmesartán medoxomilo 20 mg 28 tabletas",
+    "brand": null,
+    "price": "275.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750644270076L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -2629,30 +2674,21 @@
   },
   {
     "medicamento": "glucosa",
+    "details": "Pretty Bee Grenetina Hidrolizada con Glucosamina y Omega 3,6 y 9 - 500 Grs",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/41OygMFyUIS._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "glucosa",
     "details": "Suplemento alimenticio solanum mv gtc glucosamina 40 cápsulas 600 mg c/U",
     "brand": null,
     "price": "216.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750300654755L.jpg",
     "farmacia": "walmart"
-  },
-  {
-    "medicamento": "glucosa",
-    "details": "Wellthy UC-II 30 Cápsulas Colágeno Tipo 2 Sin Desnaturalizar Suizo, Glucosamina y Magnesio Marino SIMAG. Solo 1 Cápsula al Día, VCaps Cápsulas Veganas, Bottle Free.",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41ld-B4Q2FL._SL500_.jpg",
-    "farmacia": "amazon"
-  },
-  {
-    "medicamento": "glucosa",
-    "details": "PURELY ORGANICS. Glucosamina Fem Complex. Bote con 90 cápsulas. Salud articular. Tu suplemento natural y complemento esencial para una vida activa y saludable.",
-    "brand": null,
-    "price": "2020",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
-    "img_medicamento": "https://m.media-amazon.com/images/I/41h9FWk7LyL._SL500_.jpg",
-    "farmacia": "amazon"
   },
   {
     "medicamento": "glucosa",
@@ -2670,6 +2706,15 @@
     "price": "2020",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
     "img_medicamento": "https://m.media-amazon.com/images/I/51heSt0NZqL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "glucosa",
+    "details": "USANA Procosa: Glucosamina",
+    "brand": null,
+    "price": "1159.99",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/31qCutTeJ0L._SL500_.jpg",
     "farmacia": "amazon"
   },
   {
@@ -2697,6 +2742,15 @@
     "price": "440.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750644270082L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "hidroclorotiazida",
+    "details": "Telmisartán/Hidroclorotiazida medimart 80 mg/12.5 mg 28 tabletas",
+    "brand": "medimart",
+    "price": "460.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750103463010L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -2800,15 +2854,6 @@
   },
   {
     "medicamento": "naproxeno",
-    "details": "Paracetamol, naproxeno syncol dual 275 mg, 300 mg, 12 tabletas",
-    "brand": null,
-    "price": "130.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750107060056L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "naproxeno",
     "details": "Alliviax 20 Tabletas Alivia Dolor e Inflamación Naproxeno 550 Mg",
     "brand": null,
     "price": "184.00",
@@ -2904,6 +2949,15 @@
     "price": "417.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750130042097L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "clorfenamina",
+    "details": "Clorfenamina compuesta medimart masferol 24 tabletas",
+    "brand": "medimart",
+    "price": "40.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110976923L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -3105,6 +3159,15 @@
     "farmacia": "chedraui"
   },
   {
+    "medicamento": "celecoxib",
+    "details": "Celecoxib medimart 200 mg, 30 cápsulas",
+    "brand": "medimart",
+    "price": "599.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750222629481L.jpg",
+    "farmacia": "walmart"
+  },
+  {
     "medicamento": "paracetamol",
     "details": "Paracetamol medimart 500 mg, 10 tabletas",
     "brand": "medimart",
@@ -3133,15 +3196,6 @@
   },
   {
     "medicamento": "paracetamol",
-    "details": "Paracetamol medimart 750 mg 10 tabletas",
-    "brand": "medimart",
-    "price": "25.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750157390391L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "paracetamol",
     "details": "Tabletas Paracetamol 500mg Salpifar 10 Tabletas",
     "brand": null,
     "price": "25.50",
@@ -3166,6 +3220,15 @@
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceChedraui.png",
     "img_medicamento": "https://chedrauimx.vtexassets.com/arquivos/ids/20242832/7502276040375_00.jpg?v=638325812779370000",
     "farmacia": "chedraui"
+  },
+  {
+    "medicamento": "paracetamol",
+    "details": "Paracetamol, cafeína medimart 500 mg-50 mg, 20 tabletas",
+    "brand": "medimart",
+    "price": "35.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750110976927L.jpg",
+    "farmacia": "walmart"
   },
   {
     "medicamento": "paracetamol",
@@ -3277,6 +3340,15 @@
   },
   {
     "medicamento": "paracetamol",
+    "details": "Tempra Solución Pediátrica Fiebre y Dolor Sabor Uva Paracetamol frasco de 30 ml",
+    "brand": null,
+    "price": "2020",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/ppriceAmazon.png",
+    "img_medicamento": "https://m.media-amazon.com/images/I/51QmSeLwVoL._SL500_.jpg",
+    "farmacia": "amazon"
+  },
+  {
+    "medicamento": "paracetamol",
     "details": "Tabletas Tempra Forte 650mg Paracetamol Adultos 24 Tabletas",
     "brand": null,
     "price": "120.00",
@@ -3291,15 +3363,6 @@
     "price": "129.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750130045026L.jpg",
-    "farmacia": "walmart"
-  },
-  {
-    "medicamento": "paracetamol",
-    "details": "Paracetamol, naproxeno syncol dual 275 mg, 300 mg, 12 tabletas",
-    "brand": null,
-    "price": "130.00",
-    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
-    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750107060056L.jpg",
     "farmacia": "walmart"
   },
   {
@@ -3480,6 +3543,15 @@
     "price": "170.00",
     "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
     "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750649501494L.jpg",
+    "farmacia": "walmart"
+  },
+  {
+    "medicamento": "cabergolina",
+    "details": "Cabergolina sheldy 0.5 mg 2 tabletas",
+    "brand": null,
+    "price": "170.00",
+    "img_farmacia": "https://quefarmacia.com/wp-content/themes/LCtheme2020/images/walmart.png",
+    "img_medicamento": "https://res.cloudinary.com/walmart-labs/image/upload/gr/images/product-images/img_large/00750300180042L.jpg",
     "farmacia": "walmart"
   },
   {
