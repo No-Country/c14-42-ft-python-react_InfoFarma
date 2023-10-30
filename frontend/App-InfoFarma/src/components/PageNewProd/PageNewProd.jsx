@@ -8,8 +8,9 @@ import styles from './PageNewProd.module.css'
 
 const camelCaseToNormalReadable = (camelCase) => {
   return camelCase
-    .replace(/([A-Z])/g, ' $1')
-    .replace(/^./, (str) => str.toUpperCase());
+    .replace(/([A-Z])/g, ' \$1')
+    .toLowerCase()
+    .replace(/^(.)/, (str) => str.toUpperCase());
 };
 
 export const PageNewProd = () => {
@@ -18,7 +19,7 @@ export const PageNewProd = () => {
     nombreDelMedicamento: '',
     descripcionODetalles: '',
     direccionImagenDelMedicamento: '',
-    tiendaFarmacia: '',
+    tiendaOFarmacia: '',
     precio: '',
   };
 
@@ -44,7 +45,7 @@ export const PageNewProd = () => {
       details: values.descripcionODetalles,
       img: values.direccionImagenDelMedicamento,
       name: values.nombreDelMedicamento,
-      pharmacy_name: values.tiendaFarmacia,
+      pharmacy_name: values.tiendaOFarmacia,
     };
 
     console.log('Datos a enviar:', dataToSend);
@@ -77,7 +78,7 @@ export const PageNewProd = () => {
                         fullWidth
                         id={campo}
                         name={campo}
-                        autoComplete={campo === 'tiendaFarmacia' ? 'on' : 'off'}
+                        autoComplete={campo === 'tiendaOFarmacia' ? 'on' : 'off'}
                         label={camelCaseToNormalReadable(campo)}
                         variant="outlined"
                         {...field}
