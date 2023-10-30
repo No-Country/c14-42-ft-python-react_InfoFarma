@@ -1,0 +1,21 @@
+.divWidget button {
+    font-family: 'Roboto Condensed';
+    margin-top: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #3f7b1d;
+    color: #fff;
+    margin-bottom: 1.3rem;
+}
+      
+.divWidget button:hover,
+.divWidget button:focus {
+    font-family: 'Roboto Condensed';
+    margin-top: 8px;
+    padding-right: 24px;
+    padding-left: 24px;
+    background-color: #2a5014;
+    color: #fff;
+    border: none;
+    margin-bottom: 1.3rem;
+}
