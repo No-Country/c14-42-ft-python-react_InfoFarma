@@ -1,14 +1,15 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routes import create_routes, products
+from routes import create_routes, products, newsletters
 from routes.routes import router as routes_router
 
 
 app = FastAPI()
-app.include_router(routes_router)
+# app.include_router(routes_router)
 app.include_router(products.router)
+app.include_router(newsletters.router)
 
-create_routes(app)
+# create_routes(app)
 
 # Configuración de CORS para permitir solicitudes desde el dominio de tu aplicación React
 app.add_middleware(
