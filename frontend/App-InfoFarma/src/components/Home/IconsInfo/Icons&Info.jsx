@@ -36,7 +36,7 @@ export default function IconsInfo() {
             key={item.img}
             xs={12} 
             sm={6}
-            md={4} 
+            // md={4} 
             pb={7}
           >
               <Img
@@ -60,22 +60,22 @@ const itemData = [
   },
   {
     img: '/img/medicamentos.png',
-    description: 'Todo sobre medicamentos',
+    description: 'Información de cada medicamento',
   },
   {
     img: '/img/buscar.png',
-    description: 'Encuentra información',
+    description: 'Podrás recibir noticias y promociones al suscribirte',
   },
-  {
-    img: '/img/ubicacion.png',
-    description: 'Tu farmacia más cercana',
-  },
+  // {
+  //   img: '/img/ubicacion.png',
+  //   description: 'Tu farmacia más cercana',
+  // },
   {
     img: '/img/precio-bajo.png',
     description: 'Mejor precio, mismo producto',
   },
-  {
-    img: '/img/descuento.png',
-    description: 'Ofertas/descuentos',
-  },
+  // {
+  //   img: '/img/descuento.png',
+  //   description: 'Ofertas/descuentos',
+  // },
 ];
