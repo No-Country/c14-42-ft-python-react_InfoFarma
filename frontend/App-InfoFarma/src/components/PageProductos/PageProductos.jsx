@@ -6,7 +6,7 @@ import { Navegador } from './Components/Navegador';
 import { ProductList } from './Components/ProductList';
 import { getAllProducts, filterAlphabetic, orderBy } from '../../middlewares/redux/actions';
 import useLocalStorage from '../../hooks/customHooks/useLocalStorage';
-import { LinearProgress, Box } from '@mui/material';
+import { LinearProgress, Box, Typography } from '@mui/material';
 
 function PageProductos() {
   const dispatch = useDispatch()
@@ -68,10 +68,17 @@ function PageProductos() {
         <Filtrador onFiltrar={setOrder} />
       </Box>
       {productos.length === 0 ? (
-        <div className='loading'>
-          <span>Cargando productos...</span>
-          <LinearProgress color='success' />
-        </div>
+      <Box mb={4}>
+        <Box sx={{
+          display: 'flex',
+          ml: 2,
+          mt: 4,
+          mb: 1
+        }}>
+          <Typography variant='h6' >Cargando productos...</Typography>
+        </Box>
+        <LinearProgress color='success' />
+      </Box>
       ) : (
         <ProductList productos={productsFiltered} />
       )}

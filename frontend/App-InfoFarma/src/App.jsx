@@ -23,7 +23,7 @@ function App() {
           {avisoOpen && <AvisoResp open={avisoOpen} handleClose={() => setAvisoOpen(false)} />}
           <NavBar />
           <div className='App'>
-            <header className='App-header'>
+            {/* <header className='App-header'>
               {isAuthenticated ? (
                 <>
                   <Profile />
@@ -32,7 +32,7 @@ function App() {
               ) : (
                 <LoginButton />
               )}
-            </header>
+            </header> */}
           </div>
           <Routes>
             <Route path='/' element={<Home />} />
