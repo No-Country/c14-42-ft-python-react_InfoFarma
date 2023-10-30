@@ -69,7 +69,7 @@ function PageProductos() {
       </Box>
       {productos.length === 0 ? (
         <div className='loading'>
-          <text>Cargando productos...</text>
+          <span>Cargando productos...</span>
           <LinearProgress color='success' />
         </div>
       ) : (
