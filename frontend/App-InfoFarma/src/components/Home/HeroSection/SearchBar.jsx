@@ -62,6 +62,7 @@ function SearchBar() {
     <Box
       className='search-container'
       sx={{
+        mt: 1,
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
