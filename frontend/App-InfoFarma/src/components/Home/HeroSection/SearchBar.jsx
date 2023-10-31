@@ -3,6 +3,7 @@ import IconButton from '@mui/material/IconButton';
 import ClearIcon from '@mui/icons-material/Clear';
 import { TextField, Box } from '@mui/material';
 import { ItemList } from './ItemList';
+import { normalizeName } from '../../../hooks/normalizeName';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllProducts } from '../../../redux/actions';
@@ -40,12 +41,13 @@ function SearchBar() {
   
   };
 
-  const filterData = (searchTerm) => {
-    const filteredData = allProducts.filter((item) =>
-      item.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setFilteredData(filteredData);
-  };
+const filterData = (searchTerm) => {
+  const normalizedSearchTerm = normalizeName(searchTerm.toLowerCase());
+  const filteredData = allProducts.filter((item) =>
+    normalizeName(item.name).toLowerCase().includes(normalizedSearchTerm)
+  );
+  setFilteredData(filteredData);
+};
 
   const inputProps = {
     style: {
