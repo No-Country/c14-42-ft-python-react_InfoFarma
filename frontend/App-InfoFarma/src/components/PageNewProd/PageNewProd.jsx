@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { postSuggestion } from '../Home/middlewares/redux/actions';
+import { postSuggestion } from '../../redux/actions';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { Box, Typography, TextField, Button, InputAdornment, FormHelperText, Snackbar, Slide } from '@mui/material';
 import { Footer } from '../Footer/Footer';
