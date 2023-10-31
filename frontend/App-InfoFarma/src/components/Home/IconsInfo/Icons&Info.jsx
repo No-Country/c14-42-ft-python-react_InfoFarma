@@ -66,10 +66,10 @@ const itemData = [
     img: '/img/buscar.png',
     description: 'Podrás recibir noticias y promociones al suscribirte',
   },
-  // {
-  //   img: '/img/ubicacion.png',
-  //   description: 'Tu farmacia más cercana',
-  // },
+  {
+    img: '/img/ubicacion.png',
+    description: 'Tu farmacia más cercana',
+  },
   {
     img: '/img/precio-bajo.png',
     description: 'Mejor precio, mismo producto',

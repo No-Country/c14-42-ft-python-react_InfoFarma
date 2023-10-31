@@ -1,8 +1,7 @@
 import axios from 'axios'
-
 export const GET_ALL_PRODUCTS = 'GET_ALL_PRODUCTS';
 export const FILTER_BY_ALPHABETIC = 'FILTER_BY_ALPHABETIC';
-export const ORDER_BY = 'ORDER_BY';
+export const ORDER_BY = 'ORDER_BY';   
 
 export const getAllProducts = () => {
     return async function (dispatch) {
@@ -29,9 +28,8 @@ export const filterAlphabetic = (letra) => {
         }
     } catch(error) {
         console.log(error.message);
-    }
-    
-}
+    }    
+} 
 
 export const orderBy = (order) => {
     try {
