@@ -36,7 +36,7 @@ export default function IconsInfo() {
             key={item.img}
             xs={12} 
             sm={6}
-            // md={4} 
+            md={4} 
             pb={7}
           >
               <Img
@@ -63,6 +63,14 @@ const itemData = [
     description: 'Información de cada medicamento',
   },
   {
+    img: '/img/terceraedad.png',
+    description: 'Funcionalidades y estilos agradables y simples para los de tercera edad',
+  },
+  {
+    img: '/img/precio-bajo.png',
+    description: 'Mejor precio, mismo producto',
+  },
+  {
     img: '/img/buscar.png',
     description: 'Podrás recibir noticias y promociones al suscribirte',
   },
@@ -70,12 +78,5 @@ const itemData = [
     img: '/img/ubicacion.png',
     description: 'Tu farmacia más cercana',
   },
-  {
-    img: '/img/precio-bajo.png',
-    description: 'Mejor precio, mismo producto',
-  },
-  // {
-  //   img: '/img/descuento.png',
-  //   description: 'Ofertas/descuentos',
-  // },
 ];
+  

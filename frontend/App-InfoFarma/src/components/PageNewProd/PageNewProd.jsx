@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { postSuggestion } from '../../redux/actions';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { Box, Typography, TextField, Button, InputAdornment, FormHelperText } from '@mui/material';
+import { Box, Typography, TextField, Button, InputAdornment, FormHelperText, Snackbar, Slide } from '@mui/material';
 import { Footer } from '../Footer/Footer';
 import { Widget } from "@uploadcare/react-widget";
-import styled from "@emotion/styled";
 import styles from './PageNewProd.module.css'
 
 const camelCaseToNormalReadable = (camelCase) => {
@@ -14,6 +15,25 @@ const camelCaseToNormalReadable = (camelCase) => {
 };
 
 export const PageNewProd = () => {
+  const [widgetValue, setWidgetValue] = useState();
+
+  //Lógica del SnackBar
+  const [suggestionSuccess, setSuggestionSuccess] = useState('')
+
+  const [snack, setSnack] = useState(false)
+
+  const handleSnackClose = () => {
+    setSnack(false)
+  }
+  const handleSnackOpen = () => {
+    setSnack(true)
+  }
+  const isSnackbarOpen = (suggestionSuccess, snack) => {
+    return typeof suggestionSuccess === "boolean" && typeof snack === "boolean" && suggestionSuccess && snack;
+  };
+
+
+  const dispatch = useDispatch();
 
   const initialValues = {
     nombreDelMedicamento: '',
@@ -31,25 +51,26 @@ export const PageNewProd = () => {
       if (!values[campo]) {
         errors[campo] = 'Este campo es obligatorio, si no tienes la informacion escribe "N/A"';
       }
-      if (!values[direccionImagenDelMedicamento]) {
-        errors[direccionImagenDelMedicamento] = 'Este campo es obligatorio, si no tienes la informacion escribe "N/A"';
-      }
     }
 
     return errors;
   };
 
-  const handleSubmit = (values) => {
+  const handleSubmit = (values, { resetForm }) => {
     const dataToSend = {
       price: values.precio,
       details: values.descripcionODetalles,
       img: values.direccionImagenDelMedicamento,
-      name: values.nombreDelMedicamento,
+      medicine_name: values.nombreDelMedicamento,
       pharmacy_name: values.tiendaOFarmacia,
     };
 
-    console.log('Datos a enviar:', dataToSend);
-    // Esperando el endpoint al que se le enviarán los datos.
+    // Se envían los datos al endpoint
+    dispatch(postSuggestion(dataToSend))
+    
+    setSuggestionSuccess(true);
+    resetForm()
+    setWidgetValue(null)
   };
 
 
@@ -101,7 +122,7 @@ export const PageNewProd = () => {
               ) : null
             ))}
 
-            <Field name="direccionImagenDelMedicamento">
+            <Field>
               {({ field, meta }) => (
                 <div className={styles.divWidget}>
                   <Widget
@@ -110,7 +131,8 @@ export const PageNewProd = () => {
                     onChange={fileInfo => field.onChange('direccionImagenDelMedicamento')(fileInfo.cdnUrl)}
                     tabs="file url gphotos"
                     locale="es"
-                    name="image"
+                    name="direccionImagenDelMedicamento"
+                    value={widgetValue}
                     imagesOnly
                     previewStep
                     clearable
@@ -124,12 +146,21 @@ export const PageNewProd = () => {
               )}
             </Field>
 
-            <Button color="primary" variant="contained" fullWidth type="submit">
+            <Button color="primary" variant="contained" fullWidth type="submit" onClick={handleSnackOpen}>
               Agregar Producto
             </Button>
           </Form>
         </Formik>
       </Box>
+      <Snackbar
+        open={isSnackbarOpen(suggestionSuccess, snack)}
+        autoHideDuration={2200}
+        onClose={handleSnackClose}
+        message="¡Sugerencia enviada! Nuestro equipo la estará revisando en breve."
+        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+        TransitionComponent={Slide}
+        TransitionProps={{ direction: "left" }}
+      />
       <Footer />
     </>
   );
