@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routes import create_routes, products, newsletters, branches
+from routes import create_routes, products, newsletters, branches, suggestions, pharmacies
 from routes.routes import router as routes_router
 
 
@@ -9,6 +9,8 @@ app = FastAPI()
 app.include_router(products.router)
 app.include_router(newsletters.router)
 app.include_router(branches.router)
+app.include_router(suggestions.router)
+app.include_router(pharmacies.router)
 
 # create_routes(app)
 
