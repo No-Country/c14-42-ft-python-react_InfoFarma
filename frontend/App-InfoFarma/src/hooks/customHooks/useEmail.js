@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { postSubscription } from '../../redux/actions';
+import { postSubscription } from '../../components/Home/middlewares/redux/actions';
 
 const useEmail = () => {
     const dispatch = useDispatch();
