@@ -41,13 +41,6 @@ function SearchBar() {
   
   };
 
-  // const filterData = (searchTerm) => {
-  //   const filteredData = allProducts.filter((item) =>
-  //     item.name.toLowerCase().includes(searchTerm.toLowerCase())
-  //   );
-  //   setFilteredData(filteredData);
-  // };
-
 const filterData = (searchTerm) => {
   const normalizedSearchTerm = normalizeName(searchTerm.toLowerCase());
   const filteredData = allProducts.filter((item) =>
@@ -55,7 +48,6 @@ const filterData = (searchTerm) => {
   );
   setFilteredData(filteredData);
 };
-
 
   const inputProps = {
     style: {
