@@ -5,7 +5,7 @@ import { TextField, Box } from '@mui/material';
 import { ItemList } from './ItemList';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { getAllProducts } from '../../../middlewares/redux/actions';
+import { getAllProducts } from '../../../redux/actions';
 
 function SearchBar() {
   const [searchTerm, setSearchTerm] = useState('');

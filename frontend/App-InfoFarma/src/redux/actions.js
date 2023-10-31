@@ -4,6 +4,8 @@ export const GET_ALL_PRODUCTS = 'GET_ALL_PRODUCTS';
 export const FILTER_BY_ALPHABETIC = 'FILTER_BY_ALPHABETIC';
 export const ORDER_BY = 'ORDER_BY';
 
+   
+
 export const getAllProducts = () => {
     return async function (dispatch) {
         try {
@@ -32,6 +34,22 @@ export const filterAlphabetic = (letra) => {
     }
     
 }
+
+// export const filterAlphabetic = (letra) => {
+//     return (dispatch, getState) => {
+//         try {
+//             // const state = getState();
+//             // let productsFiltered = state.allProducts.filter(product => normalizeName(product.name)[0].toLowerCase() === letra.toLowerCase());
+//             dispatch({
+//                 type: FILTER_BY_ALPHABETIC,
+//                 payload: productsFiltered,
+//             });
+//         } catch(error) {
+//             console.log(error.message);
+//         }
+//     }
+//  }
+ 
 
 export const orderBy = (order) => {
     try {

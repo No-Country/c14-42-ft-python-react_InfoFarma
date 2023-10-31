@@ -4,9 +4,11 @@ import { Filtrador } from './Components/Filtrador';
 import { Footer } from '../Footer/Footer';
 import { Navegador } from './Components/Navegador';
 import { ProductList } from './Components/ProductList';
-import { getAllProducts, filterAlphabetic, orderBy } from '../../middlewares/redux/actions';
+import { getAllProducts, filterAlphabetic, orderBy } from '../../redux/actions';
 import useLocalStorage from '../../hooks/customHooks/useLocalStorage';
 import { LinearProgress, Box, Typography } from '@mui/material';
+
+import { normalizeName } from '../../hooks/normalizeName';
 
 function PageProductos() {
   const dispatch = useDispatch()
@@ -21,21 +23,26 @@ function PageProductos() {
 
   useEffect(() => {
     dispatch(getAllProducts())
-      // .then(() => {
-      //   setLoading(false);
-      // })
       .catch((error) => {
         console.error('Error al cargar los productos', error);
-        // setLoading(false);
       });
   }, [dispatch]);
 
   // Primero guardo las letras y la letra seleccionada en sus estados locales
+  // useEffect(() => {
+  //   const letras = [...new Set(productos.map((producto) => producto.name[0]))].sort();
+  //   setAlfabeto(letras);
+  //   setLetraSeleccionada(letras[0] || '');
+  // }, [productos]);
+
+
   useEffect(() => {
-    const letras = [...new Set(productos.map((producto) => producto.name[0]))].sort();
+    const letras = [...new Set(productos.map((producto) => normalizeName(producto.name)[0]))].sort();
     setAlfabeto(letras);
     setLetraSeleccionada(letras[0] || '');
-  }, [productos]);
+   }, [productos]);
+   
+
 
   // Luego cargo los productos filtrados dependiendo si cambia la letra seleccionada (por eso se carga antes al estado la letra seleccionada y las demas letras)
   useEffect(() => {
@@ -53,15 +60,12 @@ function PageProductos() {
     <Box sx={{
       p: [0, '1rem'],
       bgcolor: '#dcf1dc64'
-      // maxWidth: '87vw'
     }}>
       <Box sx={
         {
           pt: '1rem',
           width: '100%',
           display: { md: 'flex' },
-          // mt: 5
-          // justifyContent: 'space-around'
         }
       }>
         <Navegador className='nav' letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
