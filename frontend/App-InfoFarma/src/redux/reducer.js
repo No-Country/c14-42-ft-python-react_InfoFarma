@@ -3,7 +3,9 @@ import { normalizeName } from '../hooks/normalizeName';
 import { 
     GET_ALL_PRODUCTS,
     FILTER_BY_ALPHABETIC,
-    ORDER_BY
+    ORDER_BY,
+    POST_SUBSCRIPTION,
+    POST_SUGGESTION
 } from './actions';
 
 const inicialState = {
@@ -19,6 +21,16 @@ const rootReducer = (state = inicialState, action) => {
                 ...state,
                 allProducts: action.payload,
                 products: action.payload
+            }
+
+        case POST_SUBSCRIPTION:
+            return {
+                ...state
+            }
+
+        case POST_SUGGESTION:
+            return {
+                ...state
             }
 
         case FILTER_BY_ALPHABETIC:
