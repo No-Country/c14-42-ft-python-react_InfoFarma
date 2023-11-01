@@ -9,6 +9,7 @@ import useLocalStorage from '../../hooks/customHooks/useLocalStorage';
 import { LinearProgress, Box, Typography } from '@mui/material';
 
 import { normalizeName } from '../../hooks/normalizeName';
+import Suggestion from './Components/Suggestion';
 
 function PageProductos() {
   const dispatch = useDispatch();
@@ -46,8 +47,7 @@ function PageProductos() {
 
   return (
     <Box sx={{
-      marginTop: '100px', 
-      p: [0, '1rem'],
+      pt: '5rem',
       bgcolor: '#dcf1dc64',
     }}>
       <Box sx={{
@@ -73,6 +73,7 @@ function PageProductos() {
       ) : (
         <ProductList productos={productsFiltered} />
       )}
+      <Suggestion/>
       <Footer className="footer-container" sx={{ height: '1100px' }}>
         {/* Contenido del footer */}
       </Footer>

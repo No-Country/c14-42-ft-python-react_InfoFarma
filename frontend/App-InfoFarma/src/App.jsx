@@ -11,6 +11,7 @@ import NavBar from './components/NavBar/NavBar';
 import PageNosotros from './components/PageNosotros/PageNosotros';
 import LazyPageProductos from '../src/components/PageProductos/LazyPageProductos';
 import DashboardComponent from './components/Dashboard/DashboardComponent';
+import PageNewProduct from "./components/PageNewProd/PageNewProd"
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -24,6 +25,7 @@ function App() {
           <NavBar />
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/form' element={<PageNewProduct />} />
             <Route path='/login' element={<LoginButton />} />
             <Route path='/logout' element={<LogoutButton />} />
             <Route path='/profile' element={<Profile />} />
