@@ -7,10 +7,30 @@ import { Snackbar } from '@mui/material'
 export const Map = () => {
   const apiKey = 'AIzaSyCwV3RBVfWLMFRGmX-I-wa7x5xH1rwOCXM';
   const searchRadius = 2000; // Radio de búsqueda en metros
-
+  
+  const [pharmacies, setPharmacies] = useState([]);
   const [selectedPharmacy, setSelectedPharmacy] = useState(null);
   const [isSnackbarOpen, setIsSnackbarOpen] = useState(false);
 
+
+  useEffect(() => {
+    const fetchPharmacies = async () => {
+      try {
+        const response = await fetch('https://info-farma-backend.onrender.com/farmacias');
+        if (response.ok) {
+          const data = await response.json();
+          setPharmacies(data);
+        } else {
+          console.error('Error al cargar los datos del backend');
+        }
+      } catch (error) {
+        console.error('Error al cargar los datos del backend:', error);
+      }
+    };
+
+    fetchPharmacies();
+  
+  },[])
 
   useEffect(() => {
     const loader = new Loader({
@@ -38,14 +58,14 @@ export const Map = () => {
           map.setCenter(userLocation);
 
           // Realizar una búsqueda de farmacias cercanas
+          const keyword = pharmacies.map(pharmacy => pharmacy.name.replace(/\s/g, '')).join('|');
           const placesService = new google.maps.places.PlacesService(map);
           placesService.nearbySearch({
+            keyword: keyword,
             location: userLocation,
             radius: searchRadius,
-            type: 'pharmacy',
           }, (results, status) => {
             if (status === google.maps.places.PlacesServiceStatus.OK) {
-              // Personalizar marcadores para cada farmacia encontrada
               results.forEach(pharmacy => {
                 const marker = new google.maps.Marker({
                   position: pharmacy.geometry.location,
@@ -56,7 +76,6 @@ export const Map = () => {
                     scaledSize: new google.maps.Size(40, 40),
                   }
                 });
-
                 // Agregar un evento de clic al marcador
                 marker.addListener('click', () => {
                   setSelectedPharmacy(pharmacy);
@@ -84,7 +103,7 @@ export const Map = () => {
         console.error('El navegador no admite geolocalización.');
       }
     });
-  }, []);
+  }, [pharmacies]);
 
   // Función para abrir la ubicación en Google Maps
   const openInGoogleMaps = (location) => {
