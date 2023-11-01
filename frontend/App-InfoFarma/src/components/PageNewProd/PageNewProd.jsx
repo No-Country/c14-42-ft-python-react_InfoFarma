@@ -14,7 +14,7 @@ const camelCaseToNormalReadable = (camelCase) => {
     .replace(/^(.)/, (str) => str.toUpperCase());
 };
 
-export const PageNewProd = () => {
+export default function PageNewProd () {
   const [widgetValue, setWidgetValue] = useState();
 
   //Lógica del SnackBar

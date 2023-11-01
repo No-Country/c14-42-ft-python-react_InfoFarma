@@ -9,6 +9,7 @@ import useLocalStorage from '../../hooks/customHooks/useLocalStorage';
 import { LinearProgress, Box, Typography } from '@mui/material';
 
 import { normalizeName } from '../../hooks/normalizeName';
+import Suggestion from './Components/Suggestion';
 
 function PageProductos() {
   const dispatch = useDispatch()
@@ -86,6 +87,7 @@ function PageProductos() {
       ) : (
         <ProductList productos={productsFiltered} />
       )}
+      <Suggestion/>
       <Footer />
     </Box>
   )
