@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
 import { Button, Typography } from '@mui/material'
-import { CustomButton } from '../Home/HeroSection/CustomButton';
+
 
 export const Map = () => {
   const apiKey = 'AIzaSyCwV3RBVfWLMFRGmX-I-wa7x5xH1rwOCXM';
@@ -109,8 +109,6 @@ export const Map = () => {
     // Eliminar el elemento de textarea
     document.body.removeChild(textArea);
 
-    // Notificar al usuario que se copió el texto
-    alert('Información copiada al portapapeles.');
   };
 
 
