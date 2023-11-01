@@ -1,6 +1,5 @@
 import { Container, Stack, Typography } from '@mui/material'
 import { SearchBar } from './SearchBar'
-import { CustomButton } from './CustomButton'
 
 export const HeroSection = () => {
 

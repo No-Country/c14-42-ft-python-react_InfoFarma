@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
-import { Button, Typography } from '@mui/material'
+import { Button, Typography, Slide } from '@mui/material'
+import { Snackbar } from '@mui/material'
 
 
 export const Map = () => {
@@ -8,6 +9,8 @@ export const Map = () => {
   const searchRadius = 2000; // Radio de búsqueda en metros
 
   const [selectedPharmacy, setSelectedPharmacy] = useState(null);
+  const [isSnackbarOpen, setIsSnackbarOpen] = useState(false);
+
 
   useEffect(() => {
     const loader = new Loader({
@@ -92,23 +95,28 @@ export const Map = () => {
     window.open(url, '_blank');
   };
 
+  const [snackbarMessage, setSnackbarMessage] = useState("");
   //Función para copiar los datos en papelera
   const copyToClipboard = (name, vicinity) => {
-    console.log('Copiando contenido: ', name, vicinity)
     const textToCopy = `Nombre: ${name}\nDirección: ${vicinity}`;
 
     // Crear un elemento de textarea invisible para copiar el texto
-    const textArea = document.createElement('textarea');
+    const textArea = document.createElement("textarea");
     textArea.value = textToCopy;
     document.body.appendChild(textArea);
 
     // Seleccionar y copiar el texto
     textArea.select();
-    document.execCommand('copy');
+    document.execCommand("copy");
 
     // Eliminar el elemento de textarea
     document.body.removeChild(textArea);
 
+    // Configurar el mensaje de la Snackbar
+    setSnackbarMessage("Información copiada al portapapeles");
+
+    // Abrir la Snackbar
+    setIsSnackbarOpen(true);
   };
 
 
@@ -153,6 +161,16 @@ export const Map = () => {
           </div>
         </div>
       )}
+      <Snackbar
+        open={isSnackbarOpen}
+        autoHideDuration={2200} // Duración de la Snackbar
+        onClose={() => setIsSnackbarOpen(false)} // Función para cerrar la Snackbar
+        message={snackbarMessage} // Mensaje de la Snackbar
+        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+        TransitionComponent={Slide}
+        TransitionProps={{ direction: "left" }}
+      />
+
     </div>
 
   );
