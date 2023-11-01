@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
-import { Button } from '@mui/material'
+import { Button, Typography } from '@mui/material'
+import { CustomButton } from '../Home/HeroSection/CustomButton';
 
 export const Map = () => {
-  const apiKey = 'AIzaSyCwV3RBVfWLMFRGmX-I-wa7x5xH1rwOCXM'; // Reemplaza con tu clave de API de Google Maps
+  const apiKey = 'AIzaSyCwV3RBVfWLMFRGmX-I-wa7x5xH1rwOCXM';
   const searchRadius = 2000; // Radio de búsqueda en metros
 
   const [selectedPharmacy, setSelectedPharmacy] = useState(null);
@@ -19,7 +20,7 @@ export const Map = () => {
       // Crear un mapa
       const map = new google.maps.Map(document.getElementById("map"), {
         center: { lat: 0, lng: 0 },
-        zoom: 15, // Ajusta el nivel de zoom según tus preferencias
+        zoom: 14.4, // Ajusta el nivel de zoom
       });
 
       // Obtener la ubicación del usuario
@@ -47,6 +48,10 @@ export const Map = () => {
                   position: pharmacy.geometry.location,
                   map: map,
                   title: pharmacy.name,
+                  icon: {
+                    url: 'https://img.icons8.com/color/48/drugstore.png', // Icono personalizado
+                    scaledSize: new google.maps.Size(40, 40),
+                  }
                 });
 
                 // Agregar un evento de clic al marcador
@@ -64,6 +69,10 @@ export const Map = () => {
             position: userLocation,
             map: map,
             title: "Tu ubicación",
+            icon: {
+              url: 'https://img.icons8.com/tiny-color/48/user.png',
+              scaledSize: new google.maps.Size(30, 30),
+            }
           });
         }, error => {
           console.error('Error al obtener la ubicación:', error);
@@ -76,24 +85,77 @@ export const Map = () => {
 
   // Función para abrir la ubicación en Google Maps
   const openInGoogleMaps = (location) => {
+    console.log('Abriendo Google Maps: ', location)
     const lat = location.lat();
     const lng = location.lng();
     const url = `https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}`;
     window.open(url, '_blank');
   };
 
+  //Función para copiar los datos en papelera
+  const copyToClipboard = (name, vicinity) => {
+    console.log('Copiando contenido: ', name, vicinity)
+    const textToCopy = `Nombre: ${name}\nDirección: ${vicinity}`;
+
+    // Crear un elemento de textarea invisible para copiar el texto
+    const textArea = document.createElement('textarea');
+    textArea.value = textToCopy;
+    document.body.appendChild(textArea);
+
+    // Seleccionar y copiar el texto
+    textArea.select();
+    document.execCommand('copy');
+
+    // Eliminar el elemento de textarea
+    document.body.removeChild(textArea);
+
+    // Notificar al usuario que se copió el texto
+    alert('Información copiada al portapapeles.');
+  };
+
+
   return (
     <div>
-      <div id="map" style={{ width: '100%', height: '400px' }}></div>
+      <div id="map" style={{
+        width: '100%',
+        height: '400px',
+        maxWidth: '900px',
+        borderRadius: '10px',
+        boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
+        margin: '2rem auto',
+      }}></div>
       {selectedPharmacy && (
-        <div>
-          <h2>Farmacia Seleccionada</h2>
-          <p>Nombre: {selectedPharmacy.name}</p>
-          <p>Dirección: {selectedPharmacy.vicinity}</p>
-          <Button onClick={() => openInGoogleMaps(selectedPharmacy.geometry.location)} variant="contained" color="primary">Ir a farmacia</Button>
-          {/* Agrega más detalles de la farmacia según tus necesidades */}
+        <div style={{
+          textAlign: 'center',
+          padding: '1rem',
+        }}>
+          <Typography variant='h4' component='p' m={2}>
+            Farmacia Seleccionada
+          </Typography>
+          <Typography variant='h6' component='p' m={1}>
+            Dirección: {selectedPharmacy.vicinity}
+          </Typography>
+          <Typography variant='h6' component='p' m={1}>
+            Nombre: {selectedPharmacy.name}
+          </Typography>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            flexWrap: 'wrap',
+            maxWidth: '400px',
+            margin: '0 auto',
+            padding: '10px',
+          }}>
+            <Button onClick={() => openInGoogleMaps(selectedPharmacy.geometry.location)} variant="contained">
+              Ir a Google Maps
+            </Button>
+            <Button onClick={() => copyToClipboard(selectedPharmacy.name, selectedPharmacy.vicinity)} variant='contained'>
+              Copiar Dirección
+            </Button>
+          </div>
         </div>
       )}
     </div>
+
   );
 };

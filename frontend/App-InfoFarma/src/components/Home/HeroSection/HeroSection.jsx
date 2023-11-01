@@ -20,12 +20,12 @@ export const HeroSection = () => {
         pb: '4rem'
       }}>
       <Typography variant='h3' component='h1' color='primary' m={1}>InfoFarma</Typography>
-      <Typography variant='h5' component='h2' color='primary' fontSize='1.4rem'>
-        Aquí encontrarás información y comparación de precios de fármacos
-      </Typography>
       <SearchBar />      
+      <Typography fontSize='1.4rem' variant='h5' component='h2' color='primary'>
+        Aquí encontrarás información y comparación de precios de medicamentos en México.
+      </Typography>
       <Typography fontSize='1.4rem' variant='h5' component='p' color='primary' m={1}>
-        Hemos reunido información sobre productos farmacéuticos para brindarte una comparación de éstos, en una sola página.
+        Hemos reunido información sobre productos farmacéuticos para brindarte una comparación de éstos en una sola página.
       </Typography>
       <Typography fontSize='1.4rem' variant='h5' component='p' color='primary' m={1}>
         Encuentra: ¿Cuánto cuesta? ¿Qué presentaciones hay disponibles? ¿Qué farmacia es más barata?
