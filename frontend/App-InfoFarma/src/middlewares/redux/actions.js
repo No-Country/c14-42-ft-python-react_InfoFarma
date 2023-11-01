@@ -36,7 +36,6 @@ export const postSuggestion = (newProduct) => {
     return async function () {
         try {
             const response = await axios.post('https://info-farma-backend.onrender.com/sugerencias', newProduct);
-            console.log({response});
             return response;
         } catch(error) {
             console.log(error.message);

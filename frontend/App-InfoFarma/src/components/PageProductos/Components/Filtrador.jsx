@@ -5,10 +5,10 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
 import Grow from '@mui/material/Grow';
 import Paper from '@mui/material/Paper';
-import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
 import { Box } from '@mui/material';
+import Popper from '@mui/material/Popper';
 
 const options = ['Filtrar por...', 'Menor a mayor precio', 'Mayor a menor precio'];
 
@@ -40,7 +40,7 @@ export const Filtrador = ({ onFiltrar }) => {
             width: '100%',
             display: 'flex',
             justifyContent: 'center',
-            mt: 4
+            mt: {xs: 3, md: 1}
         }}
         >
             <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button">
