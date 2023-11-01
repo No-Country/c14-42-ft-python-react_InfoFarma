@@ -7,7 +7,7 @@ import { Snackbar } from '@mui/material'
 export const Map = () => {
   const apiKey = 'AIzaSyCwV3RBVfWLMFRGmX-I-wa7x5xH1rwOCXM';
   const searchRadius = 2000; // Radio de búsqueda en metros
-  
+
   const [pharmacies, setPharmacies] = useState([]);
   const [selectedPharmacy, setSelectedPharmacy] = useState(null);
   const [isSnackbarOpen, setIsSnackbarOpen] = useState(false);
@@ -29,8 +29,8 @@ export const Map = () => {
     };
 
     fetchPharmacies();
-  
-  },[])
+
+  }, [])
 
   useEffect(() => {
     const loader = new Loader({
@@ -72,7 +72,7 @@ export const Map = () => {
                   map: map,
                   title: pharmacy.name,
                   icon: {
-                    url: 'https://img.icons8.com/color/48/drugstore.png', // Icono personalizado
+                    url: 'https://img.icons8.com/color/48/drugstore.png',
                     scaledSize: new google.maps.Size(40, 40),
                   }
                 });
@@ -119,22 +119,14 @@ export const Map = () => {
   const copyToClipboard = (name, vicinity) => {
     const textToCopy = `Nombre: ${name}\nDirección: ${vicinity}`;
 
-    // Crear un elemento de textarea invisible para copiar el texto
     const textArea = document.createElement("textarea");
     textArea.value = textToCopy;
     document.body.appendChild(textArea);
 
-    // Seleccionar y copiar el texto
     textArea.select();
     document.execCommand("copy");
-
-    // Eliminar el elemento de textarea
     document.body.removeChild(textArea);
-
-    // Configurar el mensaje de la Snackbar
     setSnackbarMessage("Información copiada al portapapeles");
-
-    // Abrir la Snackbar
     setIsSnackbarOpen(true);
   };
 
@@ -155,13 +147,10 @@ export const Map = () => {
           padding: '1rem',
         }}>
           <Typography variant='h4' component='p' m={2}>
-            Farmacia Seleccionada
+            {selectedPharmacy.name}
           </Typography>
           <Typography variant='h6' component='p' m={1}>
             Dirección: {selectedPharmacy.vicinity}
-          </Typography>
-          <Typography variant='h6' component='p' m={1}>
-            Nombre: {selectedPharmacy.name}
           </Typography>
           <div style={{
             display: 'flex',
@@ -171,10 +160,24 @@ export const Map = () => {
             margin: '0 auto',
             padding: '10px',
           }}>
-            <Button onClick={() => openInGoogleMaps(selectedPharmacy.geometry.location)} variant="contained">
+            <Button style={{
+              borderRadius: 4,
+              backgroundColor: "#366a19",
+              marginTop: 1,
+              paddingRight: 3,
+              paddingLeft: 3,
+              fontSize: 14
+            }} onClick={() => openInGoogleMaps(selectedPharmacy.geometry.location)} variant="contained">
               Ir a Google Maps
             </Button>
-            <Button onClick={() => copyToClipboard(selectedPharmacy.name, selectedPharmacy.vicinity)} variant='contained'>
+            <Button style={{
+              borderRadius: 4,
+              backgroundColor: "#366a19",
+              marginTop: 1,
+              paddingRight: 3,
+              paddingLeft: 3,
+              fontSize: 14
+            }} onClick={() => copyToClipboard(selectedPharmacy.name, selectedPharmacy.vicinity)} variant='contained'>
               Copiar Dirección
             </Button>
           </div>
@@ -182,9 +185,9 @@ export const Map = () => {
       )}
       <Snackbar
         open={isSnackbarOpen}
-        autoHideDuration={2200} // Duración de la Snackbar
-        onClose={() => setIsSnackbarOpen(false)} // Función para cerrar la Snackbar
-        message={snackbarMessage} // Mensaje de la Snackbar
+        autoHideDuration={2200}
+        onClose={() => setIsSnackbarOpen(false)}
+        message={snackbarMessage}
         anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
         TransitionComponent={Slide}
         TransitionProps={{ direction: "left" }}
