@@ -1,7 +1,7 @@
 import React from 'react';
-import SideMenu from './SideMenu/SideMenu';
-import Body from './Body/Body';
-import Container from './Container';
+import SideMenu from './components/SideMenu/SideMenu';
+import Body from './components/Body/Body';
+import Container from './components/Container';
 
 function DashboardComponent() {
   return (
