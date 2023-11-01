@@ -11,8 +11,6 @@ import NavBar from './components/NavBar/NavBar';
 import PageNosotros from './components/PageNosotros/PageNosotros';
 import LazyPageProductos from '../src/components/PageProductos/LazyPageProductos';
 import DashboardComponent from './components/Dashboard/DashboardComponent';
-import { Auth0Provider } from '@auth0/auth0-react';
-import MainApp from './main';
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -24,17 +22,6 @@ function App() {
         <Router>
           {avisoOpen && <AvisoResp open={avisoOpen} handleClose={() => setAvisoOpen(false)} />}
           <NavBar />
-          <div className='App'>
-            <header className='App-header'>
-              <Auth0Provider
-                domain="your-auth0-domain"
-                clientId="your-auth0-client-id"
-                redirectUri={window.location.origin}
-              >
-                <MainApp />
-              </Auth0Provider>
-            </header>
-          </div>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/login' element={<LoginButton />} />

@@ -60,22 +60,23 @@ const itemData = [
   },
   {
     img: '/img/medicamentos.png',
-    description: 'Todo sobre medicamentos',
+    description: 'Información de cada medicamento',
   },
   {
-    img: '/img/buscar.png',
-    description: 'Encuentra información',
-  },
-  {
-    img: '/img/ubicacion.png',
-    description: 'Tu farmacia más cercana',
+    img: '/img/terceraedad.png',
+    description: 'Funcionalidades y estilos agradables y simples para los de tercera edad',
   },
   {
     img: '/img/precio-bajo.png',
     description: 'Mejor precio, mismo producto',
   },
   {
-    img: '/img/descuento.png',
-    description: 'Ofertas/descuentos',
+    img: '/img/buscar.png',
+    description: 'Podrás recibir noticias y promociones al suscribirte',
+  },
+  {
+    img: '/img/ubicacion.png',
+    description: 'Tu farmacia más cercana',
   },
 ];
+  
