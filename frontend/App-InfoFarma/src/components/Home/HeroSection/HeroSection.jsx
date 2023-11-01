@@ -16,7 +16,7 @@ export const HeroSection = () => {
         gap: '1rem',
         pl: {xs: 2, sm: 7},
         pr: {xs: 2, sm: 7},
-        pt: '4rem',
+        pt: '7rem',
         pb: '4rem'
       }}>
       <Typography variant='h3' component='h1' color='primary' m={1}>InfoFarma</Typography>

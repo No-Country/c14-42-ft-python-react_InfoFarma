@@ -40,7 +40,7 @@ export const Filtrador = ({ onFiltrar }) => {
             width: '100%',
             display: 'flex',
             justifyContent: 'center',
-            mt: 4
+            mt: {xs: 3, md: 1}
         }}
         >
             <ButtonGroup variant="contained" ref={anchorRef} aria-label="split button">
