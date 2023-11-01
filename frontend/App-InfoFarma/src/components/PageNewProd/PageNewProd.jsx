@@ -80,10 +80,12 @@ export default function PageNewProd () {
         display: 'flex',
         flexDirection: 'column',
         maxWidth: '32rem',
-        margin: '3rem auto',
-        padding: '0 2rem'
+        m: '0 auto',
+        mt: '8rem',
+        mb: '6rem',
+        p: '0 2rem'
       }}>
-        <Typography variant="h5" sx={{ marginBottom: '1rem', textAlign: 'center' }}>Agregar un nuevo producto</Typography>
+        <Typography variant="h4" color={'primary'} sx={{ mb: '1rem', textAlign: 'center' }}>Agregar un nuevo producto</Typography>
         <Formik
           initialValues={initialValues}
           validate={validate}
