@@ -5,8 +5,15 @@ import App from './App.jsx'
 import './index.css'
 import { Provider } from 'react-redux';
 import store from './middlewares/redux/store.js';
+import 'tailwindcss/tailwind.css'
+import { useAuth0 } from '@auth0/auth0-react';
+import Profile from '../src/components/Profile/Profile.jsx';
+import SideMenu from '../src/components/Dashboard/components/SideMenu/SideMenu.jsx';
 
 import { ThemeProvider, createTheme } from '@mui/material'
+
+function MainApp() {
+  const { isAuthenticated } = useAuth0();
 
 const theme = createTheme({
   typography: {
@@ -34,3 +41,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </Auth0Provider>
   </React.StrictMode>,
 )
+
+return (
+  <div>
+    <h1>App Principal</h1>
+    {isAuthenticated && <Profile />}
+    {isAuthenticated && <SideMenu />}
+  </div>
+);
+}
+
+export default MainApp;
