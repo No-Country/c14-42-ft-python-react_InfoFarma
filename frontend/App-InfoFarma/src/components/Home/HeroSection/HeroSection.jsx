@@ -25,7 +25,7 @@ export const HeroSection = () => {
       </Typography>
       <SearchBar />      
       <Typography fontSize='1.4rem' variant='h5' component='p' color='primary' m={1}>
-        Hemos reunido información sobre productos farmacéuticos para brindarte una comparación de éstos, en una sola página.
+        Hemos reunido información sobre productos farmacéuticos de México para brindarte una comparación de éstos, en una sola página.
       </Typography>
       <Typography fontSize='1.4rem' variant='h5' component='p' color='primary' m={1}>
         Encuentra: ¿Cuánto cuesta? ¿Qué presentaciones hay disponibles? ¿Qué farmacia es más barata?

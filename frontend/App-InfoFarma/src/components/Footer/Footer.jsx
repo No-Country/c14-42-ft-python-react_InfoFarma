@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { Container, Paper, Button, TextField, Grid, Typography, Link, Snackbar, Slide } from '@mui/material';
+import { Container, Box, Button, TextField, Grid, Typography, Link, Snackbar, Slide } from '@mui/material';
+import { AvisoResp } from '../AvisoResp/AvisoResp';
 import { IoLogoGithub, IoLogoSlack, IoLogoLinkedin } from 'react-icons/io5';
 import { IconContext } from 'react-icons';
 import useEmail from '../../hooks/customHooks/useEmail'
@@ -7,6 +8,8 @@ import './Footer.css';
 
 export const Footer = () => {
 
+  const [avisoOpen, setAvisoOpen] = useState(false);
+  
   //Lógica formulario
   const {
     email,
@@ -35,10 +38,44 @@ export const Footer = () => {
   }
   return (
     <Container className="footer-container">
-      <Paper elevation={3} square={false} className="footer-paper">
-        <Grid container spacing={4}>
-          <Grid item xs={12} md={6}>
-            <Typography variant="h6" component="div" gutterBottom>
+      <Box className="footer-paper">
+        <Grid container spacing={4} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} gap={{xs: 0, md: 4}} >
+          <Grid item >
+            <Typography variant="h6" component="div" gutterBottom >
+              Regístrate para recibir noticias y promociones
+            </Typography>
+            <form onSubmit={handleSubscribe}>
+              <Grid container spacing={2} alignItems="center">
+                <Grid item >
+                  <TextField
+                    id="email"
+                    label="Correo electrónico"
+                    variant="outlined"
+                    fullWidth
+                    className="form-input"
+                    value={email}
+                    onChange={handleEmailCheck}
+                    error={Boolean(emailError)}
+                    helperText={emailError}
+                  />
+                </Grid>
+                <Grid item >
+                  <Button
+                    type="submit"
+                    variant="outlined"
+                    color="inherit"
+                    className="subscribe-button"
+                    onClick={handleSnackOpen}
+                    aria-label="subscribe"
+                  >
+                    Suscríbete
+                  </Button>
+                </Grid>
+              </Grid>
+            </form>
+          </Grid>
+          <Grid item >
+            <Typography variant="h6" component="h6" gutterBottom >
               Nuestras redes sociales
             </Typography>
             <IconContext.Provider value={{ size: '2em' }}>
@@ -61,39 +98,20 @@ export const Footer = () => {
               </div>
             </IconContext.Provider>
           </Grid>
-
-          <Grid item xs={12} md={6}>
-            <Typography variant="h6" component="div" gutterBottom>
-              Regístrate para recibir noticias y promociones
-            </Typography>
-            <form onSubmit={handleSubscribe}>
-              <Grid container spacing={2} alignItems="center">
-                <Grid item xs={12} md={6}>
-                  <TextField
-                    id="email"
-                    label="Correo electrónico"
-                    variant="outlined"
-                    fullWidth
-                    className="form-input"
-                    value={email}
-                    onChange={handleEmailCheck}
-                    error={Boolean(emailError)}
-                    helperText={emailError}
-                  />
-                </Grid>
-                <Grid item xs={12} md={6}>
-                  <Button
-                    type="submit"
-                    variant="outlined"
-                    color="inherit"
-                    className="subscribe-button"
-                    onClick={handleSnackOpen}
-                  >
-                    Suscríbete
-                  </Button>
-                </Grid>
-              </Grid>
-            </form>
+          <Grid item>
+              <Typography variant={'h6'} mb={2}>Aviso de Responsabilidad</Typography>
+              <Button
+                sx={{ml: {xs: 0, md:7}}}
+                type="submit"
+                variant="outlined"
+                color="inherit"
+                className="subscribe-button"
+                aria-label="avisoResponsabilidad"       
+                onClick={() => setAvisoOpen(true)}   
+              >
+                Ver
+              </Button>
+              {avisoOpen && <AvisoResp open={avisoOpen} handleClose={() => setAvisoOpen(false)} />}
           </Grid>
         </Grid>
 
@@ -109,7 +127,7 @@ export const Footer = () => {
           </Link>
         </Typography>
 
-      </Paper>
+      </Box>
 
       <Snackbar
         open={isSnackbarOpen(emailSuccess, snack)}

@@ -58,7 +58,7 @@ function PageProductos() {
 
   return (
     <Box sx={{
-      p: [0, '1rem'],
+      p: '1rem',
       bgcolor: '#dcf1dc64'
     }}>
       <Box sx={
