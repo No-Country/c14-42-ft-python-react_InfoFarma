@@ -1,26 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Filtrador } from './Components/Filtrador';
-import { Footer } from '../Footer/Footer';
 import { Navegador } from './Components/Navegador';
-import { ProductList } from './Components/ProductList';
+import { Footer } from '../Footer/Footer';
+import { ItemList } from '../Home/HeroSection/ItemList';
 import { getAllProducts, filterAlphabetic, orderBy } from '../../middlewares/redux/actions';
 import useLocalStorage from '../../hooks/customHooks/useLocalStorage';
 import { LinearProgress, Box, Typography } from '@mui/material';
-
 import { normalizeName } from '../../hooks/normalizeName';
 import Suggestion from './Components/Suggestion';
 
 function PageProductos() {
   const dispatch = useDispatch();
-
   const productos = useSelector((state) => state.allProducts);
   const productsFiltered = useSelector((state) => state.productsFiltered);
 
   const [alfabeto, setAlfabeto] = useState([]);
   const [letraSeleccionada, setLetraSeleccionada] = useLocalStorage('letraSeleccionada', '');
-
   const [order, setOrder] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 12;
 
   useEffect(() => {
     dispatch(getAllProducts())
@@ -45,6 +44,10 @@ function PageProductos() {
     dispatch(orderBy(order));
   }, [order]);
 
+  const handleChangePage = (newPage) => {
+    setCurrentPage(newPage);
+  };
+
   return (
     <Box sx={{
       pt: '5rem',
@@ -55,7 +58,7 @@ function PageProductos() {
         width: '100%',
         display: { md: 'flex' },
       }}>
-        <Navegador className='nav' letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
+        <Navegador letras={alfabeto} letraSeleccionada={letraSeleccionada} onChange={setLetraSeleccionada} />
         <Filtrador onFiltrar={setOrder} />
       </Box>
       {productos.length === 0 ? (
@@ -66,14 +69,21 @@ function PageProductos() {
             mt: 4,
             mb: 1,
           }}>
-            <Typography variant='h6' >Cargando productos...</Typography>
+          </Box>
+          <Box mb={4} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mt: 4 }}>
+            <Typography variant='h6' sx={{ textAlign: 'center', mb: 2 }}>
+              Cargando productos...
+            </Typography>
           </Box>
           <LinearProgress color='success' />
+
         </Box>
       ) : (
-        <ProductList productos={productsFiltered} />
+        <>
+          <ItemList searchTerm={letraSeleccionada} filteredData={productsFiltered} currentPage={currentPage} itemsPerPage={itemsPerPage} handleChangePage={handleChangePage} />
+        </>
       )}
-      <Suggestion/>
+      <Suggestion />
       <Footer className="footer-container" sx={{ height: '1100px' }}>
         {/* Contenido del footer */}
       </Footer>

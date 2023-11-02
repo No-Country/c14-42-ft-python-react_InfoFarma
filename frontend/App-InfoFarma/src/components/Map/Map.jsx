@@ -6,7 +6,7 @@ import { Snackbar } from '@mui/material'
 
 export const Map = () => {
   const apiKey = 'AIzaSyCwV3RBVfWLMFRGmX-I-wa7x5xH1rwOCXM';
-  const searchRadius = 2000; // Radio de búsqueda en metros
+  const searchRadius = 2300; // Radio de búsqueda en metros
 
   const [pharmacies, setPharmacies] = useState([]);
   const [selectedPharmacy, setSelectedPharmacy] = useState(null);
