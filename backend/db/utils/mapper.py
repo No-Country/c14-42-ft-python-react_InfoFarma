@@ -32,8 +32,8 @@ class DBMapper:
                     else None
 
                 await ProductUtils.update_or_create(db, ProductCreate(
-                    price=product["price"],
-                    details=product.get("details"),
+                    price=product["price"].replace(",", ""),
+                    details=product.get("details").strip() if product.get("details") else product.get("details"),
                     img=product.get("img_medicamento"),
                     medicine_id=medicine.id,
                     pharmacy_id=pharmacy.id,
