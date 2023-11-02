@@ -92,7 +92,7 @@ class Medicine(Base):
     __tablename__ = "medicines"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(50), unique=True, index=True, nullable=False)
+    name = Column(String(250), unique=True, index=True, nullable=False)
 
     product = relationship(Product, back_populates="medicine")
 
