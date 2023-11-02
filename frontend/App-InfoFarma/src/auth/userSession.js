@@ -1,3 +1,4 @@
+// Importa express y otras dependencias
 const express = require('express');
 const session = require('express-session');
 const passport = require('passport');
@@ -32,14 +33,16 @@ passport.use(new Auth0Strategy({
 // ...
 
 // Rutas protegidas
-app.get('/profile', (req, res) => {
+app.get('/dashboard', (req, res) => {
   if (req.isAuthenticated()) {
     const userId = req.user.id;
     if (activeSessions[userId]) {
-      req.logout();
+      // El usuario ya tiene una sesión de dashboard activa, redirige o muestra un mensaje de error.
+      res.status(403).send('Ya tienes una sesión de dashboard activa');
     } else {
       activeSessions[userId] = true;
-      res.send(`Bienvenido, ${req.user.displayName}`);
+      // Permite el acceso a la página de dashboard
+      res.send('Bienvenido al dashboard');
     }
   } else {
     res.redirect('/login');

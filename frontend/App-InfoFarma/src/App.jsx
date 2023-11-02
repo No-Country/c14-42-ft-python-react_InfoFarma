@@ -11,32 +11,36 @@ import NavBar from './components/NavBar/NavBar';
 import PageNosotros from './components/PageNosotros/PageNosotros';
 import LazyPageProductos from '../src/components/PageProductos/LazyPageProductos';
 import DashboardComponent from './components/Dashboard/DashboardComponent';
+import { render } from '../server';
 
-function App() {
-  const { isAuthenticated } = useAuth0();
-  const [avisoOpen, setAvisoOpen] = useState(true);
-
-  return (
-    <>
-      <div className='flex items-center justify-center'>
-        <Router>
-          {avisoOpen && <AvisoResp open={avisoOpen} handleClose={() => setAvisoOpen(false)} />}
-          <NavBar />
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/login' element={<LoginButton />} />
-            <Route path='/logout' element={<LogoutButton />} />
-            <Route path='/profile' element={<Profile />} />
-            <Route path='/dashboard' element={<DashboardComponent />} />
-            {isAuthenticated && <Route path='/dashboard' element={<DashboardComponent />} />}
-            <Route path='/home' element={<Home />} />
-            <Route path='/productos' element={<LazyPageProductos />} />
-            <Route path='/nosotros' element={<PageNosotros />} />
-          </Routes>
-        </Router>
-      </div>
-    </>
-  );
+const AppTemplate = () => {
+  <>
+    <div className='flex items-center justify-center'>
+      <Router>
+        {avisoOpen && <AvisoResp open={avisoOpen} handleClose={() => setAvisoOpen(false)} />}
+        <NavBar isAuthenticated={isAuthenticated} loginWithRedirect={loginWithRedirect} logout={logout} />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/login' element={<LoginButton />} />
+          <Route path='/logout' element={<LogoutButton />} />
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/dashboard' element={<DashboardComponent />} />
+          {isAuthenticated && <Route path='/dashboard' element={<DashboardComponent />} />}
+          <Route path='/home' element={<Home />} />
+          <Route path='/productos' element={<LazyPageProductos />} />
+          <Route path='/nosotros' element={<PageNosotros />} />
+        </Routes>
+      </Router>
+    </div>
+  </>
 }
 
-export default App;
+export default function App(AppTemplate) {
+  const html = render(<App />)
+
+  return (
+    <div>
+      {html}
+    </div>
+  );
+}

@@ -17,9 +17,15 @@ function SideMenu() {
       {/* User Div */}
       <div className='flex items-center justify-center text-white flex-col mt-6'>
         <Profile />
-        <img src={user.picture} alt='Admin Image' className='h-20 w-20 rounded-full' />
-        <span className='mt-2 opacity-70'>Bienvenido,</span>
-        <h3 className='font-semibold'>{user.name}</h3>
+        {user && user.picture && (
+          <img src={user.picture} alt='Admin Image' className='h-20 w-20 rounded-full' />
+        )}
+        {user && (
+          <div>
+            <span className='mt-2 opacity-70'>Bienvenido,</span>
+            <h3 className='font-semibold'>{user.name}</h3>
+          </div>
+        )}
       </div>
 
       {/* Search and Compare Section */}
