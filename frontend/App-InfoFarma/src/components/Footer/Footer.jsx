@@ -39,7 +39,7 @@ export const Footer = () => {
   return (
     <Container className="footer-container">
       <Box className="footer-paper">
-        <Grid container spacing={4} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} gap={{xs: 0, md: 4}} >
+        <Grid container spacing={4} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} gap={{xs: 0, md: 4}} justifyContent={'space-around'}>
           <Grid item >
             <Typography variant="h6" component="div" gutterBottom >
               Regístrate para recibir noticias y promociones
