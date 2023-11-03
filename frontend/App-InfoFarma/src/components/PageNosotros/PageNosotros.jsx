@@ -20,23 +20,21 @@ const PageNosotros = () => {
   // };
 
   const Img = styled.img`
-  width: 8rem;
+  width: 6rem;
   height: auto;
-  margin-bottom: .8rem;
+  margin-bottom: 0rem;
   border-radius: 20px;
 `;
 
   return (
     <Box>
       <Grid container spacing={3} sx={{
-          display: 'flex',
-          flexDirection: 'row',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          flex: '1',
-          marginTop: '4px',
+          marginTop: 4,
           padding: '4rem 1rem 2rem 2.5rem',
-          bgcolor: '#dcf1dc64'
+          gap: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          bgcolor: '#dcf1dc64',
       }}>
         {team.map((member) => {
           return (
@@ -44,7 +42,6 @@ const PageNosotros = () => {
               display: 'flex',
               alignContent: 'center',
               justifyContent: 'center',
-              m: 2
             }}>
             <Grid item sx={{
                 display: 'flex',
@@ -55,10 +52,10 @@ const PageNosotros = () => {
                 bgcolor: '#fff',
                 m: 2,
                 ml: {xs: .5, sm: 1.2},
-                minWidth: '240px',
-                maxWidth: '240px',
-                minHeight: '370px',
-                maxHeight: '370px',
+                minWidth: '200px',
+                maxWidth: '200px',
+                minHeight: '300px',
+                maxHeight: '300px',
               }}>
                 <Box sx={{
                   m: 4

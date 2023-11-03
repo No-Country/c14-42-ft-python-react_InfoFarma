@@ -6,7 +6,7 @@ import { ItemList } from './ItemList';
 import { normalizeName } from '../../../hooks/normalizeName';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { getAllProducts } from '../../../redux/actions';
+import { getAllProducts } from '../../../middlewares/redux/actions';
 
 function SearchBar() {
   const [searchTerm, setSearchTerm] = useState('');

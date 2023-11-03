@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { postSuggestion } from '../../redux/actions';
+import { postSuggestion } from '../../middlewares/redux/actions';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { Box, Typography, TextField, Button, InputAdornment, FormHelperText, Snackbar, Slide } from '@mui/material';
 import { Footer } from '../Footer/Footer';
@@ -14,7 +14,7 @@ const camelCaseToNormalReadable = (camelCase) => {
     .replace(/^(.)/, (str) => str.toUpperCase());
 };
 
-export const PageNewProd = () => {
+export default function PageNewProd () {
   const [widgetValue, setWidgetValue] = useState();
 
   //Lógica del SnackBar
@@ -80,10 +80,12 @@ export const PageNewProd = () => {
         display: 'flex',
         flexDirection: 'column',
         maxWidth: '32rem',
-        margin: '3rem auto',
-        padding: '0 2rem'
+        m: '0 auto',
+        mt: '8rem',
+        mb: '6rem',
+        p: '0 2rem'
       }}>
-        <Typography variant="h5" sx={{ marginBottom: '1rem', textAlign: 'center' }}>Agregar un nuevo producto</Typography>
+        <Typography variant="h4" color={'primary'} sx={{ mb: '1rem', textAlign: 'center' }}>Agregar un nuevo producto</Typography>
         <Formik
           initialValues={initialValues}
           validate={validate}

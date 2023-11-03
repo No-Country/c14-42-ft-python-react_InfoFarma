@@ -28,7 +28,7 @@ class ProductUtils:
     
 
     @staticmethod
-    async def get_all(db: AsyncSession, skip: int = 0, limit: int = 100):
+    async def get_all(db: AsyncSession, skip: int = 0):
         query = select(
             Medicine.name,
             Product.id,
@@ -42,8 +42,7 @@ class ProductUtils:
         .join(Medicine, Medicine.id == Product.medicine_id) \
         .join(Pharmacy, Pharmacy.id == Product.pharmacy_id) \
         .order_by(Product.id) \
-        .offset(skip) \
-        .limit(limit)
+        .offset(skip)
 
         result = await db.execute(query)
         return result._allrows()

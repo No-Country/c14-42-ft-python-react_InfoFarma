@@ -1,4 +1,4 @@
-import { normalizeName } from '../hooks/normalizeName';
+import { normalizeName } from '../../hooks/normalizeName';
 
 import { 
     GET_ALL_PRODUCTS,
