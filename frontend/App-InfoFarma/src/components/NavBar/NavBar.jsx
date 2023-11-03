@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 import './NavBar.css';
 
-const pages = ['Home', 'Productos', /*'Padecimientos'*/, 'Nosotros', 'Login', 'Dashboard'];
+const pages = ['Home', 'Productos', /*'Padecimientos'*/, 'Nosotros', /*'Login', 'Dashboard'*/];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
