@@ -2,11 +2,13 @@
   bottom: 0;
   padding: 20px;
   max-width: 100% !important;
-  background-color: #E2FCD4;
+  background-color: #fff;
+  border-top: 1.5px solid #0e0e0e;
+  padding-top: 25px;
 }
 
 .footer-paper {
-  padding: 16px;
+  /* padding: 16px; */
 }
 
 .social-media-icons {

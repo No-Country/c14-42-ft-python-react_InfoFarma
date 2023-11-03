@@ -95,7 +95,7 @@ function SearchBar() {
             }
           },
           minWidth: '300px',
-          maxWidth: '600px',
+          maxWidth: '300px',
         }}
 
       />
