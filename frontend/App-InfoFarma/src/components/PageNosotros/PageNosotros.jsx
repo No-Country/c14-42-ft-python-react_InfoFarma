@@ -36,14 +36,14 @@ const PageNosotros = () => {
           alignItems: 'center',
           bgcolor: '#dcf1dc64',
       }}>
-        {team.map((member) => {
+        {team.map((member, index) => {
           return (
-            <Box sx={{
+            <Box key={index} sx={{
               display: 'flex',
               alignContent: 'center',
               justifyContent: 'center',
             }}>
-            <Grid item sx={{
+              <Grid item sx={{
                 display: 'flex',
                 flexDirection: 'column',
                 boxShadow: 1,
@@ -61,44 +61,44 @@ const PageNosotros = () => {
                   m: 4
                 }}>
                   <Img alt="Imagen" src={member.img} />
-                <Typography variant="h5" display={'flex'} alignContent={'center'} justifyContent={'center'} mt={1.5}>
-                  {member.name}
-                </Typography>
-                <Typography variant="subtitle1" display={'flex'} alignContent={'center'} justifyContent={'center'} mb={.5} >
-                  {member.rol}
-                </Typography>
-                <Box sx={{
-                  display: 'flex',
-                  justifyContent: 'center'
-                }}
-                >
-                  <a
-                    href={member.linkedin}
-                    target="_blank"
-                    rel="noreferrer"
+                  <Typography variant="h5" display={'flex'} alignContent={'center'} justifyContent={'center'} mt={1.5}>
+                    {member.name}
+                  </Typography>
+                  <Typography variant="subtitle1" display={'flex'} alignContent={'center'} justifyContent={'center'} mb={.5} >
+                    {member.rol}
+                  </Typography>
+                  <Box sx={{
+                    display: 'flex',
+                    justifyContent: 'center'
+                  }}
                   >
-                    <Button>
-                      <IconContext.Provider value={{ size: "2em" }}>
-                        <IoLogoLinkedin />
-                      </IconContext.Provider>
-                    </Button>
-                  </a>
-                  <a href={member.github} target="_blank" rel="noreferrer">
-                    <Button>
-                      <IconContext.Provider value={{ size: "2em" }}>
-                        <IoLogoGithub />
-                      </IconContext.Provider>
-                    </Button>
-                  </a>
+                    <a
+                      href={member.linkedin}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Button>
+                        <IconContext.Provider value={{ size: "2em" }}>
+                          <IoLogoLinkedin />
+                        </IconContext.Provider>
+                      </Button>
+                    </a>
+                    <a href={member.github} target="_blank" rel="noreferrer">
+                      <Button>
+                        <IconContext.Provider value={{ size: "2em" }}>
+                          <IoLogoGithub />
+                        </IconContext.Provider>
+                      </Button>
+                    </a>
+                  </Box>
                 </Box>
-                </Box>
-            </Grid >
+              </Grid >
             </Box>
-          )          
+          )
         })
         }
       </Grid>
-      <Footer/>
+      <Footer />
     </Box>
   )
 }
@@ -111,55 +111,55 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/malvina-christiansen/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     github: 'https://github.com/Malvina989',
     rol: 'QA Tester',
-    img:'/img/malvina.jpg'
+    img: '/img/malvina.jpg'
   },
   {
     name: 'Federico',
     linkedin: 'https://www.linkedin.com/in/fedeoriglia/',
     github: 'https://github.com/FedeOriglia',
     rol: 'QA Tester',
-    img:'/img/federico.jpg'
+    img: '/img/federico.jpg'
   },
   {
     name: 'Jareth',
     linkedin: 'https://www.linkedin.com/in/jareth-guerrero-803361272/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     github: 'https://github.com/JarethGuerrero',
     rol: ' Dev FrontEnd',
-    img:'/img/jareth.jpg'
+    img: '/img/jareth.jpg'
   },
   {
     name: 'Ignacio',
     linkedin: 'https://www.linkedin.com/in/ignacio-marucco/',
     github: 'https://github.com/IgnacioMarucco',
     rol: 'Dev FrontEnd',
-    img:'/img/ignacio.jpg'
+    img: '/img/ignacio.jpg'
   },
   {
     name: 'Melina',
     linkedin: 'https://www.linkedin.com/in/melina-sosa-fuch-1a7376207/',
     github: 'https://github.com/MelinaFuch',
     rol: 'Dev FrontEnd',
-    img:'/img/melina.jpg'
+    img: '/img/melina.jpg'
   },
   {
     name: 'Jonathan',
     linkedin: 'https://www.linkedin.com/in/jonathan-diaz-olivares-full-stack-developer-jr/',
     github: 'https://github.com/JonathanDiz',
     rol: 'Dev BackEnd',
-    img:'/img/jonathan.jpg'
+    img: '/img/jonathan.jpg'
   },
   {
     name: 'Josué',
-    linkedin: '',
+    linkedin: 'https://www.linkedin.com/in/josue-zuniga-isc/',
     github: 'https://github.com/slorg4',
     rol: 'Dev BackEnd',
-    img:'/img/josue.jpg'
+    img: '/img/josue.jpg'
   },
   {
     name: 'Camilo',
     linkedin: 'https://www.linkedin.com/in/camilo-zapata-web-dv',
     github: 'https://github.com/ZapataCamilo',
     rol: 'Dev BackEnd',
-    img:'/img/camilo.jpg'
+    img: '/img/camilo.jpg'
   },
 ]
