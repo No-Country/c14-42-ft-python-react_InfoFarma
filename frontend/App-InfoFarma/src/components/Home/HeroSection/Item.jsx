@@ -48,7 +48,7 @@ export const Item = ({product}) => {
           <Typography variant="subtitle1" gutterBottom>
             Precio: ${product.price}
           </Typography>
-          <CustomButton text={'Ver Detalles'} />
+          <CustomButton aria-label={"detalles"} text={'Ver Detalles'} />
         </Stack>
       </Grid>
 

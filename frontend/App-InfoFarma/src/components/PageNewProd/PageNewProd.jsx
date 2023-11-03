@@ -148,7 +148,7 @@ export default function PageNewProd () {
               )}
             </Field>
 
-            <Button color="primary" variant="contained" fullWidth type="submit" onClick={handleSnackOpen}>
+            <Button aria-label="agregar" color="primary" variant="contained" fullWidth type="submit" onClick={handleSnackOpen}>
               Agregar Producto
             </Button>
           </Form>

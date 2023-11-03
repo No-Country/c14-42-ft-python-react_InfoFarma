@@ -50,11 +50,11 @@ function PageProductos() {
 
   return (
     <Box sx={{
-      pt: '5rem',
-      bgcolor: '#dcf1dc64',
+      p: '1rem',
+      bgcolor: '#dcf1dc64'
     }}>
       <Box sx={{
-        pt: '1rem',
+        pt: '5rem',
         width: '100%',
         display: { md: 'flex' },
       }}>
