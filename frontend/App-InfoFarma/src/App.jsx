@@ -12,6 +12,7 @@ import PageNosotros from './components/PageNosotros/PageNosotros';
 import LazyPageProductos from '../src/components/PageProductos/LazyPageProductos';
 import DashboardComponent from './components/Dashboard/DashboardComponent';
 import PageNewProduct from "./components/PageNewProd/PageNewProd"
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop"
 
 function App() {
   const { isAuthenticated } = useAuth0();
@@ -23,6 +24,7 @@ function App() {
         <Router>
           {avisoOpen && <AvisoResp open={avisoOpen} handleClose={() => setAvisoOpen(false)} />}
           <NavBar />
+          <ScrollToTop/>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/form' element={<PageNewProduct />} />
