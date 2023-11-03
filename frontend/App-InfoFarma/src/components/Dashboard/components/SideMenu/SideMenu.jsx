@@ -1,35 +1,60 @@
 import React from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
-import Profile from '../../../Profile/Profile'; 
+import Profile from '../../../Profile/Profile';
 
 function SideMenu() {
-  const user = Profile().props.user;
+  const profile = Profile();
+  const user = profile && profile.props.user;
 
   return (
-    <div className='bg-sideMenuBg relative h-[100%] basis-20 p-4'>
+    <div className='bg-green-100 text-gray-900 relative h-screen w-64 p-4'>
       {/* Logo Div */}
-      <div className='logo mt-4 gap-2 text-[white] flex items-center justify-center m-auto'>
-        <RxHamburgerMenu className='text-[20px]' />
-        <h1 className='text-[20px] text-center justify-center font-black'>Medicamento</h1>
+      <div className='logo mb-4 text-2xl flex items-center justify-center'>
+        <RxHamburgerMenu className='text-3xl' />
+        <h1 className='font-bold ml-2'>Farmacia</h1>
       </div>
 
       {/* User Div */}
-      <div className='flex items-center justify-center text-[white] flex-col mt-[3rem] admin'>
-        <img src={user.picture} alt='Admin Image' className='h-[80px] w-[80px] border-red-200 border-[4px] object-cover rounded-full' />
-        <span className='opacity-70 mt-2 text-gray-400'>Bienvenido,</span>
-        <h3 className='font-bold text-textColor'>{user.name}</h3>
+      <div className='flex items-center justify-center text-white flex-col mt-6'>
+        <Profile />
+        <img src={user.picture} alt='Admin Image' className='h-20 w-20 rounded-full' />
+        <span className='mt-2 opacity-70'>Bienvenido,</span>
+        <h3 className='font-semibold'>{user.name}</h3>
       </div>
 
-      {/* simple Menu */}
-      <div className='m-auto grid justify-center mt-4'>
+      {/* Search and Compare Section */}
+      <div className='mt-8'>
+        <h2 className='text-xl font-semibold'>Búsqueda de Productos</h2>
+        <div className='border-t border-green-300 mt-2'></div>
+        <div className='mt-3'>
+          <input
+            type='text'
+            placeholder='Buscar productos...'
+            className='w-full p-2 border border-green-200 rounded focus:outline-none focus:border-green-400'
+          />
+          <button className='bg-green-500 text-white px-4 py-2 rounded mt-2'>
+            Buscar
+          </button>
+        </div>
       </div>
 
-      {/* Sidemenu Map Div */}
-      <div className='mt-5 h-[14rem] w-full rounded-xl overflow-hidden'>
-        <img src='' alt='Map Image' className='object-cover h-[100%]'></img>
+      {/* Price Comparison Section */}
+      <div className='mt-6'>
+        <h2 className='text-xl font-semibold'>Comparador de Precios</h2>
+        <div className='border-t border-green-300 mt-2'></div>
+        <div className='mt-3'>
+          <input
+            type='text'
+            placeholder='Comparar precios...'
+            className='w-full p-2 border border-green-200 rounded focus:outline-none focus:border-green-400'
+          />
+          <button className='bg-green-500 text-white px-4 py-2 rounded mt-2'>
+            Comparar
+          </button>
+        </div>
       </div>
     </div>
   );
 }
 
-export default SideMenu
+export default SideMenu;

@@ -1,6 +1,10 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { postSubscription } from '../../middlewares/redux/actions';
 
 const useEmail = () => {
+    const dispatch = useDispatch();
+
     const [email, setEmail] = useState('')
     const [emailError, setEmailError] = useState('')
     const [emailSuccess, setEmailSuccess] = useState('')
@@ -16,8 +20,10 @@ const useEmail = () => {
             setEmailSuccess(false);
         } else {
             // Lógica de suscripción o enviar al servidor una vez que backend cree endpoint
-            console.log('Datos de la suscripción: ', email);
-            console.log('Subscripción exitosa!');
+            // console.log({email});
+            // console.log('Subscripción exitosa!');
+
+            dispatch(postSubscription({email}))
 
             setEmailError('');
             setEmailSuccess(true);

@@ -22,15 +22,13 @@ class ProductUtils:
         .join(Medicine, Medicine.id == Product.medicine_id) \
         .join(Pharmacy, Pharmacy.id == Product.pharmacy_id) \
         .where(Product.id == product_id)
-        print(query)
 
         result = await db.execute(query)
-        print(result)
         return result._allrows()[0]
     
 
     @staticmethod
-    async def get_all(db: AsyncSession, skip: int = 0, limit: int = 100):
+    async def get_all(db: AsyncSession, skip: int = 0):
         query = select(
             Medicine.name,
             Product.id,
@@ -44,8 +42,7 @@ class ProductUtils:
         .join(Medicine, Medicine.id == Product.medicine_id) \
         .join(Pharmacy, Pharmacy.id == Product.pharmacy_id) \
         .order_by(Product.id) \
-        .offset(skip) \
-        .limit(limit)
+        .offset(skip)
 
         result = await db.execute(query)
         return result._allrows()
@@ -120,6 +117,7 @@ class ProductUtils:
         await db.commit()
         await db.refresh(new_product)
         return new_product
+
 
     @staticmethod
     async def get_by_id(db: AsyncSession, medicine_id: int):

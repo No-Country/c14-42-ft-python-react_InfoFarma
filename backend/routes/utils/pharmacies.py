@@ -39,3 +39,10 @@ class PharmacyUtils:
         query = select(Pharmacy).where(Pharmacy.name == pharmacy_name.lower().replace("-", " "))
         result = await db.execute(query)
         return result.scalar_one_or_none()
+    
+
+    @staticmethod
+    async def get_all(db: AsyncSession):
+        query = select(Pharmacy)
+        result = await db.execute(query)
+        return result.scalars()

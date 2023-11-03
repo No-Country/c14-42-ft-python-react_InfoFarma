@@ -20,8 +20,8 @@ async def get_product(id: int, db: AsyncSession = Depends(get_db)):
 
 
 @router.get("/productos", response_model=list[ProductSchema])
-async def get_all_products(skip: int = 0, limit: int = 100, db: AsyncSession = Depends(get_db)):
-    products = await ProductUtils.get_all(db, skip, limit)
+async def get_all_products(skip: int = 0, db: AsyncSession = Depends(get_db)):
+    products = await ProductUtils.get_all(db, skip)
     return products
 
 
@@ -34,6 +34,7 @@ async def get_general_products(db: AsyncSession = Depends(get_db)):
 @router.post("/productos", response_model=ProductSchema)
 async def create_product(product: ProductCreate, db: AsyncSession = Depends(get_db)):
     return await ProductUtils.create(db, product)
+
 
 @router.get("/productos-generales/{medicine_id}", response_model=list[ProductSchema])
 async def get_by_id(medicine_id: int, db: AsyncSession = Depends(get_db)):
