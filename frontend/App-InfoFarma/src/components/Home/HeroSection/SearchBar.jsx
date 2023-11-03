@@ -32,22 +32,22 @@ function SearchBar() {
     setFilteredData([]);
     localStorage.removeItem('lastSearchTerm');
   }
-  
+
   const handleInputChange = (event) => {
     const newSearchTerm = event.target.value;
     localStorage.setItem('lastSearchTerm', newSearchTerm);
     setSearchTerm(newSearchTerm);
     filterData(newSearchTerm);
-  
+
   };
 
-const filterData = (searchTerm) => {
-  const normalizedSearchTerm = normalizeName(searchTerm.toLowerCase());
-  const filteredData = allProducts.filter((item) =>
-    normalizeName(item.name).toLowerCase().includes(normalizedSearchTerm)
-  );
-  setFilteredData(filteredData);
-};
+  const filterData = (searchTerm) => {
+    const normalizedSearchTerm = normalizeName(searchTerm.toLowerCase());
+    const filteredData = allProducts.filter((item) =>
+      normalizeName(item.name).toLowerCase().includes(normalizedSearchTerm)
+    );
+    setFilteredData(filteredData);
+  };
 
   const inputProps = {
     style: {
@@ -55,7 +55,7 @@ const filterData = (searchTerm) => {
     },
     endAdornment: (
       <IconButton onClick={clearInput}>
-        <ClearIcon/> 
+        <ClearIcon />
       </IconButton>
     )
   }
@@ -68,7 +68,8 @@ const filterData = (searchTerm) => {
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
-        alignItems: 'center'}}>
+        alignItems: 'center'
+      }}>
       <TextField
         label="Ingresa tu búsqueda"
         variant="outlined"
@@ -77,8 +78,10 @@ const filterData = (searchTerm) => {
         onChange={handleInputChange}
         InputProps={inputProps}
         InputLabelProps={{
-          style: { color: '#000',
-            fontSize: '1.1rem', },
+          style: {
+            color: '#000',
+            fontSize: '1.1rem',
+          },
         }}
         sx={{
           "& .MuiOutlinedInput-root.Mui-focused": {
@@ -86,7 +89,7 @@ const filterData = (searchTerm) => {
               borderColor: "#366a19"
             }
           },
-           "& .MuiOutlinedInput-root:hover": {
+          "& .MuiOutlinedInput-root:hover": {
             "& > fieldset": {
               borderColor: "#3f7b1d"
             }
@@ -94,11 +97,11 @@ const filterData = (searchTerm) => {
           minWidth: '300px',
           maxWidth: '600px',
         }}
-        
+
       />
-      { searchTerm && <ItemList filteredData={filteredData}/>}
+      {searchTerm && <ItemList filteredData={filteredData} />}
     </Box>
   );
 }
 
-export {SearchBar};
+export { SearchBar };

@@ -29,8 +29,9 @@ function NavBar() {
       <AppBar position="static" sx={{ backgroundColor: '#FFF' }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
-            <img className='logo' alt="logo de la empresa." src='/favicon.png' />
-
+            <Link to="/Home">
+              <img className='logo' alt="logo de la empresa" src='/favicon.png' />
+            </Link>
             {/* Links Desktop */}
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (
